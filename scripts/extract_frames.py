@@ -1,8 +1,13 @@
 import os
+import sys
 import json
 from contextlib import closing
 from videosequence import VideoSequence
 
+if len(sys.argv) != 2:
+	print("Usage:\n")
+	print("python extract_frames.py <log_file>")
+	sys.exit()
 
 # https://stackoverflow.com/questions/17060039/split-string-at-nth-occurrence-of-a-given-character
 def splitn(string, spliton, n):
@@ -14,7 +19,7 @@ def splitn(string, spliton, n):
 
 projectroot = "/Users/nalinc/Projects/typealike"
 filepath = "/log/one/"
-pidentifier = "nalin007_practice_2019-02-08-02-08-49.txt"
+pidentifier = sys.argv[1]
 
 data = open(projectroot+'/training/videoframes_'+pidentifier[:-4]+'.csv', 'w')
 
@@ -83,4 +88,3 @@ with closing(VideoSequence(videofile)) as frames:
         if str(idx) in videoframes.keys():
             frame.save("../training/"+pidentifier[:-4]+"/"+videoframes[str(idx)][:-4]+"/"+pidentifier[:]+"_frame_"+str(idx)+".jpg")
             flag=False
- 
