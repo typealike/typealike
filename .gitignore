@@ -1,3 +1,6 @@
-weights/
-pose/
-**/.DS_Store
+pose
+weights
+hand_inference_graph
+model-checkpoint
+**/**.DS_Store
+**/**.pyc
