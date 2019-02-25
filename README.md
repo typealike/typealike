@@ -1,10 +1,3 @@
 # typealike
 
-The following two links contain ongoing work and are **highly confidential**. 
-Please read with care and do not distribute the links.
-
-Video Demo: [Link](https://www.youtube.com/watch?v=W-fKfZ9uHbk)
-
-Research Paper: [PDF](https://drive.google.com/open?id=1sHp-l-CyPuZ8NEL6aq_kwGgj5-GWzFcx)
-
-Velocity Graduate Student Startup Fund: [Pitch](https://drive.google.com/open?id=13a-KTMuFg3MiuMt03iid4rWtWwvrqX07Ox5Ac8bv5uc) 
+Site under construction
