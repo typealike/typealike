@@ -8,7 +8,7 @@ Boolean isFirst=true;
 Boolean gameoverflag=false;
 
 class Game{
-  Timer timer = new Timer(postureTimer);    // Create a timer that goes off every 300 milliseconds
+  //Timer timer = new Timer(postureTimer);    // Create a timer that goes off every 300 milliseconds
   Sequence[] sets = new Sequence[numSequences];    // Create 1000 spots in the array;       // An array of task objects
   int currentBlock=-1;
   int currentSequence=-1;
@@ -211,18 +211,18 @@ class Game{
             itr.remove();
             itr.add(this.sets[this.currentSequence].addTarget());
           }
-          if(experimentId=="one" && c.type=="posture" && timerFlag){
-            println("TIMER STRT");
-            timerFlag = false;
-            this.timer.start();
-          }
-          else if(experimentId=="one" && c.type=="posture" && timer.isFinished()){
-            println("TIMER END");
-            c.caught();
-            itr.remove();
-            itr.add(this.sets[this.currentSequence].addTarget());
-            timerFlag = true;
-          } 
+          //if(experimentId=="one" && c.type=="posture" && timerFlag){
+          //  println("TIMER STRT");
+          //  timerFlag = false;
+          //  this.timer.start();
+          //}
+          //else if(experimentId=="one" && c.type=="posture" && timer.isFinished()){
+          //  println("TIMER END");
+          //  c.caught();
+          //  itr.remove();
+          //  itr.add(this.sets[this.currentSequence].addTarget());
+          //  timerFlag = true;
+          //} 
         }
       }
     drawTextbox();

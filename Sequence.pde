@@ -6,7 +6,7 @@ class Sequence{
   int sequenceIndex, blockIndex;
   int targetIndex;
   String[] type_array;// = {"shortcut","shortcut","shortcut","shortcut","shortcut","shortcut","shortcut"};
-  Timer t;
+  //Timer t;
   Sequence(int blockIndex, int sequenceIndex){
       this.targetIndex=-1;
       this.sequenceIndex= sequenceIndex;

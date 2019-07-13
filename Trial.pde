@@ -12,6 +12,7 @@ class Trial {
     final float w = 200; 
     final float h = 200;
     String label="", type="";
+    int trialStartTime;
     String labelIndex[];
     PImage keyboardBase=requestImage("images/base.png");
     Boolean isCaught=false, isMissed=false;
@@ -27,6 +28,7 @@ class Trial {
         y = height/2 - 200;
         
         posture = new Posture(lbl);
+        trialStartTime = millis();
         
         // true initialization can only happen here. coz we ahve different position parameters for LOC, HAND, FORM
         //postureIcon = posture.icon;
@@ -110,7 +112,7 @@ class Trial {
       image(keyboardBase, x, y, 480, 360);
       //tint(255, 127);  // reduce opacity  
       //noFill();
-      if(app.game.timer.passedTime > 2000){
+      if(millis()-this.trialStartTime > 2000){
         fill(0,255,0, 40);
         rect(posture.surfaceX,posture.surfaceY,posture.surfaceW,posture.surfaceH,10);
         posture.wigglePose();

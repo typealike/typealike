@@ -130,5 +130,5 @@ int numBlocks, numSequences, numTrials;
 //int numSequences=taskOrders[0].length;//(modeId=="experiment")?10:2;//this should be 10 for 5 variables, (or 14 for 7 variables)
 //int numTrials= taskOrders[0][0].length;
 int taskSpeed = 6;
-int postureTimer = 7000;
-Timer timer;
+int postureTimer = 17000;
+//Timer timer;
