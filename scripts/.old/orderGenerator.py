@@ -12,10 +12,10 @@ def flatten(items):
         else:
             yield x
 
-gestureModeSwitchCount = [0,0,0]
+postureModeSwitchCount = [0,0,0]
 shortcutModeSwitchCount = [0,0,0]
 actionCount = [0,0,0]
-gestureModeSwitchDict={0:("word","gesture"),1:("click","gesture"),2:("equation","gesture")}
+postureModeSwitchDict={0:("word","posture"),1:("click","posture"),2:("equation","posture")}
 
 shortcutModeSwitchDict={0:("word","shortcut"),1:("click","shortcut"),2:("equation","shortcut")}
 
@@ -35,27 +35,27 @@ for i in range(nBlocks):
 	for j in range(nSequences):
 		sequences=[]
 		index_a = random.randint(0,2)
-		# if(gestureModeSwitchCount[index_a]+1!=15):
-		# 	gestureModeSwitchCount[index_a]+=1
-		if(gestureModeSwitchCount[index_a]+1==15):
+		# if(postureModeSwitchCount[index_a]+1!=15):
+		# 	postureModeSwitchCount[index_a]+=1
+		if(postureModeSwitchCount[index_a]+1==15):
 			if(index_a==0):
-				if(gestureModeSwitchCount[1]+1!=15):
+				if(postureModeSwitchCount[1]+1!=15):
 					index_a = 1
-				elif(gestureModeSwitchCount[2]+1!=15):
+				elif(postureModeSwitchCount[2]+1!=15):
 					index_a = 2
 			elif (index_a==1):
-				if(gestureModeSwitchCount[2]+1!=15):
+				if(postureModeSwitchCount[2]+1!=15):
 					index_a = 2
-				elif(gestureModeSwitchCount[0]+1!=15):
+				elif(postureModeSwitchCount[0]+1!=15):
 					index_a = 0
 			elif (index_a==2):
-				if(gestureModeSwitchCount[0]+1!=15):
+				if(postureModeSwitchCount[0]+1!=15):
 					index_a = 0
-				elif(gestureModeSwitchCount[1]+1!=15):
+				elif(postureModeSwitchCount[1]+1!=15):
 					index_a = 1
 		
-		gestureModeSwitchCount[index_a]+=1
-		sequences.append(gestureModeSwitchDict[index_a])
+		postureModeSwitchCount[index_a]+=1
+		sequences.append(postureModeSwitchDict[index_a])
 
 		index_b = random.randint(0,2)
 		if(shortcutModeSwitchCount[index_b]+1==15):

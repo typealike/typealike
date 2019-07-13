@@ -2,7 +2,7 @@ class Timer {
 
   int savedTime; // When Timer started
   int totalTime; // How long Timer should last
-  int[] availableTime = {1000,2000,3000,4000,5000};
+  //int[] availableTime = {1000,2000,3000,4000,5000};
   int passedTime;
   Timer(int tempTotalTime) {
     totalTime = tempTotalTime;

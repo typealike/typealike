@@ -17,7 +17,7 @@ class GameEventWriter extends EventWriter {
       "#<time>,M,video, datetime:<time>", 
       "# schema,{type:I, subtype:key, data:[event, keyname, modifierkey], type:[str,str], description:[<pressed/released>, <keycode>, <Shift/Ctrl/Alt/none>] }", 
       "# schema,{type:I, subtype:mouse, data:[event, x, y], type:[str, int,int], description:[moved/pressed/released,<x-coordinate>,<y-coordinate>]}", 
-      "# schema,{type:I, subtype:gesture, data:[name], type:[str], description:[<gesture name>] }"
+      "# schema,{type:I, subtype:posture, data:[name], type:[str], description:[<posture name>] }"
     };
     for (String schemaStr : schemaArr) {
       this.writer.print(schemaStr+"\n");

@@ -42,10 +42,10 @@ for line in content:
         if r[1] == "E" and r[2]=="trial":
             rr = splitn(line, ',', 3)
             ed = json.loads(rr[1])
-            if ed["type"]=="start" and ed["targetType"]=="gesture":
+            if ed["type"]=="start" and ed["targetType"]=="posture":
                 flag=True
                 currentGesture=ed["label"]
-            elif ed["type"]=="end" and ed["targetType"]=="gesture":
+            elif ed["type"]=="end" and ed["targetType"]=="posture":
                 flag=False
         else:
             continue
@@ -64,13 +64,13 @@ data.close()
 
 
 directory = projectroot+"/training/"+pidentifier[:-4]
-gestureclasses = ["lefthandlock", "righthandlock", "bothhandlock", "lefthandpinch", "righthandpinch", "bothhandpinch", "bothhandcover", "lefthandfist", "righthandfist", "bothhandfist", "upperlefthandlock", "upperrighthandlock", "upperbothhandlock", "birdhand"];
+postureclasses = ["lefthandlock", "righthandlock", "bothhandlock", "lefthandpinch", "righthandpinch", "bothhandpinch", "bothhandcover", "lefthandfist", "righthandfist", "bothhandfist", "upperlefthandlock", "upperrighthandlock", "upperbothhandlock", "birdhand"];
 try:
     if not os.path.exists(directory):
         os.makedirs(directory)
-        for gesturedir in gestureclasses:
-            if not os.path.exists(directory+"/"+gesturedir):
-                os.makedirs(directory+"/"+gesturedir)
+        for posturedir in postureclasses:
+            if not os.path.exists(directory+"/"+posturedir):
+                os.makedirs(directory+"/"+posturedir)
 except OSError:
     print ('Error: Creating directory. ' +  directory)
 

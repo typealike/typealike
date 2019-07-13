@@ -186,12 +186,12 @@ class MouseInputEvent extends InputEvent{
 }
 
 /*
-Log gesture events
-Log format: I,g,gesturename
+Log posture events
+Log format: I,g,posturename
 */
-class GestureEvent extends InputEvent{
-  static final String subtype = "gesture";
-  GestureEvent(String eventSource){
+class PostureEvent extends InputEvent{
+  static final String subtype = "posture";
+  PostureEvent(String eventSource){
     super(subtype, eventSource);
   }
 }

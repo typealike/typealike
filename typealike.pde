@@ -8,12 +8,12 @@ import processing.sound.*;
 VideoExport videoExport;
 Capture cam;
 SoundFile hit,miss;
-
+PImage grass;
 Client myClient; 
 LogHelper loghelper;
 String wordBeingTyped="";
 Boolean recordVideo=false;
-Boolean taskStarted=false; //<>//
+Boolean taskStarted=false; //<>// //<>//
 
 App app;
 String experimentStartTime, experimentEndTime, blockStartTime, blockEndTime, setStartTime, setEndTime, targetStartTime, targetEndTime;
@@ -21,11 +21,14 @@ void setup() {
    //movie = new Movie (this,"hit.mp3");
   hit = new SoundFile(this,"hit.aiff");
   miss = new SoundFile(this,"miss.aiff");
+  grass = requestImage("images/grass.png");
+
   loghelper = new LogHelper();
   frameRate(30);
-  //fullScreen();
-  size(1400, 880);
-
+  fullScreen();
+  experimentId = "one";
+  //modeId = "practice";
+  //size(1400, 880);
 }
 
 void captureEvent(Capture video) {
@@ -37,6 +40,7 @@ void captureEvent(Capture video) {
 void draw() {
 
   background(255);
+  image(grass, 0, height-200, width, 400);
   if(experimentId==""){
     drawExperimentMenu();
   }
@@ -50,7 +54,7 @@ void draw() {
       logger.enableLogging();
 
       if(experimentId=="one"){
-        cam = new Capture(this, 300, 300);
+        cam = new Capture(this, 800, 600);
         cam.start();
         String filename = String.format("%s_%s_%s", participantId, modeId, time);
         videoExport = new VideoExport(this, "videos/one/"+filename+".mp4", cam);
@@ -72,7 +76,6 @@ void draw() {
     if (recordVideo && experimentId=="one" && !gameoverflag){
       if(verbose)
         loghelper.VideoFrameEvent();
-      println("added");
       videoExport.saveFrame();
     }
     app.game.draw();
@@ -137,7 +140,6 @@ if(experimentId==""){
     else if (mouseX >= width/2-100 && mouseX <= width/2+150 && 
         mouseY >= height/2-100 && mouseY <= height/2-20){
           modeId="experiment";
-          numBlocks=3;
           taskOrders = experimentOrder;
           numBlocks = taskOrders.length;
           numSequences = taskOrders[0].length;
@@ -155,9 +157,9 @@ if(experimentId==""){
     //app.game.addSequence();
   }
   else{
-    ListIterator<Target> itr = app.game.sets[app.game.currentSequence].sequence.listIterator();
+    ListIterator<Trial> itr = app.game.sets[app.game.currentSequence].sequence.listIterator();
     while ( itr.hasNext() ) {
-      Target c = itr.next();
+      Trial c = itr.next();
       if (c.type!="click")
         continue;
       if (mouseX >= c.x && mouseX <= c.x+c.w && 
@@ -192,9 +194,9 @@ void keyPressed(KeyEvent ev) {
     //state  = stateNormal; // close input box
     if(app.game.currentSequence == numSequences)
       return;
-    ListIterator<Target> itr = app.game.sets[app.game.currentSequence].sequence.listIterator();
+    ListIterator<Trial> itr = app.game.sets[app.game.currentSequence].sequence.listIterator();
     while ( itr.hasNext() ) {
-      Target c = itr.next();
+      Trial c = itr.next();
       if (wordBeingTyped.equals(c.label) && !c.isCaught) {
         c.caught();
         //itr.remove();
@@ -206,9 +208,9 @@ void keyPressed(KeyEvent ev) {
     //if (keyCode != 16 && keyCode != 17 && keyCode != 18) {
     if(ev.isShiftDown() || ev.isControlDown() || ev.isAltDown()){
       //println(app.game.currentSequence);
-      ListIterator<Target> itr = app.game.sets[app.game.currentSequence].sequence.listIterator();
+      ListIterator<Trial> itr = app.game.sets[app.game.currentSequence].sequence.listIterator();
       while ( itr.hasNext() ) {
-        Target c = itr.next();
+        Trial c = itr.next();
         if (c.modifierkey != "" && !c.isCaught ) {
           if(c.shortcutkeycode==keyCode && ((c.modifierkey=="Ctrl" && ev.isControlDown()) || (c.modifierkey=="Shift" && ev.isShiftDown()) || (c.modifierkey=="Alt" && ev.isAltDown()))){
             logger.doLog(new KeyboardInputEvent("keypressed",Integer.toString(keyCode),c.modifierkey));

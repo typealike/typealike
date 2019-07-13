@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class Sequence{
-  ArrayList<Target> sequence = new ArrayList<Target>();
+  ArrayList<Trial> sequence = new ArrayList<Trial>();
   Boolean loadNextSequence;
   int sequenceIndex, blockIndex;
   int targetIndex;
@@ -15,12 +15,10 @@ class Sequence{
 
       this.type_array = taskOrders[this.blockIndex][this.sequenceIndex];
   }
-  Target addTarget(){
+  Trial addTarget(){
     String type="word";
-    this.targetIndex+=1;
-    
-// // "#<time>,E,task,{type:start, label:<labelName>, targetType:<targetType>, datetime:<time>, currScore:<currScore>, setNum:<setNum>, blockNum:<blockNum>, num:<targetNum>, speed:<targetSpeed>, startX:<startX>, startY:<startY>, width:<targetWidth>, height:<targetHeight>}",    
-
+    this.targetIndex+=1;  
+    //"#<time>,E,task,{type:start, label:<labelName>, targetType:<targetType>, datetime:<time>, currScore:<currScore>, setNum:<setNum>, blockNum:<blockNum>, num:<targetNum>, speed:<targetSpeed>, startX:<startX>, startY:<startY>, width:<targetWidth>, height:<targetHeight>}",
     if(this.targetIndex == numTrials)
       this.loadNextSequence = true;
     else{
@@ -33,7 +31,7 @@ class Sequence{
       type = type_array[this.targetIndex];
     }
 
-    Target c = new Target(type,getLabel(type));
+    Trial c = new Trial(type,getLabel(type));
     if(this.targetIndex!=7)
       loghelper.logTargetStart(c.label,c.type,c.x);
     
@@ -47,16 +45,8 @@ class Sequence{
       int index = (int)random(0,words.length);
       label = words[index];
     }
-    else if(type=="gesture"){
-      label = gestures[this.sequenceIndex];
-    }
-    else if(type=="equation"){
-      int index = (int)random(0,equations.length);
-      label = equations[index];
-    }
-    else if(type=="shortcut"){
-      int index = (int)random(0,shortcuts.length);
-      label = shortcuts[index];
+    else if(type=="posture"){
+      label = postures[this.sequenceIndex];
     }
     else{
       label="click me";

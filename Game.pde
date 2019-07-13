@@ -1,14 +1,15 @@
 // global game object
 
 Game game;
-StringDict gestureMap;
+StringDict postureMap;
 int dataIn;
-String identifiedGesture="";
+String identifiedPosture="";
 Boolean isFirst=true;
 Boolean gameoverflag=false;
+
 class Game{
-  Timer timer = new Timer(gestureTimer);    // Create a timer that goes off every 300 milliseconds
-  Sequence[] sets = new Sequence[numSequences];    // Create 1000 spots in the array;       // An array of drop objects
+  Timer timer = new Timer(postureTimer);    // Create a timer that goes off every 300 milliseconds
+  Sequence[] sets = new Sequence[numSequences];    // Create 1000 spots in the array;       // An array of task objects
   int currentBlock=-1;
   int currentSequence=-1;
   // stages
@@ -42,14 +43,15 @@ class Game{
     this.addSequence();
     
     //timer.start();             // Starting the timer
-    //targets[totalTargets] = new Target(1,getRandomLabel());//, sprites[1]);
+    //targets[totalTargets] = new Trial(1,getRandomLabel());//, sprites[1]);
     //// Increment totalTargets
-    //this.totalTargets ++ ;
-    gestureMap = new StringDict();
-    gestureMap.set("0","no-op");
-    gestureMap.set("1","typing");
-    for(int i=0;i<gestures.length;i++){
-      gestureMap.set(String.valueOf(i+2),gestures[i]);
+    //this.totalTargets ++postureMa
+    
+    postureMap = new StringDict();
+    postureMap.set("0","no-op");
+    postureMap.set("1","typing");
+    for(int i=0;i<postures.length;i++){
+      postureMap.set(String.valueOf(i+2),postures[i]);
     }
   }
   void updateBlockIndex(){
@@ -64,7 +66,7 @@ class Game{
   void addSequence(){
     this.sets[this.currentSequence] = new Sequence(this.currentBlock, this.currentSequence);
     loghelper.logSequenceStart();
-    //Target t = this.sets[this.currentSequence].sequence.get(this.sets[this.currentSequence].targetIndex);
+    //Trial t = this.sets[this.currentSequence].sequence.get(this.sets[this.currentSequence].targetIndex);
     this.sets[this.currentSequence].sequence.add(this.sets[this.currentSequence].addTarget());
 
     ////if(this.sets[this.currentSequence].targetIndex!=7)
@@ -126,7 +128,7 @@ class Game{
     
   // Check the timer        
     //if (experimentId.equals("two") && timer.isFinished()) {
-    //  //this.targets[totalTargets] = new Target(1,getRandomLabel());//, sprites[totalTargets%sprites.length]);
+    //  //this.targets[totalTargets] = new Trial(1,getRandomLabel());//, sprites[totalTargets%sprites.length]);
     //  //this.totalTargets ++ ;
     //  //if (this.totalTargets >= this.targets.length) {
     //  //  this.totalTargets = 0; // Start over
@@ -140,10 +142,10 @@ class Game{
     else if(!gameStopped){
       if (experimentId.equals("two") && myClient.available() > 0) {
         dataIn = myClient.read();
-        identifiedGesture = gestureMap.get(String.valueOf(dataIn));
+        identifiedPosture = postureMap.get(String.valueOf(dataIn));
         fill(255,0,0);
-        text(identifiedGesture,width-300,height-150);
-        println(dataIn+", "+identifiedGesture);
+        text(identifiedPosture,width-300,height-150);
+        println(dataIn+", "+identifiedPosture);
       }
   
       //if(this.currentSequence > this.sets.length){
@@ -178,14 +180,14 @@ class Game{
         
       }
       else{
-        ListIterator<Target> itr = this.sets[this.currentSequence].sequence.listIterator();
+        ListIterator<Trial> itr = this.sets[this.currentSequence].sequence.listIterator();
         while( itr.hasNext() ){
-          Target c = itr.next();
+          Trial c = itr.next();
           if(!c.isCaught && !c.isMissed){
             c.move();
             c.display();
           }
-          if(!c.isMissed && c.y>height-100){
+          if(!c.isMissed && c.meteorY>height-100){
             c.missed();
             //this.score-=5;
             this.updateScore(-5);
@@ -201,20 +203,20 @@ class Game{
             //if(experimentId.equals("one"))
             itr.add(this.sets[this.currentSequence].addTarget());
           }
-          if(experimentId=="two" && identifiedGesture.equals(c.label)){
-            logger.doLog(new GestureEvent(identifiedGesture));
+          if(experimentId=="two" && identifiedPosture.equals(c.label)){
+            logger.doLog(new PostureEvent(identifiedPosture));
             //this.score+=10;
             c.caught();
             this.updateScore(10);
             itr.remove();
             itr.add(this.sets[this.currentSequence].addTarget());
           }
-          if(experimentId=="one" && c.type=="gesture" && timerFlag){
+          if(experimentId=="one" && c.type=="posture" && timerFlag){
             println("TIMER STRT");
             timerFlag = false;
             this.timer.start();
           }
-          else if(experimentId=="one" && c.type=="gesture" && timer.isFinished()){
+          else if(experimentId=="one" && c.type=="posture" && timer.isFinished()){
             println("TIMER END");
             c.caught();
             itr.remove();
@@ -261,16 +263,16 @@ class Game{
     //textAlign(CENTER, BOTTOM);
     fill(255, 0, 0);
     textSize(20);
-    text(experiment, 10, height-80);
-    text(player, 10, height-35);
-    text(block, width-200, height-35);
-    text(set, width-100, height-35);
-    text(score, width-200, height-80);
+    text(experiment, 10, height-60);
+    text(player, 10, height-10);
+    text(block, width-200, height-10);
+    text(set, width-100, height-10);
+    text(score, width-200, height-60);
   }
     
   void drawTextbox() {
     fill(0, 0, 0);
-    rect(0, height-100, width, 100, 1);
+    //rect(0, height-100, width, 100, 1);
     fill(255, 0, 0);
     textSize(40);
     text(wordBeingTyped+blinkChar(), width/2-50, height-80, 300, 50);
