@@ -48,6 +48,10 @@ class Sequence{
     else if(type=="posture"){
       label = postures[this.sequenceIndex];
     }
+    else if(type=="shortcut"){
+      int index = (int)random(0,shortcuts.length);
+      label = shortcuts[index];
+    }
     else{
       label="click me";
     }

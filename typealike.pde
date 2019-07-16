@@ -167,6 +167,8 @@ if(experimentId==""){
         //return true;
         logger.doLog(new MouseInputEvent("mousereleased",mouseX,mouseY));
         c.caught();  //return false;
+        c = null;
+        //itr.remove();
       }
     }
   }
@@ -178,6 +180,10 @@ if(experimentId==""){
 void keyPressed(KeyEvent ev) {
   //String label = String.valueOf(key);
   char k = key;
+  
+  if (key == ESC){
+      key = '\n';
+  }
   
   // Press space to continue
   if(k == 32 && app.game.gameStopped){
@@ -199,6 +205,8 @@ void keyPressed(KeyEvent ev) {
       Trial c = itr.next();
       if (wordBeingTyped.equals(c.label) && !c.isCaught) {
         c.caught();
+        c = null;
+        //itr.remove();
         //itr.remove();
         break;
       }
@@ -212,9 +220,11 @@ void keyPressed(KeyEvent ev) {
       while ( itr.hasNext() ) {
         Trial c = itr.next();
         if (c.modifierkey != "" && !c.isCaught ) {
-          if(c.shortcutkeycode==keyCode && ((c.modifierkey=="Ctrl" && ev.isControlDown()) || (c.modifierkey=="Shift" && ev.isShiftDown()) || (c.modifierkey=="Alt" && ev.isAltDown()))){
+          if(c.shortcutkeycode==keyCode && ((c.modifierkey=="Ctrl" && ev.isControlDown()) || (c.modifierkey=="Shift" && ev.isShiftDown()) || (c.modifierkey=="Option" && ev.isAltDown()))){
             logger.doLog(new KeyboardInputEvent("keypressed",Integer.toString(keyCode),c.modifierkey));
             c.caught();
+            c = null;
+            //itr.remove();
           }
           break;
         }

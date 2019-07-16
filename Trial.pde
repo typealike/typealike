@@ -18,7 +18,7 @@ class Trial {
     Boolean isCaught=false, isMissed=false;
     String modifierkey="";
     int shortcutkeycode=0;
-    List<String> blockWords = Arrays.asList("W", "H", "M", "J");
+    List<String> blockWords = Arrays.asList("left", "up", "right", "down", "J", "H");
     Trial(String type, String lbl) {
       this.type=type;
       r = 8;                   // All raindrops are the same size
@@ -36,27 +36,30 @@ class Trial {
         //postureY = posture.y;
       } else if (this.type=="click") {
         x = (int) random(width-300);
-        y = (int) random(height-200);
+        y = (int) random(100,height-200);
       } else {
-        x = (int) random(width-30);
-        y = -10;                // Start a little above the window
+        x = (int) random(width-300);
+        y = (int) random(100,height-200);
+        //x = (int) random(width-30);
+        //y = -10;                // Start a little above the window
       }
       meteorX = (int) random(width-300);
       meteorY = -10;
       c = color(50, 100, 150); // Color
       this.label = lbl;
-      //if (this.type=="shortcut") {
-      //  label = lbl;
-      //  int index = (int)random(0, modifierkeys.length);
-      //  modifierkey = modifierkeys[index];
-      //  if (label.length()==2 && modifierkey=="Alt")
-      //    modifierkey="Ctrl";
-      //  else if (blockWords.contains(label))
-      //    modifierkey="Alt";
-      //  shortcutkeycode =  codes[Arrays.asList(shortcuts).indexOf(label)];
-      //  if (label=="up" || label=="down" || label=="left" || label=="right")
-      //    keyboardBase = requestImage("images/"+label+".png");
-      //}
+      if (this.type=="shortcut") {
+        label = lbl;
+        int index = (int)random(0, modifierkeys.length);
+        modifierkey = modifierkeys[index];
+        if (label.length()==2 && modifierkey=="Ctrl")
+          modifierkey="Shift";
+        else if (blockWords.contains(label))
+          modifierkey="Shift";
+          print(label);
+        shortcutkeycode =  codes[Arrays.asList(shortcuts).indexOf(label)];
+        if (label=="up" || label=="down" || label=="left" || label=="right")
+          keyboardBase = requestImage("images/"+label+".png");
+      }
   }
 
   // Move the raindrop down
@@ -112,9 +115,9 @@ class Trial {
       image(keyboardBase, x, y, 480, 360);
       //tint(255, 127);  // reduce opacity  
       //noFill();
+      fill(0,255,0, 40);
+      rect(posture.surfaceX,posture.surfaceY,posture.surfaceW,posture.surfaceH,10);
       if(millis()-this.trialStartTime > 2000){
-        fill(0,255,0, 40);
-        rect(posture.surfaceX,posture.surfaceY,posture.surfaceW,posture.surfaceH,10);
         posture.wigglePose();
         fill(0, 0, 0);
         textSize(30);
@@ -135,28 +138,43 @@ class Trial {
     } else if (this.type=="shortcut") {
       if (x+300>width) {
         x=width-300;
-      }
-      textSize(40);
+      }      
+      //fill(255, 255, 255);
+      //text(modifierkey, x+10, y, 300, 150);
+      
       fill(0, 0, 0);
-      rect(x, y, 110, 50, 10);
+      //rect(x, y, 110, 50, 10);
 
-      if (label=="PgUp" || label=="PgDown")
-        rect(x+(170), y, 120, 50, 10);
-      else if (label!="up" && label!="down" && label!="left" && label!="right")
-        rect(x+(170), y, 90, 50, 10);
+      if (label!="up" && label!="down" && label!="left" && label!="right")
+        rect(x+(170), y, 100, 70, 10);
+      
+      textSize(20);
+      //fill(255, 255, 255);
+      //text(modifierkey, x+10, y, 300, 150);
+      
+       if (modifierkey == "Shift"){
+        rect(x, y, 100, 70, 10);
+        fill(255, 255, 255);
+        text("Shift", x+10, y+40, 300, 150);
 
-      fill(255, 255, 255);
-      text(modifierkey, x+10, y, 300, 150);
-      if (label=="up" || label=="down" || label=="left" || label=="right")
-        image(keyboardBase, x+150, y, 50, 50);
-      else
-        text(label, x+180, y, 300, 150);
-    } else if (this.type=="equation") {
-      if (x+350>width) {
-        x=width-350;
       }
+      else if (modifierkey == "Option"){
+        rect(x, y, 100, 70, 10);
+        fill(255, 255, 255);
+        text("alt", x+60, y+5, 300, 150);
+        text("option", x+20, y+40, 300, 150);
+      }
+      else if (modifierkey == "Ctrl"){
+        rect(x, y, 100, 70, 10);
+        fill(255, 255, 255);
+        text("control", x+15, y+40, 300, 150);
+      }
+
       textSize(30);
-      text(label, x, y, 300, 150);
+      if (label=="up" || label=="down" || label=="left" || label=="right")
+        image(keyboardBase, x+200, y, 50, 50);
+      else
+        text(label, x+210, y+20, 300, 150);
     } else if (this.type=="click") {
       if (x+350>width) {
         x=width-350;

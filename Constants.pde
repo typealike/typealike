@@ -13,57 +13,21 @@ String[] postures = {
 };
 
 // problems: Right_Close_90_On, 
-String[] shortcuts= {"F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "PgUp", "PgDn", "left", "up", "right", "down", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
-int[] codes={112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 33, 34, 37, 38, 39, 40, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90}; 
-String[] modifierkeys={"Ctrl", "Alt", "Shift"};
+String[] shortcuts= {"left", "up", "right", "down", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+int[] codes={37, 38, 39, 40, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90}; 
+String[] modifierkeys={"Option", "Ctrl", "Shift"};
 
 String[][][] practiceOrder={
                             {
-                              {"posture"},
-                              {"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                              //{"posture"},
-                               //{"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},   
-                              // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                              // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                              // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                              // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                              // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                              // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                              // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                              // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
+                               {"word","posture"}, {"shortcut","posture"}, {"click","posture"}, {"word","posture"},
+                               {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                               {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                               {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                               {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                               {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                               {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                               {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                               {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
                             }
                             };
 
@@ -130,5 +94,5 @@ int numBlocks, numSequences, numTrials;
 //int numSequences=taskOrders[0].length;//(modeId=="experiment")?10:2;//this should be 10 for 5 variables, (or 14 for 7 variables)
 //int numTrials= taskOrders[0][0].length;
 int taskSpeed = 6;
-int postureTimer = 17000;
+int postureTimer = 5000;
 //Timer timer;
