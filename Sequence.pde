@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class Sequence{
-  ArrayList<Trial> sequence = new ArrayList<Trial>();
+  Trial trial;
   Boolean loadNextSequence;
   int sequenceIndex, blockIndex;
   int targetIndex;
@@ -15,7 +15,7 @@ class Sequence{
 
       this.type_array = taskOrders[this.blockIndex][this.sequenceIndex];
   }
-  Trial addTarget(){
+  void addTarget(){
     String type="word";
     this.targetIndex+=1;  
     //"#<time>,E,task,{type:start, label:<labelName>, targetType:<targetType>, datetime:<time>, currScore:<currScore>, setNum:<setNum>, blockNum:<blockNum>, num:<targetNum>, speed:<targetSpeed>, startX:<startX>, startY:<startY>, width:<targetWidth>, height:<targetHeight>}",
@@ -31,12 +31,11 @@ class Sequence{
       type = type_array[this.targetIndex];
     }
 
-    Trial c = new Trial(type,getLabel(type));
-    if(this.targetIndex!=7)
-      loghelper.logTargetStart(c.label,c.type,c.x);
+    this.trial = new Trial(type,getLabel(type));
+    if(this.targetIndex!=numTrials)
+      loghelper.logTrialStart(this.trial.label,this.trial.type,this.trial.x);
     
     wordBeingTyped="";
-    return c;
   }
 
   String getLabel(String type){

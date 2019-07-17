@@ -12,4 +12,4 @@
 # schema,{type:I, subtype:mouse, data:[event, x, y], type:[str, int,int], description:[moved/pressed/released,<x-coordinate>,<y-coordinate>]}
 # schema,{type:I, subtype:posture, data:[name], type:[str], description:[<posture name>] }
 # START LOG
-1563252130500,E,experiment,{"type":"start","participantid":"nalin007","study":"one","datetime":"2019-07-16T04:42:10.488Z"}
+1563320517739,E,experiment,{"type":"start","participantid":"nalin007","study":"one","datetime":"2019-07-16T23:41:57.568Z"}

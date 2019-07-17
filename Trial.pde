@@ -1,10 +1,13 @@
 import java.util.Arrays;
+
 class Trial {
     int x, y;   // Variables for location of Object(text, button, posture)
     int meteorX, meteorY;   // Variables for location of Meteor
-    PImage meteor = requestImage("images/meteor.png");
+    
     Posture posture;   // Contain posture variables for location, form, hand, coordinates etc
     float speed = taskSpeed;  // Speed of Trial
+    int jitter;
+    Boolean flag=true;
     color c;
     float r;      // Radius of Trial
     int cornerBezel = 10; // for drawing rectangle
@@ -14,7 +17,7 @@ class Trial {
     String label="", type="";
     int trialStartTime;
     String labelIndex[];
-    PImage keyboardBase=requestImage("images/base.png");
+    
     Boolean isCaught=false, isMissed=false;
     String modifierkey="";
     int shortcutkeycode=0;
@@ -23,12 +26,12 @@ class Trial {
       this.type=type;
       r = 8;                   // All raindrops are the same size
       // Start with a random x location
+      trialStartTime = millis();
       if (this.type=="posture") {
         x = width/2 - 250;
         y = height/2 - 200;
         
         posture = new Posture(lbl);
-        trialStartTime = millis();
         
         // true initialization can only happen here. coz we ahve different position parameters for LOC, HAND, FORM
         //postureIcon = posture.icon;
@@ -45,6 +48,7 @@ class Trial {
       }
       meteorX = (int) random(width-300);
       meteorY = -10;
+      this.jitter = 2;
       c = color(50, 100, 150); // Color
       this.label = lbl;
       if (this.type=="shortcut") {
@@ -55,10 +59,8 @@ class Trial {
           modifierkey="Shift";
         else if (blockWords.contains(label))
           modifierkey="Shift";
-          print(label);
+          //print(label);
         shortcutkeycode =  codes[Arrays.asList(shortcuts).indexOf(label)];
-        if (label=="up" || label=="down" || label=="left" || label=="right")
-          keyboardBase = requestImage("images/"+label+".png");
       }
   }
 
@@ -92,11 +94,44 @@ class Trial {
     //}
     //rect(x, y, w, h, cornerBezel);
     //image(background,x,y);
-    fill(0, 0, 0);
-    if (this.type=="word") {
-      if (x+350>width) {
-        x=width-350;
+      circle(100,200,10);
+      circle(150,300,10);
+      circle(200,400,10);
+      text(speed+", "+jitter, 200, 200);
+    if(millis()-this.trialStartTime > 2000){
+      if(meteorY < 200){
+        speed += 2;
+        this.jitter = 5;
       }
+      if(meteorY < 300){
+        speed += 1;
+      }
+      //if(meteorY < 100 && flag){
+      //  speed = 20;
+      //  this.jitter = 5;
+      //}
+      //else if(meteorY < 200 && flag)
+      //  speed = 15;
+      //else if(meteorY < 300 && flag)
+      //  speed = 10;
+      //flag=false;
+      // if(meteorY > 100 && meteorY < 200)
+      //   speed = 15;
+      // else if(meteorY > 200 && meteorY < 300)
+      //   speed = 10;
+      // else if(meteorY < 100){
+      //   speed = 20;
+      //   this.jitter = 5;
+      //}
+      if (this.type=="posture") {
+        posture.wigglePose(jitter);
+        textSize(30);
+        text("Slightly wiggle your hand while maintaining the posture", x-150, y+400);
+      }
+    }
+    if (this.type=="word") {
+      if (x+350>width)
+        x=width-350;
       for (int i=0; i<label.length(); i++) {
         fill(0, 0, 0);
         rect(x+(i*50), y, 50, 50, 10);
@@ -106,32 +141,27 @@ class Trial {
       }
       //text(label,x,y,300,150);
     } else if (this.type=="posture") {
-      if (x+270>width) {
+      if (x+270>width)
         x=width-300;
-      }
+
       //image(keyboardBase,x,y,300,200);
       //image(keyboardBase,x,y,100,70);
       //if (this.type=="posture")
-      image(keyboardBase, x, y, 480, 360);
+      image(iconSet.get("keyboardBase"), x, y, 480, 360);
       //tint(255, 127);  // reduce opacity  
       //noFill();
+      
+      //else{
+      //  fill(0, 0, 0);
+      //  textSize(30);
+      //  text("Form this posture on the keyboard for "+postureTimer/1000+" seconds", x-200, y+400);
+      //}
       fill(0,255,0, 40);
       rect(posture.surfaceX,posture.surfaceY,posture.surfaceW,posture.surfaceH,10);
-      if(millis()-this.trialStartTime > 2000){
-        posture.wigglePose();
-        fill(0, 0, 0);
-        textSize(30);
-        text("Slightly wiggle your hand while maintaing the posture", x-200, y+400);
-      }
-      else{
-        fill(0, 0, 0);
-        textSize(30);
-        text("Form this posture on the keyboard for "+postureTimer/1000+" seconds", x-200, y+400);
-      }
       tint(255, 240);  // reduce opacity
       image(posture.icon, posture.x, posture.y, 200, 200);
       
-      tint(255); //bring back full opacity
+      //tint(255); //bring back full opacity
       
       //text(this.label, x-200, y+400);
         //text(posture.xMin, x-200, y+400);
@@ -161,8 +191,10 @@ class Trial {
       else if (modifierkey == "Option"){
         rect(x, y, 100, 70, 10);
         fill(255, 255, 255);
-        text("alt", x+60, y+5, 300, 150);
         text("option", x+20, y+40, 300, 150);
+        textSize(15);
+        text("alt", x+60, y+5, 300, 150);
+        
       }
       else if (modifierkey == "Ctrl"){
         rect(x, y, 100, 70, 10);
@@ -172,20 +204,23 @@ class Trial {
 
       textSize(30);
       if (label=="up" || label=="down" || label=="left" || label=="right")
-        image(keyboardBase, x+200, y, 50, 50);
+        image(iconSet.get(label+"_"+"key"), x+200, y, 50, 50);
       else
         text(label, x+210, y+20, 300, 150);
     } else if (this.type=="click") {
       if (x+350>width) {
-        x=width-350;
-      }
+        x=width-350; 
+      }  
       fill(0, 0, 0);
       rect(x, y, w, h-30, cornerBezel);
       fill(255, 255, 255);
       textSize(20);
       text("Click Me", x+60, y+70, w, h);
     }
-    image(this.meteor, this.meteorX, this.meteorY, 100, 100);
+    //image(iconSet.get("meteor"), this.meteorX, this.meteorY, 100, 100);
+    //fill(14, 170, 14);
+    fill(255,0,0);
+    circle(this.meteorX, this.meteorY, 50);
   }
 
   // If the drop is caught
@@ -195,8 +230,8 @@ class Trial {
     this.speed = 0;
     this.isCaught = true;
     // Set the location to somewhere way off-screen
-    this.y = -1000;
-    loghelper.logTargetEnd(this.label, this.type, "hit");
+    this.y = height+10;
+    loghelper.logTrialEnd(this.label, this.type, "hit");
     // "#<time>,E,task,{type:end, action:<success>, targetType:<targetType>, num:<taskNum>, endReason:<caught, missed>, datetime:<time>, duration:<numSeconds>}",
   }
   // If the drop is caught
@@ -206,7 +241,7 @@ class Trial {
     this.speed = 0;
     this.isMissed = true;
     // Set the location to somewhere way off-screen
-    this.y = -1000;
-    loghelper.logTargetEnd(this.label, this.type, "miss");
+    this.y = height+10;
+    loghelper.logTrialEnd(this.label, this.type, "miss");
   }
 }

@@ -1,15 +1,6 @@
-// global game object
-
-Game game;
-StringDict postureMap;
-int dataIn;
-String identifiedPosture="";
-Boolean isFirst=true;
-Boolean gameoverflag=false;
-
 class Game{
   //Timer timer = new Timer(postureTimer);    // Create a timer that goes off every 300 milliseconds
-  Sequence[] sets = new Sequence[numSequences];    // Create 1000 spots in the array;       // An array of task objects
+  Sequence sequence;    // Create 1000 spots in the array;       // An array of task objects  // UGLY LOGIC
   int currentBlock=-1;
   int currentSequence=-1;
   // stages
@@ -64,10 +55,11 @@ class Game{
   Command to start the game. Currently when conte connects but will be when user leaves splash screen
   */
   void addSequence(){
-    this.sets[this.currentSequence] = new Sequence(this.currentBlock, this.currentSequence);
+    this.sequence = new Sequence(this.currentBlock, this.currentSequence);
     loghelper.logSequenceStart();
     //Trial t = this.sets[this.currentSequence].sequence.get(this.sets[this.currentSequence].targetIndex);
-    this.sets[this.currentSequence].sequence.add(this.sets[this.currentSequence].addTarget());
+    this.sequence.trial = null;
+    this.sequence.addTarget();
 
     ////if(this.sets[this.currentSequence].targetIndex!=7)
     //println("WTH");
@@ -153,9 +145,8 @@ class Game{
       //  return;
       //}
       //println(this.sets[this.currentSequence].loadNextSequence);
-      if(this.sets[this.currentSequence].loadNextSequence){
+      if(this.sequence.loadNextSequence){
         println("load next set");
-        
         if(this.currentSequence+1==numSequences){
           if(this.currentBlock+1==numBlocks){
             loghelper.logSequenceEnd();
@@ -177,39 +168,40 @@ class Game{
             this.addSequence();
           //}
         }
-        
       }
       else{
-        ListIterator<Trial> itr = this.sets[this.currentSequence].sequence.listIterator();
-        while( itr.hasNext() ){
-          Trial c = itr.next();
-          if(!c.isCaught && !c.isMissed){
-            c.move();
-            c.display();
+          if(!app.game.sequence.trial.isCaught && !app.game.sequence.trial.isMissed){
+            app.game.sequence.trial.move();
+            app.game.sequence.trial.display();
           }
-          if(!c.isMissed && c.meteorY>height-100){
-            c.missed();
+          if(!app.game.sequence.trial.isMissed && millis()-app.game.sequence.trial.trialStartTime > postureTimer){//app.game.sequence.trial.meteorY>height-100){
+            app.game.sequence.trial.missed();
             //this.score-=5;
-            this.updateScore(-5);
-            itr.remove();
+            if (experimentId == "one" && app.game.sequence.trial.type == "posture")
+              this.updateScore(5);
+            else
+              this.updateScore(-5);
             //if(experimentId.equals("one"))
-            itr.add(this.sets[this.currentSequence].addTarget());
+            this.sequence.trial = null;
+            this.sequence.addTarget();
             //this.sets[this.currentSequence].addTarget();
           }
-          if(c.isCaught){
+          if(app.game.sequence.trial.isCaught){
             //this.score+=10;
             this.updateScore(10);
-            itr.remove();
             //if(experimentId.equals("one"))
-            itr.add(this.sets[this.currentSequence].addTarget());
+            //itr.add(this.sets[this.currentSequence].addTarget());
+            this.sequence.trial = null;
+            this.sequence.addTarget();
           }
-          if(experimentId=="two" && identifiedPosture.equals(c.label)){
+          if(experimentId=="two" && identifiedPosture.equals(app.game.sequence.trial.label)){
             logger.doLog(new PostureEvent(identifiedPosture));
             //this.score+=10;
-            c.caught();
+            app.game.sequence.trial.caught();
             this.updateScore(10);
-            itr.remove();
-            itr.add(this.sets[this.currentSequence].addTarget());
+            //itr.add(this.sets[this.currentSequence].addTarget());
+            this.sequence.trial = null;
+            this.sequence.addTarget();
           }
           //if(experimentId=="one" && c.type=="posture" && timerFlag){
           //  println("TIMER STRT");
@@ -223,10 +215,10 @@ class Game{
           //  itr.add(this.sets[this.currentSequence].addTarget());
           //  timerFlag = true;
           //} 
-        }
       }
-    drawTextbox();
-    drawInfo();
+      if(this.sequence.trial.type=="word")
+        drawTextbox();
+      drawInfo();
     }
     else if(gameStopped){
       drawBetweenBlockBreak();
@@ -261,7 +253,7 @@ class Game{
     String set = "S: " + this.currentSequence;
     String score = "Score: "+ this.score;
     //textAlign(CENTER, BOTTOM);
-    fill(255, 0, 0);
+    fill(0, 0, 0);
     textSize(20);
     text(experiment, 10, height-60);
     text(player, 10, height-10);

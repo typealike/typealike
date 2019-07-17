@@ -5,8 +5,6 @@ import java.io.PrintWriter;
 import java.util.Calendar;
 
 /*---------- LOGGER -----------*/
-
-String time;
 class Logger{
   EventWriter eventWriter = null;
   boolean loggingEnabled = false; // gets turned on on game start
@@ -16,12 +14,12 @@ class Logger{
   */
   Logger(String participantId, EventWriter eventWriter){
     DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
-    time = dateFormat.format(Calendar.getInstance().getTime());
+    startTime = dateFormat.format(Calendar.getInstance().getTime());
     
     // file name
     String filename;
     String dirName = String.format("log/%s", experimentId);
-    filename = String.format("log/%s/%s_%s_%s.txt",experimentId, participantId, modeId, time);
+    filename = String.format("log/%s/%s_%s_%s.txt",experimentId, participantId, modeId, startTime);
     this.eventWriter = eventWriter;
     this.eventWriter.createFile(filename, dirName);
     println("Logging to", filename);
@@ -253,7 +251,8 @@ class EventWriter{
   
   void doLog(long timestamp, Event event) {
     this.buffer.add(String.format("%d,%s,%s\n", timestamp, event.eventType(), event.details())); 
-    if (event.isFlushEvent()) {
+    //print("\nBuffer Size:\t"+this.buffer.size());
+    if (event.isFlushEvent() || this.buffer.size() > 500) {
       for (String line: this.buffer) {
         this.writer.print(line);
       }

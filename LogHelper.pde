@@ -1,8 +1,6 @@
 import java.time.Instant;
 import java.time.Duration;
 
-Logger logger; // global logger object
-
 class LogHelper{
 
   LogHelper(){
@@ -35,7 +33,7 @@ class LogHelper{
                     "\"datetime\"", "\"" + setStartTime + "\"");
     logger.doLog(new JSONEvent("E", "sequence", false, JSONStr));
   }
-  void logTargetStart(String label, String targetType, int startX){
+  void logTrialStart(String label, String targetType, int startX){
     if(isFirst){
       isFirst=false;
       return;
@@ -46,7 +44,7 @@ class LogHelper{
                     "\"targetType\"", "\"" + targetType + "\"",
                     "\"sequenceNum\"", "\"" + app.game.currentSequence + "\"",
                     "\"blockNum\"", "\"" + app.game.currentBlock + "\"",
-                    "\"num\"", "\"" + app.game.sets[app.game.currentSequence].targetIndex + "\"",
+                    "\"num\"", "\"" + app.game.sequence.targetIndex + "\"",
                     "\"startX\"", "\"" + startX + "\"",
                     "\"startY\"", "\"" + 0 + "\"",
                     "\"width\"", "\"" + 100 + "\"",
@@ -82,10 +80,10 @@ class LogHelper{
                     "\"duration\"", "\"" + d+ "\"");
     logger.doLog(new JSONEvent("E", "sequence", false, JSONStr));
   }
-  void logTargetEnd(String label, String targetType, String status){
-    println("end");
-    println(targetStartTime);
-    println(targetEndTime);
+  void logTrialEnd(String label, String targetType, String status){
+    //println("end");
+    //println(targetStartTime);
+    //println(targetEndTime);
     targetEndTime = Instant.now().toString();
     Duration d = Duration.between(Instant.parse(targetStartTime),Instant.parse(targetEndTime));
 
@@ -94,7 +92,7 @@ class LogHelper{
                     "\"action\"", "\"" + status + "\"",
                     "\"currScore\"", "\"" + app.game.score + "\"",                    
                     "\"targetType\"", "\"" + targetType + "\"",
-                    "\"num\"", "\"" + app.game.sets[app.game.currentSequence].targetIndex + "\"",
+                    "\"num\"", "\"" + app.game.sequence.targetIndex + "\"",
                     "\"sequenceNum\"", "\"" + app.game.currentSequence + "\"",
                     "\"blockNum\"", "\"" + app.game.currentBlock + "\"",
                     "\"datetime\"", "\"" + targetEndTime + "\"",

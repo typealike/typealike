@@ -1,6 +1,6 @@
 class Posture{
   String hand, form, area, degree;
-  int x, y, xMin, yMin, xMax, yMax, jitter;
+  int x, y, xMin, yMin, xMax, yMax;
   int surfaceX, surfaceY, surfaceW, surfaceH;
   int sw = width/2, sh=height/2;
   WiggleMode mode;
@@ -8,15 +8,12 @@ class Posture{
   
   Posture(String label){
     String [] labelIndex = split(label,"_");
-    print("NALIN");
-    print(label);
     this.hand = labelIndex[0];
     this.form = labelIndex[1];
     this.degree = labelIndex[2];
     this.area = labelIndex[3];
     
-    this.jitter = 2;
-    this.icon = requestImage("images/"+hand+"_"+form+"_"+degree+".png");
+    this.icon = iconSet.get(hand+"_"+form+"_"+degree);
     this.setPositionParameters();
     if (this.hand.equals("Left")){
       this.x = this.xMin;
@@ -29,39 +26,39 @@ class Posture{
       this.mode = WiggleMode.DEC;
     }
   }
-  public void wigglePose(){
+  public void wigglePose(int jitter){
     switch(this.area){
     case "On":
                   if (this.mode == WiggleMode.INC)
-                    this.x+=this.jitter;
+                    this.x+=jitter;
                   else
-                    this.x-=this.jitter;
+                    this.x-=jitter;
 
-                  if (this.x+this.jitter == this.xMax)
+                  if (this.x+jitter == this.xMax)
                     this.mode = WiggleMode.DEC; 
-                  else if (this.x+this.jitter == this.xMin)
+                  else if (this.x+jitter == this.xMin)
                     this.mode = WiggleMode.INC; 
                   break;
     case "Below": 
                   if (this.mode == WiggleMode.INC)
-                    this.x+=this.jitter;
+                    this.x+=jitter;
                   else
-                    this.x-=this.jitter;
+                    this.x-=jitter;
 
-                  if (this.x+this.jitter == this.xMax)
+                  if (this.x+jitter == this.xMax)
                     this.mode = WiggleMode.DEC; 
-                  else if (this.x+this.jitter == this.xMin)
+                  else if (this.x+jitter == this.xMin)
                     this.mode = WiggleMode.INC; 
                   break;
     case "Beside": 
                   if (this.mode == WiggleMode.INC)
-                    this.y+=this.jitter;
+                    this.y+=jitter;
                   else if (this.mode == WiggleMode.DEC)
-                    this.y-=this.jitter;
+                    this.y-=jitter;
 
-                  if (this.y+this.jitter == this.yMax)
+                  if (this.y+jitter == this.yMax)
                     this.mode = WiggleMode.DEC; 
-                  else if (this.y+this.jitter == this.yMin)
+                  else if (this.y+jitter == this.yMin)
                     this.mode = WiggleMode.INC;
                   break;
     }

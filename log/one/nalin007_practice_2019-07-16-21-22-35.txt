@@ -1,0 +1,454 @@
+# Typealike Interactions
+#<time>,E,experiment,{type:start, participantid:<participantId>, study:<studyId>, datetime:<time>}
+#<time>,E,experiment,{type:end, participantid:<participantId>, score:<score>, datetime:<time>, duration:<duration>}
+#<time>,E,block,{type:start, num:<blockNum>, numBlocks:<numBlocks>, datetime:<time>}
+#<time>,E,block,{type:end, num:<blockNum>, datetime:<time>, duration:<numSeconds>}
+#<time>,E,sequence,{type:start, blockNum:<blockNum>, num:<sequenceNum>, datetime:<time>, taskOrder:<taskOrderIndex>}
+#<time>,E,sequence,{type:end, num:<sequenceNum>, datetime:<time>, duration:<numSeconds>}
+#<time>,E,trial,{type:start, label:<labelName>, targetType:<targetType>, datetime:<time>, sequenceNum:<sequenceNum>, blockNum:<blockNum>, num:<targetNum>, startX:<startX>, startY:<startY>, width:<targetWidth>, height:<targetHeight>}
+#<time>,E,trial,{type:end, label:<labelName>, action:<hit/miss>, targetType:<targetType>, num:<taskNum>, blockNum:<blockNum>, sequenceNum:<sequenceNum>, datetime:<time>, duration:<numSeconds>}
+#<time>,M,video, datetime:<time>
+# schema,{type:I, subtype:key, data:[event, keyname, modifierkey], type:[str,str], description:[<pressed/released>, <keycode>, <Shift/Ctrl/Alt/none>] }
+# schema,{type:I, subtype:mouse, data:[event, x, y], type:[str, int,int], description:[moved/pressed/released,<x-coordinate>,<y-coordinate>]}
+# schema,{type:I, subtype:posture, data:[name], type:[str], description:[<posture name>] }
+# START LOG
+1563326558756,E,experiment,{"type":"start","participantid":"nalin007","study":"one","datetime":"2019-07-17T01:22:38.744Z"}
+1563326558757,E,block,{"type":"start","num":"0","numBlocks":"1","datetime":"2019-07-17T01:22:38.757Z"}
+1563326558765,E,sequence,{"type":"start","blockNum":"0","num":"0","taskOrder":"0","datetime":"2019-07-17T01:22:38.765Z"}
+1563326558765,E,trial,{"type":"start","label":"sends","targetType":"word","sequenceNum":"0","blockNum":"0","num":"0","startX":"1060","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:22:38.765Z"}
+1563326559094,I,mouse,moved,567,488
+1563326559095,I,mouse,moved,567,488
+1563326559095,I,mouse,moved,567,487
+1563326559095,I,mouse,moved,567,487
+1563326559095,I,mouse,moved,567,486
+1563326559095,I,mouse,moved,567,486
+1563326559095,I,mouse,moved,567,485
+1563326559096,I,mouse,moved,567,485
+1563326559096,I,mouse,moved,568,485
+1563326559096,I,mouse,moved,568,485
+1563326559096,I,mouse,moved,568,484
+1563326559096,I,mouse,moved,568,484
+1563326559096,I,mouse,moved,568,483
+1563326559096,I,mouse,moved,568,483
+1563326559096,I,mouse,moved,569,483
+1563326559097,I,mouse,moved,569,483
+1563326559097,I,mouse,moved,569,483
+1563326559097,I,mouse,moved,569,483
+1563326559097,I,mouse,moved,569,483
+1563326559097,I,mouse,moved,569,483
+1563326559097,I,mouse,moved,569,482
+1563326559097,I,mouse,moved,569,482
+1563326559097,I,mouse,moved,569,482
+1563326559098,I,mouse,moved,569,482
+1563326559098,I,mouse,moved,569,482
+1563326559098,I,mouse,moved,569,482
+1563326559098,I,mouse,moved,569,482
+1563326559098,I,mouse,moved,569,482
+1563326559098,I,mouse,moved,569,482
+1563326559098,I,mouse,moved,569,482
+1563326559099,I,mouse,moved,569,482
+1563326559099,I,mouse,moved,569,482
+1563326559099,I,mouse,moved,569,481
+1563326559099,I,mouse,moved,569,481
+1563326559099,I,mouse,moved,570,481
+1563326559099,I,mouse,moved,570,481
+1563326559099,I,mouse,moved,570,481
+1563326559099,I,mouse,moved,570,481
+1563326559099,I,mouse,moved,570,481
+1563326559099,I,mouse,moved,570,481
+1563326559100,I,mouse,moved,570,481
+1563326559100,I,mouse,moved,570,481
+1563326559100,I,mouse,moved,570,481
+1563326559100,I,mouse,moved,570,481
+1563326559100,I,mouse,moved,570,480
+1563326559100,I,mouse,moved,570,480
+1563326559100,I,mouse,moved,570,480
+1563326559100,I,mouse,moved,570,480
+1563326559101,I,mouse,moved,571,480
+1563326559101,I,mouse,moved,571,480
+1563326559101,I,mouse,moved,571,480
+1563326559101,I,mouse,moved,571,480
+1563326559101,I,mouse,moved,571,480
+1563326559101,I,mouse,moved,571,480
+1563326559101,I,mouse,moved,571,480
+1563326559101,I,mouse,moved,571,480
+1563326559102,I,mouse,moved,571,480
+1563326559102,I,mouse,moved,571,480
+1563326559102,I,mouse,moved,571,479
+1563326559102,I,mouse,moved,571,479
+1563326559102,I,mouse,moved,571,479
+1563326559102,I,mouse,moved,571,479
+1563326559102,I,mouse,moved,572,479
+1563326559102,I,mouse,moved,572,479
+1563326559102,I,mouse,moved,572,479
+1563326559102,I,mouse,moved,572,479
+1563326559102,I,mouse,moved,572,479
+1563326559103,I,mouse,moved,572,479
+1563326559103,I,mouse,moved,572,478
+1563326559103,I,mouse,moved,572,478
+1563326559103,I,mouse,moved,573,478
+1563326559103,I,mouse,moved,573,478
+1563326559103,I,mouse,moved,573,478
+1563326559103,I,mouse,moved,573,478
+1563326559103,I,mouse,moved,573,478
+1563326559103,I,mouse,moved,573,478
+1563326559103,I,mouse,moved,573,478
+1563326559103,I,mouse,moved,573,478
+1563326559104,I,mouse,moved,574,478
+1563326559104,I,mouse,moved,574,478
+1563326559104,I,mouse,moved,574,477
+1563326559104,I,mouse,moved,574,477
+1563326559104,I,mouse,moved,575,477
+1563326559104,I,mouse,moved,575,477
+1563326559104,I,mouse,moved,576,475
+1563326559104,I,mouse,moved,576,475
+1563326559104,I,mouse,moved,577,475
+1563326559104,I,mouse,moved,577,475
+1563326559104,I,mouse,moved,578,474
+1563326559105,I,mouse,moved,578,474
+1563326559105,I,mouse,moved,579,473
+1563326559105,I,mouse,moved,579,473
+1563326559105,I,mouse,moved,580,472
+1563326559105,I,mouse,moved,580,472
+1563326559381,I,mouse,moved,581,472
+1563326559382,I,mouse,moved,581,472
+1563326559382,I,mouse,moved,586,472
+1563326559382,I,mouse,moved,586,472
+1563326559382,I,mouse,moved,589,472
+1563326559413,I,mouse,moved,589,472
+1563326559414,I,mouse,moved,598,470
+1563326559414,I,mouse,moved,598,470
+1563326559414,I,mouse,moved,607,468
+1563326559414,I,mouse,moved,607,468
+1563326559414,I,mouse,moved,616,465
+1563326559414,I,mouse,moved,616,465
+1563326559414,I,mouse,moved,629,461
+1563326559448,I,mouse,moved,629,461
+1563326559448,I,mouse,moved,641,457
+1563326559448,I,mouse,moved,641,457
+1563326559448,I,mouse,moved,654,452
+1563326559448,I,mouse,moved,654,452
+1563326559448,I,mouse,moved,680,442
+1563326559448,I,mouse,moved,680,442
+1563326559448,I,mouse,moved,696,436
+1563326559448,I,mouse,moved,696,436
+1563326559479,I,mouse,moved,707,432
+1563326559479,I,mouse,moved,707,432
+1563326559479,I,mouse,moved,738,418
+1563326559479,I,mouse,moved,738,418
+1563326559480,I,mouse,moved,761,409
+1563326559480,I,mouse,moved,761,409
+1563326559480,I,mouse,moved,783,400
+1563326559480,I,mouse,moved,783,400
+1563326559513,I,mouse,moved,794,395
+1563326559514,I,mouse,moved,794,395
+1563326559514,I,mouse,moved,815,386
+1563326559514,I,mouse,moved,815,386
+1563326559514,I,mouse,moved,834,379
+1563326559514,I,mouse,moved,834,379
+1563326559514,I,mouse,moved,850,374
+1563326559514,I,mouse,moved,850,374
+1563326559547,I,mouse,moved,857,372
+1563326559547,I,mouse,moved,857,372
+1563326559547,I,mouse,moved,870,369
+1563326559547,I,mouse,moved,870,369
+1563326559547,I,mouse,moved,881,367
+1563326559547,I,mouse,moved,881,367
+1563326559547,I,mouse,moved,891,366
+1563326559547,I,mouse,moved,891,366
+1563326559581,I,mouse,moved,900,365
+1563326559581,I,mouse,moved,900,365
+1563326559581,I,mouse,moved,907,365
+1563326559582,I,mouse,moved,907,365
+1563326559582,I,mouse,moved,915,364
+1563326559582,I,mouse,moved,915,364
+1563326559582,I,mouse,moved,921,364
+1563326559582,I,mouse,moved,921,364
+1563326559582,I,mouse,moved,927,363
+1563326559613,I,mouse,moved,927,363
+1563326559613,I,mouse,moved,929,363
+1563326559614,I,mouse,moved,929,363
+1563326559614,I,mouse,moved,933,363
+1563326559614,I,mouse,moved,933,363
+1563326559614,I,mouse,moved,936,363
+1563326559614,I,mouse,moved,936,363
+1563326559614,I,mouse,moved,938,362
+1563326559614,I,mouse,moved,938,362
+1563326559644,I,mouse,moved,940,362
+1563326559644,I,mouse,moved,940,362
+1563326559644,I,mouse,moved,941,361
+1563326559644,I,mouse,moved,941,361
+1563326559644,I,mouse,moved,942,360
+1563326559644,I,mouse,moved,942,360
+1563326559644,I,mouse,moved,943,359
+1563326559680,I,mouse,moved,943,359
+1563326559680,I,mouse,moved,944,357
+1563326559680,I,mouse,moved,944,357
+1563326559680,I,mouse,moved,944,355
+1563326559680,I,mouse,moved,944,355
+1563326559680,I,mouse,moved,944,353
+1563326559681,I,mouse,moved,944,353
+1563326559681,I,mouse,moved,944,352
+1563326559681,I,mouse,moved,944,352
+1563326559710,I,mouse,moved,944,350
+1563326559710,I,mouse,moved,944,350
+1563326559710,I,mouse,moved,943,348
+1563326559710,I,mouse,moved,943,348
+1563326559710,I,mouse,moved,942,347
+1563326559710,I,mouse,moved,942,347
+1563326559710,I,mouse,moved,941,346
+1563326559710,I,mouse,moved,941,346
+1563326559744,I,mouse,moved,938,345
+1563326559744,I,mouse,moved,938,345
+1563326559744,I,mouse,moved,937,345
+1563326559744,I,mouse,moved,937,345
+1563326559745,I,mouse,moved,935,345
+1563326559745,I,mouse,moved,935,345
+1563326559745,I,mouse,moved,934,345
+1563326559745,I,mouse,moved,934,345
+1563326559778,I,mouse,moved,933,345
+1563326559778,I,mouse,moved,933,345
+1563326559778,I,mouse,moved,931,345
+1563326559778,I,mouse,moved,931,345
+1563326559778,I,mouse,moved,931,346
+1563326559778,I,mouse,moved,931,346
+1563326559778,I,mouse,moved,930,346
+1563326559778,I,mouse,moved,930,346
+1563326559778,I,mouse,moved,930,346
+1563326559814,I,mouse,moved,930,346
+1563326559814,I,mouse,moved,929,347
+1563326559814,I,mouse,moved,929,347
+1563326559814,I,mouse,mousepressed,929,347
+1563326564787,E,trial,{"type":"end","label":"sends","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"0","blockNum":"0","datetime":"2019-07-17T01:22:44.782Z","duration":"PT6.017S"}
+1563326564788,E,trial,{"type":"start","label":"Left_Close_0_On","targetType":"posture","sequenceNum":"0","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:22:44.788Z"}
+1563326570792,E,trial,{"type":"end","label":"Left_Close_0_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"0","blockNum":"0","datetime":"2019-07-17T01:22:50.792Z","duration":"PT6.004S"}
+1563326570813,E,sequence,{"type":"end","num":"1","datetime":"2019-07-17T01:22:50.813Z","duration":"PT12.048S"}
+1563326570813,E,sequence,{"type":"start","blockNum":"0","num":"1","taskOrder":"1","datetime":"2019-07-17T01:22:50.813Z"}
+1563326570813,E,trial,{"type":"start","label":"H","targetType":"shortcut","sequenceNum":"1","blockNum":"0","num":"0","startX":"1080","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:22:50.813Z"}
+1563326574146,I,keyboard,keypressed,157,none
+1563326575013,I,mouse,moved,1058,95
+1563326575013,I,mouse,moved,1058,95
+1563326575013,I,mouse,moved,1084,58
+1563326575013,I,mouse,moved,1084,58
+1563326576344,I,mouse,moved,1351,47
+1563326576344,I,mouse,moved,1351,47
+1563326576378,I,mouse,moved,1337,62
+1563326576378,I,mouse,moved,1337,62
+1563326576379,I,mouse,moved,1331,69
+1563326576379,I,mouse,moved,1331,69
+1563326576379,I,mouse,moved,1312,90
+1563326576379,I,mouse,moved,1312,90
+1563326576379,I,mouse,moved,1298,107
+1563326576379,I,mouse,moved,1298,107
+1563326576411,I,mouse,moved,1282,126
+1563326576411,I,mouse,moved,1282,126
+1563326576815,E,trial,{"type":"end","label":"H","action":"miss","currScore":"0","targetType":"shortcut","num":"0","sequenceNum":"1","blockNum":"0","datetime":"2019-07-17T01:22:56.815Z","duration":"PT6.002S"}
+1563326576815,E,trial,{"type":"start","label":"Left_Close_0_Below","targetType":"posture","sequenceNum":"1","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:22:56.815Z"}
+1563326582825,E,trial,{"type":"end","label":"Left_Close_0_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"1","blockNum":"0","datetime":"2019-07-17T01:23:02.825Z","duration":"PT6.01S"}
+1563326582847,E,sequence,{"type":"end","num":"2","datetime":"2019-07-17T01:23:02.847Z","duration":"PT12.034S"}
+1563326582847,E,sequence,{"type":"start","blockNum":"0","num":"2","taskOrder":"2","datetime":"2019-07-17T01:23:02.847Z"}
+1563326582847,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"2","blockNum":"0","num":"0","startX":"267","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:23:02.847Z"}
+1563326588848,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"2","blockNum":"0","datetime":"2019-07-17T01:23:08.848Z","duration":"PT6.001S"}
+1563326588848,E,trial,{"type":"start","label":"Left_Close_0_Beside","targetType":"posture","sequenceNum":"2","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:23:08.848Z"}
+1563326594856,E,trial,{"type":"end","label":"Left_Close_0_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"2","blockNum":"0","datetime":"2019-07-17T01:23:14.856Z","duration":"PT6.008S"}
+1563326594879,E,sequence,{"type":"end","num":"3","datetime":"2019-07-17T01:23:14.879Z","duration":"PT12.032S"}
+1563326594879,E,sequence,{"type":"start","blockNum":"0","num":"3","taskOrder":"3","datetime":"2019-07-17T01:23:14.879Z"}
+1563326594879,E,trial,{"type":"start","label":"While","targetType":"word","sequenceNum":"3","blockNum":"0","num":"0","startX":"12","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:23:14.879Z"}
+1563326600880,E,trial,{"type":"end","label":"While","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"3","blockNum":"0","datetime":"2019-07-17T01:23:20.880Z","duration":"PT6.001S"}
+1563326600880,E,trial,{"type":"start","label":"Left_Close_90_On","targetType":"posture","sequenceNum":"3","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:23:20.880Z"}
+1563326606896,E,trial,{"type":"end","label":"Left_Close_90_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"3","blockNum":"0","datetime":"2019-07-17T01:23:26.896Z","duration":"PT6.016S"}
+1563326606912,E,sequence,{"type":"end","num":"4","datetime":"2019-07-17T01:23:26.912Z","duration":"PT12.033S"}
+1563326606912,E,sequence,{"type":"start","blockNum":"0","num":"4","taskOrder":"4","datetime":"2019-07-17T01:23:26.912Z"}
+1563326606912,E,trial,{"type":"start","label":"Q","targetType":"shortcut","sequenceNum":"4","blockNum":"0","num":"0","startX":"1264","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:23:26.912Z"}
+1563326612914,E,trial,{"type":"end","label":"Q","action":"miss","currScore":"0","targetType":"shortcut","num":"0","sequenceNum":"4","blockNum":"0","datetime":"2019-07-17T01:23:32.913Z","duration":"PT6.001S"}
+1563326612914,E,trial,{"type":"start","label":"Left_Close_90_Below","targetType":"posture","sequenceNum":"4","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:23:32.914Z"}
+1563326618923,E,trial,{"type":"end","label":"Left_Close_90_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"4","blockNum":"0","datetime":"2019-07-17T01:23:38.923Z","duration":"PT6.009S"}
+1563326618951,E,sequence,{"type":"end","num":"5","datetime":"2019-07-17T01:23:38.951Z","duration":"PT12.039S"}
+1563326618951,E,sequence,{"type":"start","blockNum":"0","num":"5","taskOrder":"5","datetime":"2019-07-17T01:23:38.951Z"}
+1563326618951,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"5","blockNum":"0","num":"0","startX":"213","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:23:38.951Z"}
+1563326624981,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"5","blockNum":"0","datetime":"2019-07-17T01:23:44.981Z","duration":"PT6.03S"}
+1563326624981,E,trial,{"type":"start","label":"Left_Close_90_Beside","targetType":"posture","sequenceNum":"5","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:23:44.981Z"}
+1563326630993,E,trial,{"type":"end","label":"Left_Close_90_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"5","blockNum":"0","datetime":"2019-07-17T01:23:50.993Z","duration":"PT6.012S"}
+1563326631012,E,sequence,{"type":"end","num":"6","datetime":"2019-07-17T01:23:51.012Z","duration":"PT12.061S"}
+1563326631012,E,sequence,{"type":"start","blockNum":"0","num":"6","taskOrder":"6","datetime":"2019-07-17T01:23:51.012Z"}
+1563326631012,E,trial,{"type":"start","label":"Astor","targetType":"word","sequenceNum":"6","blockNum":"0","num":"0","startX":"953","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:23:51.012Z"}
+1563326637013,E,trial,{"type":"end","label":"Astor","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"6","blockNum":"0","datetime":"2019-07-17T01:23:57.013Z","duration":"PT6.001S"}
+1563326637013,E,trial,{"type":"start","label":"Left_Close_180_On","targetType":"posture","sequenceNum":"6","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:23:57.013Z"}
+1563326643028,E,trial,{"type":"end","label":"Left_Close_180_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"6","blockNum":"0","datetime":"2019-07-17T01:24:03.028Z","duration":"PT6.015S"}
+1563326643049,E,sequence,{"type":"end","num":"7","datetime":"2019-07-17T01:24:03.049Z","duration":"PT12.037S"}
+1563326643049,E,sequence,{"type":"start","blockNum":"0","num":"7","taskOrder":"7","datetime":"2019-07-17T01:24:03.049Z"}
+1563326643049,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"7","blockNum":"0","num":"0","startX":"952","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:24:03.049Z"}
+1563326649084,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"7","blockNum":"0","datetime":"2019-07-17T01:24:09.083Z","duration":"PT6.034S"}
+1563326649084,E,trial,{"type":"start","label":"Left_Close_180_Below","targetType":"posture","sequenceNum":"7","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:24:09.084Z"}
+1563326655095,E,trial,{"type":"end","label":"Left_Close_180_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"7","blockNum":"0","datetime":"2019-07-17T01:24:15.094Z","duration":"PT6.01S"}
+1563326655118,E,sequence,{"type":"end","num":"8","datetime":"2019-07-17T01:24:15.118Z","duration":"PT12.069S"}
+1563326655119,E,sequence,{"type":"start","blockNum":"0","num":"8","taskOrder":"8","datetime":"2019-07-17T01:24:15.119Z"}
+1563326655119,E,trial,{"type":"start","label":"razor","targetType":"word","sequenceNum":"8","blockNum":"0","num":"0","startX":"144","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:24:15.119Z"}
+1563326661120,E,trial,{"type":"end","label":"razor","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"8","blockNum":"0","datetime":"2019-07-17T01:24:21.120Z","duration":"PT6.001S"}
+1563326661120,E,trial,{"type":"start","label":"Left_Close_180_Beside","targetType":"posture","sequenceNum":"8","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:24:21.120Z"}
+1563326667126,E,trial,{"type":"end","label":"Left_Close_180_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"8","blockNum":"0","datetime":"2019-07-17T01:24:27.126Z","duration":"PT6.006S"}
+1563326667149,E,sequence,{"type":"end","num":"9","datetime":"2019-07-17T01:24:27.149Z","duration":"PT12.03S"}
+1563326667149,E,sequence,{"type":"start","blockNum":"0","num":"9","taskOrder":"9","datetime":"2019-07-17T01:24:27.149Z"}
+1563326667149,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"9","blockNum":"0","num":"0","startX":"163","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:24:27.149Z"}
+1563326673152,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"9","blockNum":"0","datetime":"2019-07-17T01:24:33.151Z","duration":"PT6.002S"}
+1563326673152,E,trial,{"type":"start","label":"Left_Open_0_On","targetType":"posture","sequenceNum":"9","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:24:33.152Z"}
+1563326679162,E,trial,{"type":"end","label":"Left_Open_0_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"9","blockNum":"0","datetime":"2019-07-17T01:24:39.161Z","duration":"PT6.009S"}
+1563326679186,E,sequence,{"type":"end","num":"10","datetime":"2019-07-17T01:24:39.185Z","duration":"PT12.036S"}
+1563326679186,E,sequence,{"type":"start","blockNum":"0","num":"10","taskOrder":"10","datetime":"2019-07-17T01:24:39.186Z"}
+1563326679186,E,trial,{"type":"start","label":"R","targetType":"shortcut","sequenceNum":"10","blockNum":"0","num":"0","startX":"499","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:24:39.186Z"}
+1563326685216,E,trial,{"type":"end","label":"R","action":"miss","currScore":"0","targetType":"shortcut","num":"0","sequenceNum":"10","blockNum":"0","datetime":"2019-07-17T01:24:45.216Z","duration":"PT6.03S"}
+1563326685216,E,trial,{"type":"start","label":"Left_Open_0_Below","targetType":"posture","sequenceNum":"10","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:24:45.216Z"}
+1563326691231,E,trial,{"type":"end","label":"Left_Open_0_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"10","blockNum":"0","datetime":"2019-07-17T01:24:51.231Z","duration":"PT6.015S"}
+1563326691250,E,sequence,{"type":"end","num":"11","datetime":"2019-07-17T01:24:51.250Z","duration":"PT12.064S"}
+1563326691250,E,sequence,{"type":"start","blockNum":"0","num":"11","taskOrder":"11","datetime":"2019-07-17T01:24:51.250Z"}
+1563326691250,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"11","blockNum":"0","num":"0","startX":"539","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:24:51.250Z"}
+1563326697288,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"11","blockNum":"0","datetime":"2019-07-17T01:24:57.287Z","duration":"PT6.037S"}
+1563326697288,E,trial,{"type":"start","label":"Left_Open_0_Beside","targetType":"posture","sequenceNum":"11","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:24:57.288Z"}
+1563326703299,E,trial,{"type":"end","label":"Left_Open_0_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"11","blockNum":"0","datetime":"2019-07-17T01:25:03.299Z","duration":"PT6.011S"}
+1563326703320,E,sequence,{"type":"end","num":"12","datetime":"2019-07-17T01:25:03.319Z","duration":"PT12.069S"}
+1563326703320,E,sequence,{"type":"start","blockNum":"0","num":"12","taskOrder":"12","datetime":"2019-07-17T01:25:03.320Z"}
+1563326703320,E,trial,{"type":"start","label":"gaunt","targetType":"word","sequenceNum":"12","blockNum":"0","num":"0","startX":"1025","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:25:03.320Z"}
+1563326709322,E,trial,{"type":"end","label":"gaunt","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"12","blockNum":"0","datetime":"2019-07-17T01:25:09.322Z","duration":"PT6.002S"}
+1563326709322,E,trial,{"type":"start","label":"Left_Open_90_On","targetType":"posture","sequenceNum":"12","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:25:09.322Z"}
+1563326715332,E,trial,{"type":"end","label":"Left_Open_90_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"12","blockNum":"0","datetime":"2019-07-17T01:25:15.332Z","duration":"PT6.01S"}
+1563326715353,E,sequence,{"type":"end","num":"13","datetime":"2019-07-17T01:25:15.353Z","duration":"PT12.033S"}
+1563326715353,E,sequence,{"type":"start","blockNum":"0","num":"13","taskOrder":"13","datetime":"2019-07-17T01:25:15.353Z"}
+1563326715353,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"13","blockNum":"0","num":"0","startX":"276","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:25:15.353Z"}
+1563326721356,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"13","blockNum":"0","datetime":"2019-07-17T01:25:21.356Z","duration":"PT6.003S"}
+1563326721356,E,trial,{"type":"start","label":"Left_Open_90_Below","targetType":"posture","sequenceNum":"13","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:25:21.356Z"}
+1563326727368,E,trial,{"type":"end","label":"Left_Open_90_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"13","blockNum":"0","datetime":"2019-07-17T01:25:27.367Z","duration":"PT6.011S"}
+1563326727384,E,sequence,{"type":"end","num":"14","datetime":"2019-07-17T01:25:27.384Z","duration":"PT12.031S"}
+1563326727384,E,sequence,{"type":"start","blockNum":"0","num":"14","taskOrder":"14","datetime":"2019-07-17T01:25:27.384Z"}
+1563326727385,E,trial,{"type":"start","label":"P","targetType":"shortcut","sequenceNum":"14","blockNum":"0","num":"0","startX":"447","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:25:27.385Z"}
+1563326733387,E,trial,{"type":"end","label":"P","action":"miss","currScore":"0","targetType":"shortcut","num":"0","sequenceNum":"14","blockNum":"0","datetime":"2019-07-17T01:25:33.386Z","duration":"PT6.001S"}
+1563326733387,E,trial,{"type":"start","label":"Left_Open_90_Beside","targetType":"posture","sequenceNum":"14","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:25:33.387Z"}
+1563326739401,E,trial,{"type":"end","label":"Left_Open_90_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"14","blockNum":"0","datetime":"2019-07-17T01:25:39.401Z","duration":"PT6.014S"}
+1563326739420,E,sequence,{"type":"end","num":"15","datetime":"2019-07-17T01:25:39.419Z","duration":"PT12.035S"}
+1563326739420,E,sequence,{"type":"start","blockNum":"0","num":"15","taskOrder":"15","datetime":"2019-07-17T01:25:39.420Z"}
+1563326739420,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"15","blockNum":"0","num":"0","startX":"1303","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:25:39.420Z"}
+1563326745455,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"15","blockNum":"0","datetime":"2019-07-17T01:25:45.454Z","duration":"PT6.034S"}
+1563326745455,E,trial,{"type":"start","label":"Left_Open_180_On","targetType":"posture","sequenceNum":"15","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:25:45.455Z"}
+1563326751467,E,trial,{"type":"end","label":"Left_Open_180_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"15","blockNum":"0","datetime":"2019-07-17T01:25:51.467Z","duration":"PT6.012S"}
+1563326751488,E,sequence,{"type":"end","num":"16","datetime":"2019-07-17T01:25:51.488Z","duration":"PT12.068S"}
+1563326751488,E,sequence,{"type":"start","blockNum":"0","num":"16","taskOrder":"16","datetime":"2019-07-17T01:25:51.488Z"}
+1563326751488,E,trial,{"type":"start","label":"whirl","targetType":"word","sequenceNum":"16","blockNum":"0","num":"0","startX":"1134","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:25:51.488Z"}
+1563326757522,E,trial,{"type":"end","label":"whirl","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"16","blockNum":"0","datetime":"2019-07-17T01:25:57.522Z","duration":"PT6.034S"}
+1563326757522,E,trial,{"type":"start","label":"Left_Open_180_Below","targetType":"posture","sequenceNum":"16","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:25:57.522Z"}
+1563326763533,E,trial,{"type":"end","label":"Left_Open_180_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"16","blockNum":"0","datetime":"2019-07-17T01:26:03.533Z","duration":"PT6.011S"}
+1563326763554,E,sequence,{"type":"end","num":"17","datetime":"2019-07-17T01:26:03.554Z","duration":"PT12.066S"}
+1563326763554,E,sequence,{"type":"start","blockNum":"0","num":"17","taskOrder":"17","datetime":"2019-07-17T01:26:03.554Z"}
+1563326763554,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"17","blockNum":"0","num":"0","startX":"515","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:26:03.554Z"}
+1563326769591,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"17","blockNum":"0","datetime":"2019-07-17T01:26:09.591Z","duration":"PT6.037S"}
+1563326769591,E,trial,{"type":"start","label":"Left_Open_180_Beside","targetType":"posture","sequenceNum":"17","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:26:09.591Z"}
+1563326775600,E,trial,{"type":"end","label":"Left_Open_180_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"17","blockNum":"0","datetime":"2019-07-17T01:26:15.600Z","duration":"PT6.009S"}
+1563326775624,E,sequence,{"type":"end","num":"18","datetime":"2019-07-17T01:26:15.624Z","duration":"PT12.07S"}
+1563326775624,E,sequence,{"type":"start","blockNum":"0","num":"18","taskOrder":"18","datetime":"2019-07-17T01:26:15.624Z"}
+1563326775624,E,trial,{"type":"start","label":"these","targetType":"word","sequenceNum":"18","blockNum":"0","num":"0","startX":"76","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:26:15.624Z"}
+1563326781659,E,trial,{"type":"end","label":"these","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"18","blockNum":"0","datetime":"2019-07-17T01:26:21.658Z","duration":"PT6.034S"}
+1563326781659,E,trial,{"type":"start","label":"Right_Close_0_On","targetType":"posture","sequenceNum":"18","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:26:21.659Z"}
+1563326787667,E,trial,{"type":"end","label":"Right_Close_0_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"18","blockNum":"0","datetime":"2019-07-17T01:26:27.666Z","duration":"PT6.007S"}
+1563326787686,E,sequence,{"type":"end","num":"19","datetime":"2019-07-17T01:26:27.686Z","duration":"PT12.062S"}
+1563326787686,E,sequence,{"type":"start","blockNum":"0","num":"19","taskOrder":"19","datetime":"2019-07-17T01:26:27.686Z"}
+1563326787686,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"19","blockNum":"0","num":"0","startX":"1031","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:26:27.686Z"}
+1563326793688,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"19","blockNum":"0","datetime":"2019-07-17T01:26:33.688Z","duration":"PT6.002S"}
+1563326793688,E,trial,{"type":"start","label":"Right_Close_0_Below","targetType":"posture","sequenceNum":"19","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:26:33.688Z"}
+1563326799699,E,trial,{"type":"end","label":"Right_Close_0_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"19","blockNum":"0","datetime":"2019-07-17T01:26:39.699Z","duration":"PT6.011S"}
+1563326799723,E,sequence,{"type":"end","num":"20","datetime":"2019-07-17T01:26:39.723Z","duration":"PT12.037S"}
+1563326799723,E,sequence,{"type":"start","blockNum":"0","num":"20","taskOrder":"20","datetime":"2019-07-17T01:26:39.723Z"}
+1563326799723,E,trial,{"type":"start","label":"O","targetType":"shortcut","sequenceNum":"20","blockNum":"0","num":"0","startX":"950","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:26:39.723Z"}
+1563326805726,E,trial,{"type":"end","label":"O","action":"miss","currScore":"0","targetType":"shortcut","num":"0","sequenceNum":"20","blockNum":"0","datetime":"2019-07-17T01:26:45.726Z","duration":"PT6.003S"}
+1563326805726,E,trial,{"type":"start","label":"Right_Close_0_Beside","targetType":"posture","sequenceNum":"20","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:26:45.726Z"}
+1563326811734,E,trial,{"type":"end","label":"Right_Close_0_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"20","blockNum":"0","datetime":"2019-07-17T01:26:51.734Z","duration":"PT6.008S"}
+1563326811754,E,sequence,{"type":"end","num":"21","datetime":"2019-07-17T01:26:51.754Z","duration":"PT12.031S"}
+1563326811754,E,sequence,{"type":"start","blockNum":"0","num":"21","taskOrder":"21","datetime":"2019-07-17T01:26:51.754Z"}
+1563326811754,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"21","blockNum":"0","num":"0","startX":"437","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:26:51.754Z"}
+1563326817761,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"21","blockNum":"0","datetime":"2019-07-17T01:26:57.760Z","duration":"PT6.006S"}
+1563326817761,E,trial,{"type":"start","label":"Right_Close_90_On","targetType":"posture","sequenceNum":"21","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:26:57.761Z"}
+1563326823768,E,trial,{"type":"end","label":"Right_Close_90_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"21","blockNum":"0","datetime":"2019-07-17T01:27:03.768Z","duration":"PT6.007S"}
+1563326823790,E,sequence,{"type":"end","num":"22","datetime":"2019-07-17T01:27:03.790Z","duration":"PT12.036S"}
+1563326823790,E,sequence,{"type":"start","blockNum":"0","num":"22","taskOrder":"22","datetime":"2019-07-17T01:27:03.790Z"}
+1563326823790,E,trial,{"type":"start","label":"crash","targetType":"word","sequenceNum":"22","blockNum":"0","num":"0","startX":"353","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:27:03.790Z"}
+1563326829794,E,trial,{"type":"end","label":"crash","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"22","blockNum":"0","datetime":"2019-07-17T01:27:09.794Z","duration":"PT6.004S"}
+1563326829794,E,trial,{"type":"start","label":"Right_Close_90_Below","targetType":"posture","sequenceNum":"22","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:27:09.794Z"}
+1563326835802,E,trial,{"type":"end","label":"Right_Close_90_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"22","blockNum":"0","datetime":"2019-07-17T01:27:15.802Z","duration":"PT6.008S"}
+1563326835823,E,sequence,{"type":"end","num":"23","datetime":"2019-07-17T01:27:15.823Z","duration":"PT12.033S"}
+1563326835823,E,sequence,{"type":"start","blockNum":"0","num":"23","taskOrder":"23","datetime":"2019-07-17T01:27:15.823Z"}
+1563326835823,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"23","blockNum":"0","num":"0","startX":"1092","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:27:15.823Z"}
+1563326841827,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"23","blockNum":"0","datetime":"2019-07-17T01:27:21.827Z","duration":"PT6.004S"}
+1563326841827,E,trial,{"type":"start","label":"Right_Close_90_Beside","targetType":"posture","sequenceNum":"23","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:27:21.827Z"}
+1563326847835,E,trial,{"type":"end","label":"Right_Close_90_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"23","blockNum":"0","datetime":"2019-07-17T01:27:27.835Z","duration":"PT6.008S"}
+1563326847856,E,sequence,{"type":"end","num":"24","datetime":"2019-07-17T01:27:27.855Z","duration":"PT12.032S"}
+1563326847856,E,sequence,{"type":"start","blockNum":"0","num":"24","taskOrder":"24","datetime":"2019-07-17T01:27:27.856Z"}
+1563326847856,E,trial,{"type":"start","label":"Seven","targetType":"word","sequenceNum":"24","blockNum":"0","num":"0","startX":"735","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:27:27.856Z"}
+1563326853862,E,trial,{"type":"end","label":"Seven","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"24","blockNum":"0","datetime":"2019-07-17T01:27:33.862Z","duration":"PT6.006S"}
+1563326853862,E,trial,{"type":"start","label":"Right_Close_180_On","targetType":"posture","sequenceNum":"24","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:27:33.862Z"}
+1563326859874,E,trial,{"type":"end","label":"Right_Close_180_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"24","blockNum":"0","datetime":"2019-07-17T01:27:39.873Z","duration":"PT6.011S"}
+1563326859890,E,sequence,{"type":"end","num":"25","datetime":"2019-07-17T01:27:39.890Z","duration":"PT12.034S"}
+1563326859890,E,sequence,{"type":"start","blockNum":"0","num":"25","taskOrder":"25","datetime":"2019-07-17T01:27:39.890Z"}
+1563326859890,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"25","blockNum":"0","num":"0","startX":"1103","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:27:39.890Z"}
+1563326865893,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"25","blockNum":"0","datetime":"2019-07-17T01:27:45.893Z","duration":"PT6.003S"}
+1563326865893,E,trial,{"type":"start","label":"Right_Close_180_Below","targetType":"posture","sequenceNum":"25","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:27:45.893Z"}
+1563326871904,E,trial,{"type":"end","label":"Right_Close_180_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"25","blockNum":"0","datetime":"2019-07-17T01:27:51.904Z","duration":"PT6.011S"}
+1563326871926,E,sequence,{"type":"end","num":"26","datetime":"2019-07-17T01:27:51.926Z","duration":"PT12.036S"}
+1563326871926,E,sequence,{"type":"start","blockNum":"0","num":"26","taskOrder":"26","datetime":"2019-07-17T01:27:51.926Z"}
+1563326871926,E,trial,{"type":"start","label":"up","targetType":"shortcut","sequenceNum":"26","blockNum":"0","num":"0","startX":"643","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:27:51.926Z"}
+1563326877930,E,trial,{"type":"end","label":"up","action":"miss","currScore":"0","targetType":"shortcut","num":"0","sequenceNum":"26","blockNum":"0","datetime":"2019-07-17T01:27:57.930Z","duration":"PT6.004S"}
+1563326877930,E,trial,{"type":"start","label":"Right_Close_180_Beside","targetType":"posture","sequenceNum":"26","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:27:57.930Z"}
+1563326883937,E,trial,{"type":"end","label":"Right_Close_180_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"26","blockNum":"0","datetime":"2019-07-17T01:28:03.937Z","duration":"PT6.007S"}
+1563326883958,E,sequence,{"type":"end","num":"27","datetime":"2019-07-17T01:28:03.958Z","duration":"PT12.032S"}
+1563326883958,E,sequence,{"type":"start","blockNum":"0","num":"27","taskOrder":"27","datetime":"2019-07-17T01:28:03.958Z"}
+1563326883958,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"27","blockNum":"0","num":"0","startX":"146","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:28:03.958Z"}
+1563326889962,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"27","blockNum":"0","datetime":"2019-07-17T01:28:09.962Z","duration":"PT6.004S"}
+1563326889962,E,trial,{"type":"start","label":"Right_Open_0_On","targetType":"posture","sequenceNum":"27","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:28:09.962Z"}
+1563326895971,E,trial,{"type":"end","label":"Right_Open_0_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"27","blockNum":"0","datetime":"2019-07-17T01:28:15.971Z","duration":"PT6.009S"}
+1563326895994,E,sequence,{"type":"end","num":"28","datetime":"2019-07-17T01:28:15.994Z","duration":"PT12.036S"}
+1563326895994,E,sequence,{"type":"start","blockNum":"0","num":"28","taskOrder":"28","datetime":"2019-07-17T01:28:15.994Z"}
+1563326895994,E,trial,{"type":"start","label":"herbs","targetType":"word","sequenceNum":"28","blockNum":"0","num":"0","startX":"453","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:28:15.994Z"}
+1563326901997,E,trial,{"type":"end","label":"herbs","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"28","blockNum":"0","datetime":"2019-07-17T01:28:21.997Z","duration":"PT6.003S"}
+1563326901997,E,trial,{"type":"start","label":"Right_Open_0_Below","targetType":"posture","sequenceNum":"28","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:28:21.997Z"}
+1563326908007,E,trial,{"type":"end","label":"Right_Open_0_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"28","blockNum":"0","datetime":"2019-07-17T01:28:28.007Z","duration":"PT6.01S"}
+1563326908026,E,sequence,{"type":"end","num":"29","datetime":"2019-07-17T01:28:28.026Z","duration":"PT12.032S"}
+1563326908026,E,sequence,{"type":"start","blockNum":"0","num":"29","taskOrder":"29","datetime":"2019-07-17T01:28:28.026Z"}
+1563326908026,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"29","blockNum":"0","num":"0","startX":"714","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:28:28.026Z"}
+1563326914027,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"29","blockNum":"0","datetime":"2019-07-17T01:28:34.027Z","duration":"PT6.001S"}
+1563326914027,E,trial,{"type":"start","label":"Right_Open_0_Beside","targetType":"posture","sequenceNum":"29","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:28:34.027Z"}
+1563326920038,E,trial,{"type":"end","label":"Right_Open_0_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"29","blockNum":"0","datetime":"2019-07-17T01:28:40.037Z","duration":"PT6.01S"}
+1563326920062,E,sequence,{"type":"end","num":"30","datetime":"2019-07-17T01:28:40.061Z","duration":"PT12.035S"}
+1563326920062,E,sequence,{"type":"start","blockNum":"0","num":"30","taskOrder":"30","datetime":"2019-07-17T01:28:40.062Z"}
+1563326920062,E,trial,{"type":"start","label":"wryly","targetType":"word","sequenceNum":"30","blockNum":"0","num":"0","startX":"505","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:28:40.062Z"}
+1563326926065,E,trial,{"type":"end","label":"wryly","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"30","blockNum":"0","datetime":"2019-07-17T01:28:46.064Z","duration":"PT6.002S"}
+1563326926065,E,trial,{"type":"start","label":"Right_Open_90_On","targetType":"posture","sequenceNum":"30","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:28:46.065Z"}
+1563326932076,E,trial,{"type":"end","label":"Right_Open_90_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"30","blockNum":"0","datetime":"2019-07-17T01:28:52.076Z","duration":"PT6.011S"}
+1563326932096,E,sequence,{"type":"end","num":"31","datetime":"2019-07-17T01:28:52.096Z","duration":"PT12.034S"}
+1563326932096,E,sequence,{"type":"start","blockNum":"0","num":"31","taskOrder":"31","datetime":"2019-07-17T01:28:52.096Z"}
+1563326932096,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"31","blockNum":"0","num":"0","startX":"988","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:28:52.096Z"}
+1563326938099,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"31","blockNum":"0","datetime":"2019-07-17T01:28:58.098Z","duration":"PT6.002S"}
+1563326938099,E,trial,{"type":"start","label":"Right_Open_90_Below","targetType":"posture","sequenceNum":"31","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:28:58.099Z"}
+1563326944107,E,trial,{"type":"end","label":"Right_Open_90_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"31","blockNum":"0","datetime":"2019-07-17T01:29:04.107Z","duration":"PT6.008S"}
+1563326944129,E,sequence,{"type":"end","num":"32","datetime":"2019-07-17T01:29:04.129Z","duration":"PT12.033S"}
+1563326944129,E,sequence,{"type":"start","blockNum":"0","num":"32","taskOrder":"32","datetime":"2019-07-17T01:29:04.129Z"}
+1563326944129,E,trial,{"type":"start","label":"left","targetType":"shortcut","sequenceNum":"32","blockNum":"0","num":"0","startX":"711","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:29:04.129Z"}
+1563326950132,E,trial,{"type":"end","label":"left","action":"miss","currScore":"0","targetType":"shortcut","num":"0","sequenceNum":"32","blockNum":"0","datetime":"2019-07-17T01:29:10.132Z","duration":"PT6.003S"}
+1563326950132,E,trial,{"type":"start","label":"Right_Open_90_Beside","targetType":"posture","sequenceNum":"32","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:29:10.132Z"}
+1563326956143,E,trial,{"type":"end","label":"Right_Open_90_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"32","blockNum":"0","datetime":"2019-07-17T01:29:16.143Z","duration":"PT6.011S"}
+1563326956162,E,sequence,{"type":"end","num":"33","datetime":"2019-07-17T01:29:16.161Z","duration":"PT12.032S"}
+1563326956162,E,sequence,{"type":"start","blockNum":"0","num":"33","taskOrder":"33","datetime":"2019-07-17T01:29:16.162Z"}
+1563326956162,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"33","blockNum":"0","num":"0","startX":"666","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:29:16.162Z"}
+1563326962164,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"33","blockNum":"0","datetime":"2019-07-17T01:29:22.163Z","duration":"PT6.001S"}
+1563326962164,E,trial,{"type":"start","label":"Right_Open_180_On","targetType":"posture","sequenceNum":"33","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:29:22.164Z"}
+1563326968175,E,trial,{"type":"end","label":"Right_Open_180_On","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"33","blockNum":"0","datetime":"2019-07-17T01:29:28.175Z","duration":"PT6.011S"}
+1563326968196,E,sequence,{"type":"end","num":"34","datetime":"2019-07-17T01:29:28.196Z","duration":"PT12.034S"}
+1563326968196,E,sequence,{"type":"start","blockNum":"0","num":"34","taskOrder":"34","datetime":"2019-07-17T01:29:28.196Z"}
+1563326968196,E,trial,{"type":"start","label":"panic","targetType":"word","sequenceNum":"34","blockNum":"0","num":"0","startX":"250","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:29:28.196Z"}
+1563326974232,E,trial,{"type":"end","label":"panic","action":"miss","currScore":"0","targetType":"word","num":"0","sequenceNum":"34","blockNum":"0","datetime":"2019-07-17T01:29:34.232Z","duration":"PT6.036S"}
+1563326974232,E,trial,{"type":"start","label":"Right_Open_180_Below","targetType":"posture","sequenceNum":"34","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:29:34.232Z"}
+1563326980240,E,trial,{"type":"end","label":"Right_Open_180_Below","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"34","blockNum":"0","datetime":"2019-07-17T01:29:40.240Z","duration":"PT6.008S"}
+1563326980263,E,sequence,{"type":"end","num":"35","datetime":"2019-07-17T01:29:40.262Z","duration":"PT12.066S"}
+1563326980263,E,sequence,{"type":"start","blockNum":"0","num":"35","taskOrder":"35","datetime":"2019-07-17T01:29:40.263Z"}
+1563326980263,E,trial,{"type":"start","label":"click me","targetType":"click","sequenceNum":"35","blockNum":"0","num":"0","startX":"493","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:29:40.263Z"}
+1563326986268,E,trial,{"type":"end","label":"click me","action":"miss","currScore":"0","targetType":"click","num":"0","sequenceNum":"35","blockNum":"0","datetime":"2019-07-17T01:29:46.268Z","duration":"PT6.005S"}
+1563326986268,E,trial,{"type":"start","label":"Right_Open_180_Beside","targetType":"posture","sequenceNum":"35","blockNum":"0","num":"1","startX":"590","startY":"0","width":"100","height":"100","datetime":"2019-07-17T01:29:46.268Z"}
+1563326992276,E,trial,{"type":"end","label":"Right_Open_180_Beside","action":"miss","currScore":"-5","targetType":"posture","num":"1","sequenceNum":"35","blockNum":"0","datetime":"2019-07-17T01:29:52.276Z","duration":"PT6.008S"}
+1563326992298,E,sequence,{"type":"end","num":"35","datetime":"2019-07-17T01:29:52.298Z","duration":"PT12.035S"}
+1563326992299,E,block,{"type":"end","num":"0","datetime":"2019-07-17T01:29:52.299Z","duration":"PT7M13.542S"}
+1563326992332,E,experiment,{"type":"end","participantid":"nalin007","score":"0","datetime":"2019-07-17T01:29:52.332Z","duration":"PT7M13.588S"}

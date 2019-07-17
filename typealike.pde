@@ -1,34 +1,65 @@
-import processing.net.*;
+import processing.net.*; //<>//
 import java.util.List;
 import java.util.ListIterator;
 import processing.video.*;
 import com.hamoid.*;
 import processing.sound.*;
 
-VideoExport videoExport;
-Capture cam;
-SoundFile hit,miss;
-PImage grass;
-Client myClient; 
-LogHelper loghelper;
-String wordBeingTyped="";
-Boolean recordVideo=false;
-Boolean taskStarted=false; //<>// //<>//
-
-App app;
-String experimentStartTime, experimentEndTime, blockStartTime, blockEndTime, setStartTime, setEndTime, targetStartTime, targetEndTime;
 void setup() {
    //movie = new Movie (this,"hit.mp3");
   hit = new SoundFile(this,"hit.aiff");
   miss = new SoundFile(this,"miss.aiff");
-  grass = requestImage("images/grass.png");
+  
+  iconSet.put("grass",requestImage("images/grass.png"));
+  iconSet.put("keyboardBase",requestImage("images/keyboardBase.png"));
+  iconSet.put("meteor",requestImage("images/meteor.png"));
+  iconSet.put("left_key",requestImage("images/left.png"));
+  iconSet.put("right_key",requestImage("images/right.png"));
+  iconSet.put("up_key",requestImage("images/up.png"));
+  iconSet.put("down_key",requestImage("images/down.png"));
+  iconSet.put("Left_Close_90",requestImage("images/Left_Close_90.png"));
+  iconSet.put("Right_Close_90",requestImage("images/Right_Close_90.png"));
+  iconSet.put("Left_Open_90",requestImage("images/Left_Open_90.png"));
+  iconSet.put("Right_Open_90",requestImage("images/Right_Open_90.png"));
+  iconSet.put("Left_Close_0",requestImage("images/Left_Close_0.png"));
+  iconSet.put("Right_Close_0",requestImage("images/Right_Close_0.png"));
+  iconSet.put("Left_Open_0",requestImage("images/Left_Open_0.png"));
+  iconSet.put("Right_Open_0",requestImage("images/Right_Open_0.png"));
+  iconSet.put("Left_Open_180",requestImage("images/Left_Open_180.png"));
+  iconSet.put("Right_Open_180",requestImage("images/Right_Open_180.png"));
+  iconSet.put("Left_Close_180",requestImage("images/Left_Close_180.png"));
+  iconSet.put("Right_Close_180",requestImage("images/Right_Close_180.png"));
 
   loghelper = new LogHelper();
+  
+  logger = new Logger(participantId, new GameEventWriter());
+  logger.enableLogging();
+  loghelper.logExperimentStart();
+
+  taskOrders = (modeId=="practice")?practiceOrder:experimentOrder;
+  numBlocks = taskOrders.length;
+  numSequences = taskOrders[0].length;
+  numTrials = taskOrders[0][0].length;
+
   frameRate(30);
   fullScreen();
-  experimentId = "one";
+  if(experimentId=="one"){
+    cam = new Capture(this, 800, 600);
+    cam.start();
+    String filename = String.format("%s_%s_%s", participantId, modeId, startTime);
+    videoExport = new VideoExport(this, "videos/one/"+filename+".mp4", cam);
+    videoExport.setFrameRate(30); 
+    //videoExport.setQuality(100);
+    videoExport.startMovie();
+    recordVideo = true;
+  }
+  else if(experimentId=="two"){
+    println("connected");
+    myClient = new Client(this, "127.0.0.1", 25000);
+  }
   //modeId = "practice";
   //size(1400, 880);
+  app=new App();
 }
 
 void captureEvent(Capture video) {
@@ -40,72 +71,36 @@ void captureEvent(Capture video) {
 void draw() {
 
   background(255);
-  image(grass, 0, height-200, width, 400);
-  if(experimentId==""){
-    drawExperimentMenu();
-  }
-  else if(modeId==""){
-    drawTaskMenu();
 
-  }
-  else if(experimentId!="" && modeId!=""){
     if(!taskStarted){
-      logger = new Logger(participantId, new GameEventWriter());
-      logger.enableLogging();
+      drawExperimentMenu();
+    }
+    else{
+      if (recordVideo && experimentId=="one" && !gameoverflag){
+        if(verbose)
+          loghelper.VideoFrameEvent();
+        videoExport.saveFrame();
+      }
+      app.game.draw();    
+    }
 
-      if(experimentId=="one"){
-        cam = new Capture(this, 800, 600);
-        cam.start();
-        String filename = String.format("%s_%s_%s", participantId, modeId, time);
-        videoExport = new VideoExport(this, "videos/one/"+filename+".mp4", cam);
-        videoExport.setFrameRate(30); 
-        //videoExport.setQuality(100);
-        videoExport.startMovie();
-        recordVideo = true;
-      }
-      else if(experimentId=="two"){
-        println("connected");
-        myClient = new Client(this, "127.0.0.1", 25000);
-      }
-      
-      loghelper.logExperimentStart();
-      app=new App();
-      app.game.addSequence();
-      taskStarted=true;
-    }
-    if (recordVideo && experimentId=="one" && !gameoverflag){
-      if(verbose)
-        loghelper.VideoFrameEvent();
-      videoExport.saveFrame();
-    }
-    app.game.draw();
-  }
 }
 
 void drawExperimentMenu(){
     textSize(30);
     fill(0,0,0);
-    rect(width/2-200, height/2-200, 210, 80,5);
-    //rect(width/2+50, height/2-200, 210, 80,5);
-    fill(255,255,255);
-    text("Experiment 1",width/2-190,height/2-150);
-    //text("Experiment 2",width/2+60,height/2-150);
-}
-
-void drawTaskMenu(){
-    textSize(30);
-    fill(0,0,0);
     rect(width/2-100, height/2-200, 250, 80,5);
-    rect(width/2-100, height/2-100, 250, 80,5);
+    //rect(width/2-100, height/2-100, 250, 80,5);
     //rect(width/2-100, height/2, 200, 80,5);
     //rect(width/2-100, height/2+100, 200, 80,5);
     text("Experiment: "+experimentId,width/2-120,height/2-250);
     fill(255,255,255);
-    text("Practice",width/2-80,height/2-150);
-    text("Experiment",width/2-80,height/2-50);
+    text("Start",width/2-80,height/2-150);
+    //text("Experiment",width/2-80,height/2-50);
     //text("Task 2",width/2-50,height/2+50);
     //text("Task 3",width/2-50,height/2+150);
 }  
+
 
 void mouseMoved(){
   if(experimentId!="" && modeId!="")
@@ -118,24 +113,12 @@ void mousePressed(){
 }
 
 void mouseReleased() {
-if(experimentId==""){
-    if (mouseX >= width/2-200 && mouseX <= width/2+10 && 
-        mouseY >= height/2-200 && mouseY <= height/2-120) {
-          experimentId="one";
-        }
-    if (mouseX >= width/2+50 && mouseX <= width/2+260 && 
-        mouseY >= height/2-200 && mouseY <= height/2-120) {
-          experimentId="two";
-        }
-  }
-  else if(modeId==""){
+
+if(!taskStarted){
     if (mouseX >= width/2-100 && mouseX <= width/2+150 && 
         mouseY >= height/2-200 && mouseY <= height/2-120) {
-          modeId="practice";//"experiment";//
-          taskOrders = practiceOrder;
-          numBlocks = taskOrders.length;
-          numSequences = taskOrders[0].length;
-          numTrials = taskOrders[0][0].length;
+          app.game.addSequence();
+          taskStarted=true;
         }
     else if (mouseX >= width/2-100 && mouseX <= width/2+150 && 
         mouseY >= height/2-100 && mouseY <= height/2-20){
@@ -157,20 +140,17 @@ if(experimentId==""){
     //app.game.addSequence();
   }
   else{
-    ListIterator<Trial> itr = app.game.sets[app.game.currentSequence].sequence.listIterator();
-    while ( itr.hasNext() ) {
-      Trial c = itr.next();
-      if (c.type!="click")
-        continue;
-      if (mouseX >= c.x && mouseX <= c.x+c.w && 
-        mouseY >= c.y && mouseY <= c.y+c.h) {
-        //return true;
-        logger.doLog(new MouseInputEvent("mousereleased",mouseX,mouseY));
-        c.caught();  //return false;
-        c = null;
-        //itr.remove();
-      }
-    }
+
+      if (app.game.sequence.trial.type=="click")
+        if (mouseX >= app.game.sequence.trial.x && mouseX <= app.game.sequence.trial.x+app.game.sequence.trial.w && 
+          mouseY >= app.game.sequence.trial.y && mouseY <= app.game.sequence.trial.y+app.game.sequence.trial.h) {
+          //return true;
+          logger.doLog(new MouseInputEvent("mousereleased",mouseX,mouseY));
+          app.game.sequence.trial.caught();  //return false;
+          app.game.sequence.trial = null;
+          //itr.remove();
+        }
+
   }
   //if (mouseX > width-100 && mouseY> height-100) {
   //  saveVideo();
@@ -200,35 +180,31 @@ void keyPressed(KeyEvent ev) {
     //state  = stateNormal; // close input box
     if(app.game.currentSequence == numSequences)
       return;
-    ListIterator<Trial> itr = app.game.sets[app.game.currentSequence].sequence.listIterator();
-    while ( itr.hasNext() ) {
-      Trial c = itr.next();
-      if (wordBeingTyped.equals(c.label) && !c.isCaught) {
-        c.caught();
-        c = null;
+
+      if (wordBeingTyped.equals(app.game.sequence.trial.label) && !app.game.sequence.trial.isCaught) {
+        app.game.sequence.trial.caught();
+        //app.game.sequence.trial = null;
         //itr.remove();
         //itr.remove();
-        break;
+
       }
-    }
+
     wordBeingTyped="";
   } else if(experimentId!="" && modeId!=""){
     //if (keyCode != 16 && keyCode != 17 && keyCode != 18) {
     if(ev.isShiftDown() || ev.isControlDown() || ev.isAltDown()){
       //println(app.game.currentSequence);
-      ListIterator<Trial> itr = app.game.sets[app.game.currentSequence].sequence.listIterator();
-      while ( itr.hasNext() ) {
-        Trial c = itr.next();
-        if (c.modifierkey != "" && !c.isCaught ) {
-          if(c.shortcutkeycode==keyCode && ((c.modifierkey=="Ctrl" && ev.isControlDown()) || (c.modifierkey=="Shift" && ev.isShiftDown()) || (c.modifierkey=="Option" && ev.isAltDown()))){
-            logger.doLog(new KeyboardInputEvent("keypressed",Integer.toString(keyCode),c.modifierkey));
-            c.caught();
-            c = null;
+
+        if (app.game.sequence.trial.modifierkey != "" && !app.game.sequence.trial.isCaught ) {
+          if(app.game.sequence.trial.shortcutkeycode==keyCode && ((app.game.sequence.trial.modifierkey=="Ctrl" && ev.isControlDown()) || (app.game.sequence.trial.modifierkey=="Shift" && ev.isShiftDown()) || (app.game.sequence.trial.modifierkey=="Option" && ev.isAltDown()))){
+            logger.doLog(new KeyboardInputEvent("keypressed",Integer.toString(keyCode),app.game.sequence.trial.modifierkey));
+            app.game.sequence.trial.caught();
+            //app.game.sequence.trial = null;
             //itr.remove();
           }
-          break;
+          //break;
         }
-      } 
+
     }
     //println(keyCode);
     if (keyCode != 32 && keyCode != 16 && keyCode != 17 && keyCode != 18 && (keyCode < 112 || keyCode > 123) && (keyCode < 33|| keyCode > 40 ) && !ev.isControlDown() && !ev.isAltDown()){
