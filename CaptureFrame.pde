@@ -1,12 +1,12 @@
 public class CaptureFrame extends Thread
    {
      //Capture cam;
-     VideoExport videoExport;
+     VideoExport ve;
      private volatile boolean exit = false;
      CaptureFrame (VideoExport videoExport1 ) {
       //cam = cam1;
-      videoExport = videoExport1;
-      videoExport.startMovie();
+      ve = videoExport1;
+      ve.startMovie();
       //String filename = String.format("%s_%s_%s", participantId, modeId, startTime);
       ////videoExport = new VideoExport(this, "videos/one/"+filename+".mp4", cam);
       //videoExport.setFrameRate(30); 
@@ -20,9 +20,10 @@ public class CaptureFrame extends Thread
        print("Begin Capture");
       //captureImages();
       while(!exit){
+        ve.saveFrame();
       }
       
-      videoExport.endMovie();
+      ve.endMovie();
       println("VIDEO ENDED");
       println("End of Capture");
      }

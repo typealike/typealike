@@ -36,7 +36,7 @@ Boolean gameoverflag=false;
 
 String[][][] practiceOrder={
                             {
-                              //{"word","posture"}
+                              //{"word"}
                                {"word","posture"}, {"shortcut","posture"}, {"click","posture"}, {"word","posture"},
                                {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
                                {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},

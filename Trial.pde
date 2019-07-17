@@ -94,17 +94,28 @@ class Trial {
     //}
     //rect(x, y, w, h, cornerBezel);
     //image(background,x,y);
-      circle(100,200,10);
-      circle(150,300,10);
-      circle(200,400,10);
-      text(speed+", "+jitter, 200, 200);
+      //circle(100,100,10);
+      //circle(150,200,10);
+      //circle(200,300,10);
+      //text(speed+", "+jitter, 200, 200);
+      
     if(millis()-this.trialStartTime > 2000){
-      if(meteorY < 200){
-        speed += 2;
+      //if(meteorY < 200){
+      //  speed += 2;
+      //  this.jitter = 5;
+      //}
+      //if(meteorY < 300){
+      //  speed += 1;
+      //}
+      if(meteorY < 100){
+        speed = 25;
         this.jitter = 5;
       }
-      if(meteorY < 300){
-        speed += 1;
+      else if(meteorY < 200){
+        speed = max(speed,20);
+      }
+      else if(meteorY < 300){
+        speed = max(speed,15);
       }
       //if(meteorY < 100 && flag){
       //  speed = 20;

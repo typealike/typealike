@@ -1,0 +1,132 @@
+# Typealike Interactions
+#<time>,E,experiment,{type:start, participantid:<participantId>, study:<studyId>, datetime:<time>}
+#<time>,E,experiment,{type:end, participantid:<participantId>, score:<score>, datetime:<time>, duration:<duration>}
+#<time>,E,block,{type:start, num:<blockNum>, numBlocks:<numBlocks>, datetime:<time>}
+#<time>,E,block,{type:end, num:<blockNum>, datetime:<time>, duration:<numSeconds>}
+#<time>,E,sequence,{type:start, blockNum:<blockNum>, num:<sequenceNum>, datetime:<time>, taskOrder:<taskOrderIndex>}
+#<time>,E,sequence,{type:end, num:<sequenceNum>, datetime:<time>, duration:<numSeconds>}
+#<time>,E,trial,{type:start, label:<labelName>, targetType:<targetType>, datetime:<time>, sequenceNum:<sequenceNum>, blockNum:<blockNum>, num:<targetNum>, startX:<startX>, startY:<startY>, width:<targetWidth>, height:<targetHeight>}
+#<time>,E,trial,{type:end, label:<labelName>, action:<hit/miss>, targetType:<targetType>, num:<taskNum>, blockNum:<blockNum>, sequenceNum:<sequenceNum>, datetime:<time>, duration:<numSeconds>}
+#<time>,M,video, datetime:<time>
+# schema,{type:I, subtype:key, data:[event, keyname, modifierkey], type:[str,str], description:[<pressed/released>, <keycode>, <Shift/Ctrl/Alt/none>] }
+# schema,{type:I, subtype:mouse, data:[event, x, y], type:[str, int,int], description:[moved/pressed/released,<x-coordinate>,<y-coordinate>]}
+# schema,{type:I, subtype:posture, data:[name], type:[str], description:[<posture name>] }
+# START LOG
+1563348968498,E,experiment,{"type":"start","participantid":"nalin007","study":"one","datetime":"2019-07-17T07:36:08.475Z"}
+1563348968575,E,block,{"type":"start","num":"0","numBlocks":"1","datetime":"2019-07-17T07:36:08.575Z"}
+1563348969570,I,mouse,moved,899,409
+1563348969570,I,mouse,moved,899,409
+1563348969570,I,mouse,moved,901,407
+1563348969571,I,mouse,moved,901,407
+1563348969605,I,mouse,moved,902,405
+1563348969605,I,mouse,moved,902,405
+1563348969605,I,mouse,moved,904,403
+1563348969605,I,mouse,moved,904,403
+1563348969606,I,mouse,moved,905,401
+1563348969606,I,mouse,moved,905,401
+1563348969606,I,mouse,moved,906,399
+1563348969606,I,mouse,moved,906,399
+1563348969606,I,mouse,moved,907,397
+1563348969606,I,mouse,moved,907,397
+1563348969639,I,mouse,moved,909,395
+1563348969639,I,mouse,moved,909,395
+1563348969639,I,mouse,moved,909,394
+1563348969639,I,mouse,moved,909,394
+1563348969639,I,mouse,moved,910,393
+1563348969639,I,mouse,moved,910,393
+1563348969640,I,mouse,moved,910,393
+1563348969640,I,mouse,moved,910,393
+1563348969668,I,mouse,moved,911,392
+1563348969668,I,mouse,moved,911,392
+1563348969668,I,mouse,moved,911,392
+1563348969668,I,mouse,moved,911,392
+1563348969668,I,mouse,mousepressed,911,392
+1563348969835,E,sequence,{"type":"start","blockNum":"0","num":"0","taskOrder":"0","datetime":"2019-07-17T07:36:09.835Z"}
+1563348969836,E,trial,{"type":"start","label":"snail","targetType":"word","sequenceNum":"0","blockNum":"0","num":"0","startX":"1174","startY":"0","width":"100","height":"100","datetime":"2019-07-17T07:36:09.836Z"}
+1563348969870,M,video,{"datetime":"2019-07-17T07:36:09.870Z"}
+1563348969901,M,video,{"datetime":"2019-07-17T07:36:09.900Z"}
+1563348969935,M,video,{"datetime":"2019-07-17T07:36:09.935Z"}
+1563348969968,M,video,{"datetime":"2019-07-17T07:36:09.968Z"}
+1563348970003,M,video,{"datetime":"2019-07-17T07:36:10.003Z"}
+1563348970034,M,video,{"datetime":"2019-07-17T07:36:10.034Z"}
+1563348970070,M,video,{"datetime":"2019-07-17T07:36:10.070Z"}
+1563348970101,M,video,{"datetime":"2019-07-17T07:36:10.101Z"}
+1563348970135,M,video,{"datetime":"2019-07-17T07:36:10.135Z"}
+1563348970172,M,video,{"datetime":"2019-07-17T07:36:10.172Z"}
+1563348970201,M,video,{"datetime":"2019-07-17T07:36:10.201Z"}
+1563348970235,M,video,{"datetime":"2019-07-17T07:36:10.235Z"}
+1563348970269,M,video,{"datetime":"2019-07-17T07:36:10.269Z"}
+1563348970301,M,video,{"datetime":"2019-07-17T07:36:10.301Z"}
+1563348970335,M,video,{"datetime":"2019-07-17T07:36:10.335Z"}
+1563348970368,M,video,{"datetime":"2019-07-17T07:36:10.368Z"}
+1563348970404,M,video,{"datetime":"2019-07-17T07:36:10.404Z"}
+1563348970439,M,video,{"datetime":"2019-07-17T07:36:10.439Z"}
+1563348970468,M,video,{"datetime":"2019-07-17T07:36:10.468Z"}
+1563348970501,M,video,{"datetime":"2019-07-17T07:36:10.501Z"}
+1563348970536,M,video,{"datetime":"2019-07-17T07:36:10.536Z"}
+1563348970568,M,video,{"datetime":"2019-07-17T07:36:10.568Z"}
+1563348970601,M,video,{"datetime":"2019-07-17T07:36:10.601Z"}
+1563348970639,M,video,{"datetime":"2019-07-17T07:36:10.639Z"}
+1563348970672,M,video,{"datetime":"2019-07-17T07:36:10.671Z"}
+1563348970705,M,video,{"datetime":"2019-07-17T07:36:10.705Z"}
+1563348970735,M,video,{"datetime":"2019-07-17T07:36:10.735Z"}
+1563348970771,M,video,{"datetime":"2019-07-17T07:36:10.771Z"}
+1563348970802,M,video,{"datetime":"2019-07-17T07:36:10.802Z"}
+1563348970837,M,video,{"datetime":"2019-07-17T07:36:10.837Z"}
+1563348970870,M,video,{"datetime":"2019-07-17T07:36:10.870Z"}
+1563348970905,M,video,{"datetime":"2019-07-17T07:36:10.905Z"}
+1563348970938,M,video,{"datetime":"2019-07-17T07:36:10.938Z"}
+1563348970969,M,video,{"datetime":"2019-07-17T07:36:10.969Z"}
+1563348971006,M,video,{"datetime":"2019-07-17T07:36:11.006Z"}
+1563348971037,M,video,{"datetime":"2019-07-17T07:36:11.037Z"}
+1563348971070,M,video,{"datetime":"2019-07-17T07:36:11.069Z"}
+1563348971072,I,keyboard,keypressed,83,none
+1563348971102,M,video,{"datetime":"2019-07-17T07:36:11.102Z"}
+1563348971137,M,video,{"datetime":"2019-07-17T07:36:11.137Z"}
+1563348971172,M,video,{"datetime":"2019-07-17T07:36:11.172Z"}
+1563348971173,I,keyboard,keypressed,78,none
+1563348971174,I,keyboard,keyreleased,83,none
+1563348971206,M,video,{"datetime":"2019-07-17T07:36:11.206Z"}
+1563348971236,M,video,{"datetime":"2019-07-17T07:36:11.236Z"}
+1563348971238,I,keyboard,keyreleased,78,none
+1563348971273,M,video,{"datetime":"2019-07-17T07:36:11.273Z"}
+1563348971276,I,keyboard,keypressed,65,none
+1563348971306,M,video,{"datetime":"2019-07-17T07:36:11.306Z"}
+1563348971336,M,video,{"datetime":"2019-07-17T07:36:11.336Z"}
+1563348971369,M,video,{"datetime":"2019-07-17T07:36:11.369Z"}
+1563348971405,M,video,{"datetime":"2019-07-17T07:36:11.405Z"}
+1563348971436,M,video,{"datetime":"2019-07-17T07:36:11.436Z"}
+1563348971438,I,keyboard,keyreleased,65,none
+1563348971474,M,video,{"datetime":"2019-07-17T07:36:11.474Z"}
+1563348971506,M,video,{"datetime":"2019-07-17T07:36:11.506Z"}
+1563348971537,M,video,{"datetime":"2019-07-17T07:36:11.537Z"}
+1563348971573,M,video,{"datetime":"2019-07-17T07:36:11.573Z"}
+1563348971603,M,video,{"datetime":"2019-07-17T07:36:11.603Z"}
+1563348971605,I,keyboard,keypressed,73,none
+1563348971635,M,video,{"datetime":"2019-07-17T07:36:11.635Z"}
+1563348971668,M,video,{"datetime":"2019-07-17T07:36:11.667Z"}
+1563348971702,M,video,{"datetime":"2019-07-17T07:36:11.701Z"}
+1563348971703,I,keyboard,keyreleased,73,none
+1563348971737,M,video,{"datetime":"2019-07-17T07:36:11.737Z"}
+1563348971768,M,video,{"datetime":"2019-07-17T07:36:11.768Z"}
+1563348971802,M,video,{"datetime":"2019-07-17T07:36:11.801Z"}
+1563348971803,I,keyboard,keypressed,76,none
+1563348971836,M,video,{"datetime":"2019-07-17T07:36:11.836Z"}
+1563348971870,M,video,{"datetime":"2019-07-17T07:36:11.870Z"}
+1563348971904,M,video,{"datetime":"2019-07-17T07:36:11.904Z"}
+1563348971940,M,video,{"datetime":"2019-07-17T07:36:11.940Z"}
+1563348971942,I,keyboard,keyreleased,76,none
+1563348971972,M,video,{"datetime":"2019-07-17T07:36:11.972Z"}
+1563348972003,M,video,{"datetime":"2019-07-17T07:36:12.003Z"}
+1563348972037,M,video,{"datetime":"2019-07-17T07:36:12.037Z"}
+1563348972069,M,video,{"datetime":"2019-07-17T07:36:12.069Z"}
+1563348972102,M,video,{"datetime":"2019-07-17T07:36:12.102Z"}
+1563348972135,M,video,{"datetime":"2019-07-17T07:36:12.135Z"}
+1563348972171,M,video,{"datetime":"2019-07-17T07:36:12.171Z"}
+1563348972179,E,trial,{"type":"end","label":"snail","action":"hit","currScore":"0","targetType":"word","num":"0","sequenceNum":"0","blockNum":"0","datetime":"2019-07-17T07:36:12.174Z","duration":"PT2.338S"}
+1563348972203,M,video,{"datetime":"2019-07-17T07:36:12.203Z"}
+1563348972238,M,video,{"datetime":"2019-07-17T07:36:12.238Z"}
+1563348972238,E,sequence,{"type":"end","num":"0","datetime":"2019-07-17T07:36:12.238Z","duration":"PT2.403S"}
+1563348972239,E,block,{"type":"end","num":"0","datetime":"2019-07-17T07:36:12.239Z","duration":"PT3.663S"}
+1563348972268,M,video,{"datetime":"2019-07-17T07:36:12.268Z"}
+1563348972270,E,experiment,{"type":"end","participantid":"nalin007","score":"10","datetime":"2019-07-17T07:36:12.270Z","duration":"PT3.795S"}
