@@ -1,4 +1,4 @@
-String participantId = "nalin007";
+String participantId = "participant_1";
 String experimentId = "one"; //one/two
 String modeId = "practice";// practice/experiment
 
@@ -14,6 +14,7 @@ LogHelper loghelper;
 App app;
 Capture cam;
 Client myClient; 
+Server myServer;
 SoundFile hit,miss;
 VideoExport videoExport;
 

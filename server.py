@@ -10,34 +10,35 @@ cap = cv2.VideoCapture(0)
 cap.set(3,640)
 cap.set(4,480)
 cap.set(cv2.CAP_PROP_FPS, 30)
+print(cap.get(cv2.CAP_PROP_FPS))
 w = cap.get(cv2.CAP_PROP_FRAME_WIDTH);
 h = cap.get(cv2.CAP_PROP_FRAME_HEIGHT); 
 HOST = '127.0.0.1'                 # Symbolic name meaning all available interfaces
 PORT = 2500              # Arbitrary non-privileged port
 # Define the codec and create VideoWriter object
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-out = cv2.VideoWriter('output.mp4',fourcc, 30, (int(w),int(h)))
+out = cv2.VideoWriter('output.mp4',fourcc, 30.0, (int(w),int(h)))
 
 print("listening on "+str(HOST)+":"+str(PORT))
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind((HOST, PORT))
-s.listen(1)
-conn, addr = s.accept()
-print('Connected by', addr)
-flag = False
+# s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# s.bind((HOST, PORT))
+# s.listen(1)
+# conn, addr = s.accept()
+# print('Connected by', addr)
+# flag = False
 while(cap.isOpened()):
 	ret, frame = cap.read()
 	if ret==True:
 		frame = cv2.flip(frame,0)
-		data = conn.recv(1024)
-		print(data)
+		# data = conn.recv(1024)
+		# print(data)
 		# write the flipped frame
 		# if(flag):
 		out.write(frame)
 
 		cv2.imshow('frame',frame)
 
-		if data=="frme":#cv2.waitKey(1) & 0xFF == ord('q'):
+		if cv2.waitKey(1) & 0xFF == ord('q'):
 			break
 		# if not data:
 
@@ -58,7 +59,7 @@ cv2.destroyAllWindows()
 
 
 # Release everything if job is finished
-conn.close()
+# conn.close()
 
 
 # HOST = '127.0.0.1'                 # Symbolic name meaning all available interfaces

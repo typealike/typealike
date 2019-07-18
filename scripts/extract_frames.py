@@ -31,6 +31,7 @@ flag=False
 currentGetsure=""
 videoframes={}
 count=0
+frameIndex=0
 with open(projectroot+filepath+pidentifier) as f:
     content = f.readlines()
 
@@ -38,7 +39,10 @@ for line in content:
     if line[0] == '#':
         continue
     r = line.strip().split(',')
-    if r[1] != "M":
+
+    if r[1] == "M":
+        frameIndex+=1
+    else:
         if r[1] == "E" and r[2]=="trial":
             rr = splitn(line, ',', 3)
             ed = json.loads(rr[1])
@@ -53,7 +57,8 @@ for line in content:
         firstTimestamp = r[0]
         firstFrameVisited = True;
     if flag:
-        datarow = (str(int(30*(int(r[0])-int(firstTimestamp))/1000)),currentGesture)
+        # datarow = (str(int(30*(int(r[0])-int(firstTimestamp))/1000)),currentGesture)
+        datarow = (str(frameIndex),currentGesture)
 #         print(datarow)
         videoframes[datarow[0]]=datarow[1]
 #         videoframes.append(datarow)
@@ -62,9 +67,11 @@ for line in content:
     count+=1
 data.close()
 
-
 directory = projectroot+"/training/"+pidentifier[:-4]
-postureclasses = ["lefthandlock", "righthandlock", "bothhandlock", "lefthandpinch", "righthandpinch", "bothhandpinch", "bothhandcover", "lefthandfist", "righthandfist", "bothhandfist", "upperlefthandlock", "upperrighthandlock", "upperbothhandlock", "birdhand"];
+postureclasses = ["Left_Close_0_On","Left_Close_0_Below", "Left_Close_0_Beside", "Left_Close_90_On", "Left_Close_90_Below", "Left_Close_90_Beside", "Left_Close_180_On", "Left_Close_180_Below", "Left_Close_180_Beside",
+"Left_Open_0_On","Left_Open_0_Below", "Left_Open_0_Beside", "Left_Open_90_On", "Left_Open_90_Below", "Left_Open_90_Beside", "Left_Open_180_On", "Left_Open_180_Below", "Left_Open_180_Beside",
+"Right_Close_0_On","Right_Close_0_Below", "Right_Close_0_Beside", "Right_Close_90_On", "Right_Close_90_Below", "Right_Close_90_Beside", "Right_Close_180_On", "Right_Close_180_Below", "Right_Close_180_Beside",
+"Right_Open_0_On","Right_Open_0_Below", "Right_Open_0_Beside", "Right_Open_90_On", "Right_Open_90_Below", "Right_Open_90_Beside", "Right_Open_180_On", "Right_Open_180_Below", "Right_Open_180_Beside"]
 try:
     if not os.path.exists(directory):
         os.makedirs(directory)
@@ -86,5 +93,5 @@ with closing(VideoSequence(videofile)) as frames:
 #             break
 #         print(str(idx))
         if str(idx) in videoframes.keys():
-            frame.save("../training/"+pidentifier[:-4]+"/"+videoframes[str(idx)][:-4]+"/"+pidentifier[:]+"_frame_"+str(idx)+".jpg")
+            frame.save("../training/"+pidentifier[:-4]+"/"+videoframes[str(idx)]+"/"+pidentifier[:]+"_frame_"+str(idx)+".jpg")
             flag=False

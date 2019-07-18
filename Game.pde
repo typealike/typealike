@@ -265,7 +265,7 @@ class Game{
   void drawTextbox() {
     fill(0, 0, 0);
     //rect(0, height-100, width, 100, 1);
-    fill(255, 0, 0);
+    fill(50, 180, 50);
     textSize(40);
     text(wordBeingTyped+blinkChar(), width/2-50, height-80, 300, 50);
   }

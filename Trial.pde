@@ -30,6 +30,7 @@ class Trial {
       if (this.type=="posture") {
         x = width/2 - 250;
         y = height/2 - 200;
+        meteorX = x+250;
         
         posture = new Posture(lbl);
         
@@ -40,13 +41,16 @@ class Trial {
       } else if (this.type=="click") {
         x = (int) random(width-300);
         y = (int) random(100,height-200);
+        meteorX = x+100;
       } else {
         x = (int) random(width-300);
         y = (int) random(100,height-200);
+        meteorX = x+130;
         //x = (int) random(width-30);
         //y = -10;                // Start a little above the window
       }
-      meteorX = (int) random(width-300);
+      //meteorX = (int) random(width-300);
+      
       meteorY = -10;
       this.jitter = 2;
       c = color(50, 100, 150); // Color
@@ -70,7 +74,9 @@ class Trial {
     //if ((this.type!="posture" || experimentId!="one") && this.type!="click") {
     //  y += speed;
     //}
-    this.meteorY +=speed;
+    
+    this.meteorY = int((millis()-this.trialStartTime)*0.18);
+    //this.meteorY+=speed;
     
   }
 
@@ -97,8 +103,9 @@ class Trial {
       //circle(100,100,10);
       //circle(150,200,10);
       //circle(200,300,10);
-      //text(speed+", "+jitter, 200, 200);
-      
+      //text(height, 200, 200);
+    fill(255,0,0);
+    circle(this.meteorX, this.meteorY, 50);
     if(millis()-this.trialStartTime > 2000){
       //if(meteorY < 200){
       //  speed += 2;
@@ -107,16 +114,11 @@ class Trial {
       //if(meteorY < 300){
       //  speed += 1;
       //}
-      if(meteorY < 100){
-        speed = 25;
+      if(meteorY < 100)
+        this.jitter = 10;
+      else if(meteorY < 200)
         this.jitter = 5;
-      }
-      else if(meteorY < 200){
-        speed = max(speed,20);
-      }
-      else if(meteorY < 300){
-        speed = max(speed,15);
-      }
+
       //if(meteorY < 100 && flag){
       //  speed = 20;
       //  this.jitter = 5;
@@ -137,6 +139,7 @@ class Trial {
       if (this.type=="posture") {
         posture.wigglePose(jitter);
         textSize(30);
+        fill(0,0,0);
         text("Slightly wiggle your hand while maintaining the posture", x-150, y+400);
       }
     }
@@ -230,8 +233,6 @@ class Trial {
     }
     //image(iconSet.get("meteor"), this.meteorX, this.meteorY, 100, 100);
     //fill(14, 170, 14);
-    fill(255,0,0);
-    circle(this.meteorX, this.meteorY, 50);
   }
 
   // If the drop is caught
