@@ -1,4 +1,4 @@
-import processing.net.*; //<>//
+import processing.net.*; //<>// //<>//
 import java.util.List;
 import java.util.ListIterator;
 import processing.video.*;
@@ -44,13 +44,15 @@ void setup() {
   frameRate(30);
   fullScreen();
   if(experimentId=="one"){
-    cam = new Capture(this, 800, 600);
-    cam.start();
-    String filename = String.format("%s_%s_%s", participantId, modeId, startTime);
-    videoExport = new VideoExport(this, "videos/one/"+filename+".mp4", cam);
-    videoExport.setFrameRate(30); 
-    videoExport.setQuality(30,0);
-    videoExport.startMovie();
+    //cam = new Capture(this, 800, 600);
+    //cam.start();
+    //String filename = String.format("%s_%s_%s", participantId, modeId, startTime);
+    //videoExport = new VideoExport(this, "videos/one/"+filename+".mp4", cam);
+    //videoExport.setFrameRate(30); 
+    //videoExport.setQuality(30,0);
+    //videoExport.startMovie();
+    thread = new CaptureFrame(this);
+    thread.start();
     recordVideo = true;
     //myServer = new Server(this, 5204);
   }
@@ -80,8 +82,8 @@ void draw() {
       if (recordVideo && experimentId=="one" && !gameoverflag){
         if(verbose)
           loghelper.VideoFrameEvent();
-        videoExport.saveFrame();
-        //thread.de_que.addFirst(10);
+        //videoExport.saveFrame();
+        thread.de_que.addFirst(10);
         //myServer.write("capture");
       }
       app.game.draw();    
@@ -238,8 +240,8 @@ void exit() {
     println("VIDEO ENDED");
     //if (modeId=="experiment")
     //myServer.write("end");
-    //thread.complete = true;
-    videoExport.endMovie();
+    thread.complete = true;
+    //videoExport.endMovie();
     recordVideo = false;
   }
   if(cam!=null){
