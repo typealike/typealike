@@ -51,10 +51,11 @@ void setup() {
     //videoExport.setFrameRate(30); 
     //videoExport.setQuality(30,0);
     //videoExport.startMovie();
-    thread = new CaptureFrame(this);
-    thread.start();
+    //thread = new CaptureFrame(this);
+    //thread.start();
     recordVideo = true;
     //myServer = new Server(this, 5204);
+    myClient = new Client(this, "127.0.0.1", 25000);
   }
   else if(experimentId=="two"){
     println("connected");
@@ -83,8 +84,9 @@ void draw() {
         if(verbose)
           loghelper.VideoFrameEvent();
         //videoExport.saveFrame();
-        thread.de_que.addFirst(10);
+        //thread.de_que.addFirst(10);
         //myServer.write("capture");
+        myClient.write("capture");
       }
       app.game.draw();    
     }
@@ -125,6 +127,7 @@ if(!taskStarted){
           app.game.addSequence();
           taskStarted=true;
           //thread.start();
+          myClient.write("start");
         }
     else if (mouseX >= width/2-100 && mouseX <= width/2+150 && 
         mouseY >= height/2-100 && mouseY <= height/2-20){
@@ -239,8 +242,9 @@ void exit() {
     println(modeId);
     println("VIDEO ENDED");
     //if (modeId=="experiment")
-    //myServer.write("end");
-    thread.complete = true;
+    //myServer.write("complete");
+    myClient.write("complete");
+    //thread.complete = true;
     //videoExport.endMovie();
     recordVideo = false;
   }
