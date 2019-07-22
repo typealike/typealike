@@ -1,0 +1,11 @@
+{
+	"participant_id": "pilot_11",
+	"experiment_id": "one",
+	"mode_id": "practice",
+	"host":"127.0.0.1",
+	"port":3000,
+	"task_speed": 6,
+	"verbose": "true",
+	"posture_timer": 6000,
+	"project_root": "/Users/nalinc/Projects/typealike"
+}

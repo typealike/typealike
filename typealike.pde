@@ -1,4 +1,4 @@
-import processing.net.*; //<>// //<>//
+import processing.net.*; //<>// //<>// //<>//
 import java.util.List;
 import java.util.ListIterator;
 import processing.video.*;
@@ -6,10 +6,12 @@ import com.hamoid.*;
 import processing.sound.*;
 
 void setup() {
+  initVariables();
    //movie = new Movie (this,"hit.mp3");
   hit = new SoundFile(this,"hit.aiff");
   miss = new SoundFile(this,"miss.aiff");
   
+  print(taskOrders[0][0][0]);
   iconSet.put("grass",requestImage("images/grass.png"));
   iconSet.put("keyboardBase",requestImage("images/keyboardBase.png"));
   iconSet.put("meteor",requestImage("images/meteor.png"));
@@ -36,14 +38,10 @@ void setup() {
   logger.enableLogging();
   loghelper.logExperimentStart();
 
-  taskOrders = (modeId=="practice")?practiceOrder:experimentOrder;
-  numBlocks = taskOrders.length;
-  numSequences = taskOrders[0].length;
-  numTrials = taskOrders[0][0].length;
-
   frameRate(30);
+  smooth();
   fullScreen();
-  if(experimentId=="one"){
+  if(experimentId.equals("one")){
     //cam = new Capture(this, 800, 600);
     //cam.start();
     //String filename = String.format("%s_%s_%s", participantId, modeId, startTime);
@@ -55,11 +53,12 @@ void setup() {
     //thread.start();
     recordVideo = true;
     //myServer = new Server(this, 5204);
-    myClient = new Client(this, "127.0.0.1", 25000);
+    myClient = new Client(this, HOST, PORT);
+    myClient.write(participantId+"_"+modeId+"_"+startTime);
   }
-  else if(experimentId=="two"){
+  else if(experimentId.equals("two")){
     println("connected");
-    myClient = new Client(this, "127.0.0.1", 25000);
+    myClient = new Client(this, HOST, PORT);
   }
   //modeId = "practice";
   //size(1400, 880);
@@ -67,7 +66,7 @@ void setup() {
 }
 
 void captureEvent(Capture video) {
-  if(experimentId=="one"){
+  if(experimentId.equals("one")){
     video.read();
   }
 }
@@ -80,13 +79,14 @@ void draw() {
       drawExperimentMenu();
     }
     else{
-      if (recordVideo && experimentId=="one" && !gameoverflag){
+      if (recordVideo && experimentId.equals("one") && !gameoverflag){
         if(verbose)
           loghelper.VideoFrameEvent();
         //videoExport.saveFrame();
         //thread.de_que.addFirst(10);
         //myServer.write("capture");
-        myClient.write("capture");
+        //if (myClient != null)
+          myClient.write("capture");
       }
       app.game.draw();    
     }
@@ -127,7 +127,8 @@ if(!taskStarted){
           app.game.addSequence();
           taskStarted=true;
           //thread.start();
-          myClient.write("start");
+          //if (myClient != null)
+            myClient.write("start");
         }
     else if (mouseX >= width/2-100 && mouseX <= width/2+150 && 
         mouseY >= height/2-100 && mouseY <= height/2-20){
@@ -237,12 +238,13 @@ Stops game in middle
 */
 void exit() {
   loghelper.logExperimentEnd();
-  if(experimentId=="one"){
+  if(experimentId.equals("one")){
     println(experimentId);
     println(modeId);
     println("VIDEO ENDED");
     //if (modeId=="experiment")
     //myServer.write("complete");
+    if (myClient != null)
     myClient.write("complete");
     //thread.complete = true;
     //videoExport.endMovie();
