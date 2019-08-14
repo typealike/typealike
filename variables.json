@@ -1,7 +1,7 @@
 {
-	"participant_id": "pilot_11",
+	"participant_id": "participant_30",
 	"experiment_id": "one",
-	"mode_id": "practice",
+	"mode_id": "experiment",
 	"host":"127.0.0.1",
 	"port":3000,
 	"task_speed": 6,

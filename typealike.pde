@@ -19,6 +19,27 @@ void setup() {
   iconSet.put("right_key",requestImage("images/right.png"));
   iconSet.put("up_key",requestImage("images/up.png"));
   iconSet.put("down_key",requestImage("images/down.png"));
+  
+  iconSet.put("Both_Close_0_On",requestImage("images/Both_Close_0_On.png"));
+  iconSet.put("Both_Close_90_On",requestImage("images/Both_Close_90_On.png"));
+  iconSet.put("Both_Close_180_On",requestImage("images/Both_Close_180_On.png"));
+  iconSet.put("Both_Close_0_Below",requestImage("images/Both_Close_0_Below.png"));
+  iconSet.put("Both_Close_90_Below",requestImage("images/Both_Close_90_Below.png"));
+  iconSet.put("Both_Close_180_Below",requestImage("images/Both_Close_180_Below.png"));
+  iconSet.put("Both_Close_0_Beside",requestImage("images/Both_Close_0_Beside.png"));
+  iconSet.put("Both_Close_90_Beside",requestImage("images/Both_Close_90_Beside.png"));
+  iconSet.put("Both_Close_180_Beside",requestImage("images/Both_Close_180_Beside.png"));
+
+  iconSet.put("Both_Open_0_On",requestImage("images/Both_Open_0_On.png"));
+  iconSet.put("Both_Open_90_On",requestImage("images/Both_Open_90_On.png"));
+  iconSet.put("Both_Open_180_On",requestImage("images/Both_Open_180_On.png"));
+  iconSet.put("Both_Open_0_Below",requestImage("images/Both_Open_0_Below.png"));
+  iconSet.put("Both_Open_90_Below",requestImage("images/Both_Open_90_Below.png"));
+  iconSet.put("Both_Open_180_Below",requestImage("images/Both_Open_180_Below.png"));
+  iconSet.put("Both_Open_0_Beside",requestImage("images/Both_Open_0_Beside.png"));
+  iconSet.put("Both_Open_90_Beside",requestImage("images/Both_Open_90_Beside.png"));
+  iconSet.put("Both_Open_180_Beside",requestImage("images/Both_Open_180_Beside.png"));
+  
   iconSet.put("Left_Close_90",requestImage("images/Left_Close_90.png"));
   iconSet.put("Right_Close_90",requestImage("images/Right_Close_90.png"));
   iconSet.put("Left_Open_90",requestImage("images/Left_Open_90.png"));
@@ -54,7 +75,7 @@ void setup() {
     recordVideo = true;
     //myServer = new Server(this, 5204);
     myClient = new Client(this, HOST, PORT);
-    myClient.write(participantId+"_"+modeId+"_"+startTime);
+    myClient.write(experimentId+"/"+participantId+"_"+modeId+"_"+startTime);
   }
   else if(experimentId.equals("two")){
     println("connected");

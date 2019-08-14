@@ -16,7 +16,7 @@ except OSError:
     print ('Error: Creating directory. ' +  directory)
 
 
-videofile = projectroot+"/videos/one/"+pidentifier[:-4]+".mp4"
+videofile = projectroot+"/videos/one/typing/"+pidentifier[:-4]+".mp4"
 container = av.open(videofile)
 for packet in container.demux():
     for frame in packet.decode():

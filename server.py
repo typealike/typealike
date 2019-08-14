@@ -27,7 +27,7 @@ s.listen(1)
 conn, addr = s.accept()
 conn.send("hello")
 print('Connected by', addr)
-filename = jsonObj["project_root"]+"/videos/"+jsonObj["experiment_id"]+"/"+conn.recv(2048)+".mp4"
+filename = jsonObj["project_root"]+"/videos/"+conn.recv(2048)+".mp4"
 
 # if socketdata[:10]=="Typingtest":
 # 	recordflag = True

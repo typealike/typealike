@@ -8,6 +8,7 @@ var io = require('socket.io')(http);
 let rawdata = fs.readFileSync('variables.json');
 
 let jsondata = JSON.parse(rawdata);
+experimentId = jsondata["experiment_id"];
 participantId = jsondata["participant_id"];
 modeId = jsondata["mode_id"];
 var nodeClient;
@@ -67,7 +68,7 @@ app.get('/', function(req, res){
     nodeClient = getConn('Node');
     startTime = new Date();
     t = startTime.getFullYear()+"-"+startTime.getMonth()+"-"+startTime.getDate()+"-"+startTime.getHours()+"-"+startTime.getMinutes()+"-"+startTime.getSeconds();
-    nodeClient.write(participantId+"_"+modeId+"_"+t);
+    nodeClient.write(experimentId+"/"+participantId+"_"+modeId+"_"+t);
     res.sendFile(__dirname+'/index.html');
 });
 app.use('/static', express.static('static'))

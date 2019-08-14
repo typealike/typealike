@@ -2,7 +2,7 @@ pose
 weights
 hand_inference_graph
 model-checkpoint
-**/**.DS_Store
+**/.DS_Store
 **/**.pyc
 training
 videos

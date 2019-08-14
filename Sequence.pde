@@ -51,6 +51,10 @@ class Sequence{
       int index = (int)random(0,shortcuts.length);
       label = shortcuts[index];
     }
+    else if(type=="two_hand_posture"){
+      int index = (int)random(0,shortcuts.length);
+      label = two_hand_postures[this.sequenceIndex];
+    }
     else{
       label="click me";
     }

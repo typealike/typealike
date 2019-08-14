@@ -43,7 +43,7 @@ class Posture{
                   else if (this.x+jitter == this.xMin)
                     this.mode = WiggleMode.INC; 
                     //Float b = ;
-                   text((float) Math.sin(2-this.x),200,200);
+                   //text((float) Math.sin(2-this.x),200,200);
                   break;
     case "Below": 
                   if (this.mode == WiggleMode.INC)

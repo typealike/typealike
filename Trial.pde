@@ -8,6 +8,7 @@ class Trial {
     float speed = taskSpeed;  // Speed of Trial
     int jitter;
     Boolean flag=true;
+    PImage picon;
     color c;
     float r;      // Radius of Trial
     int cornerBezel = 10; // for drawing rectangle
@@ -21,13 +22,27 @@ class Trial {
     Boolean isCaught=false, isMissed=false;
     String modifierkey="";
     int shortcutkeycode=0;
-    List<String> blockWords = Arrays.asList("left", "up", "right", "down", "J", "H");
+    List<String> blockWords = Arrays.asList("left", "up", "right", "down", "J", "H", "M");
     Trial(String type, String lbl) {
       this.type=type;
       r = 8;                   // All raindrops are the same size
       // Start with a random x location
       trialStartTime = millis();
-      if (this.type=="posture") {
+      if (this.type=="two_hand_posture") {
+        x = width/2 - 250;
+        y = height/2 - 200;
+        meteorX = x+250;
+        String [] labelIndex = split(lbl,"_");
+        String hand, form, degree, area;
+        print(lbl);
+        hand = labelIndex[0];
+        form = labelIndex[1];
+        degree = labelIndex[2];
+        area = labelIndex[3];
+        
+        this.picon = iconSet.get(hand+"_"+form+"_"+degree+"_"+area);
+      }
+      else if (this.type=="posture") {
         x = width/2 - 250;
         y = height/2 - 200;
         meteorX = x+250;
@@ -143,7 +158,17 @@ class Trial {
         text("Slightly wiggle your hand while maintaining the posture", x-150, y+400);
       }
     }
-    if (this.type=="word") {
+    if (this.type=="two_hand_posture"){
+      if (x+270>width)
+        x=width-300;
+      //else{
+      //  fill(0, 0, 0);
+      //  textSize(30);
+      //  text("Form this posture on the keyboard for "+postureTimer/1000+" seconds", x-200, y+400);
+      //}
+      image(this.picon, this.x, this.y, 480, 360);
+    }
+    else if (this.type=="word") {
       if (x+350>width)
         x=width-350;
       for (int i=0; i<label.length(); i++) {

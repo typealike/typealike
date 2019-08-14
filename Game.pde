@@ -177,7 +177,8 @@ class Game{
           if(!app.game.sequence.trial.isMissed && millis()-app.game.sequence.trial.trialStartTime > postureTimer){//app.game.sequence.trial.meteorY>height-100){
             app.game.sequence.trial.missed();
             //this.score-=5;
-            if (experimentId == "one" && app.game.sequence.trial.type == "posture")
+            print(app.game.sequence.trial.type);
+            if (experimentId.equals("one") && (app.game.sequence.trial.type.equals("posture") || app.game.sequence.trial.type.equals("two_hand_posture")))
               this.updateScore(5);
             else
               this.updateScore(-5);
