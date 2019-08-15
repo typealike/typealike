@@ -6,5 +6,6 @@ model-checkpoint
 **/**.pyc
 training
 videos
-
+application.macosx64/
+**/**.ipynb_checkpoints/
 
