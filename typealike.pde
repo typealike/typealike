@@ -62,6 +62,7 @@ void setup() {
   frameRate(30);
   smooth();
   fullScreen();
+  //size(640, 480);
   if(experimentId.equals("one")){
     //cam = new Capture(this, 800, 600);
     //cam.start();
@@ -82,7 +83,7 @@ void setup() {
     myClient = new Client(this, HOST, PORT);
   }
   //modeId = "practice";
-  //size(1400, 880);
+  
   app=new App();
 }
 
@@ -107,7 +108,7 @@ void draw() {
         //thread.de_que.addFirst(10);
         //myServer.write("capture");
         //if (myClient != null)
-          myClient.write("capture");
+          //myClient.write("capture");
       }
       app.game.draw();    
     }
@@ -149,7 +150,7 @@ if(!taskStarted){
           taskStarted=true;
           //thread.start();
           //if (myClient != null)
-            myClient.write("start");
+            //myClient.write("start");
         }
     else if (mouseX >= width/2-100 && mouseX <= width/2+150 && 
         mouseY >= height/2-100 && mouseY <= height/2-20){

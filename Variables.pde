@@ -34,7 +34,7 @@ void initVariables(){
   
   wordBeingTyped="";
   recordVideo=false;
-  taskStarted=false; //<>// //<>//
+  taskStarted=false; //<>// //<>// //<>//
   identifiedPosture="";
   isFirst=true;
   gameoverflag=false;
@@ -63,7 +63,15 @@ void initVariables(){
   
   practiceOrder = new String[][][]{
                                {
-                                  //{"word"}
+                                  //{"posture"},{"posture"},{"posture"},{"posture"},
+                                  //{"posture"},{"posture"},{"posture"},{"posture"},
+                                  //{"posture"},{"posture"},{"posture"},{"posture"},
+                                  //{"posture"},{"posture"},{"posture"},{"posture"},
+                                  //{"posture"},{"posture"},{"posture"},{"posture"},
+                                  //{"posture"},{"posture"},{"posture"},{"posture"},
+                                  //{"posture"},{"posture"},{"posture"},{"posture"},
+                                  //{"posture"},{"posture"},{"posture"},{"posture"},
+                                  //{"posture"},{"posture"},{"posture"},{"posture"},
                                    {"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"},
                                    {"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"},
                                    {"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"},{"two_hand_posture"}
@@ -72,38 +80,151 @@ void initVariables(){
 
   experimentOrder= new String[][][]{
                                   {
-                                   {"word","posture"}, {"shortcut","posture"}, {"click","posture"}, {"word","posture"},
-                                   {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                   {"click","posture"}, {"word","posture"}, {"click","posture"}, {"word","posture"},
                                    {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                   {"click","posture"}, {"word","posture"}, {"word","posture"}, {"click","posture"},
                                    {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
-                                  }, 
-                                  {
-                                   {"word","posture"}, {"shortcut","posture"}, {"click","posture"}, {"word","posture"},
-                                   {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                   {"word","posture"}, {"word","posture"}, {"click","posture"}, {"click","posture"},
                                    {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
-                                  }, 
-                                  {
-                                   {"word","posture"}, {"shortcut","posture"}, {"click","posture"}, {"word","posture"},
-                                   {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
-                                   {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
-                                   {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
-                                  }
+                                   {"click","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                   {"word","posture"}, {"word","posture"}, {"click","posture"}, {"word","posture"},
+                                   {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
+                                  },
+                                  //{
+                                  // {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"click","shortcut"}, {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"click","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"}
+                                  //},
+                                  //{
+                                  // {"click","posture"}, {"word","posture"}, {"click","posture"}, {"word","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"click","posture"}, {"word","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"word","posture"}, {"click","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"click","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"word","posture"}, {"click","posture"}, {"word","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
+                                  //},
+                                  //{
+                                  // {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"click","shortcut"}, {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"click","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"}
+                                  //},
+                                  //{
+                                  // {"click","posture"}, {"word","posture"}, {"click","posture"}, {"word","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"click","posture"}, {"word","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"word","posture"}, {"click","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"click","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"word","posture"}, {"click","posture"}, {"word","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // //{"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
+                                  //}, 
+                                  //{
+                                  // {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"click","shortcut"}, {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"click","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"}
+                                  //},
+                                  //{
+                                  // {"click","posture"}, {"word","posture"}, {"click","posture"}, {"word","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"click","posture"}, {"word","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"word","posture"}, {"click","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"click","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"word","posture"}, {"click","posture"}, {"word","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // //{"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
+                                  //}, 
+                                  //{
+                                  // {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"click","shortcut"}, {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"click","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"}
+                                  //},
+                                  //{
+                                  // {"click","posture"}, {"word","posture"}, {"click","posture"}, {"word","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"click","posture"}, {"word","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"word","posture"}, {"click","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"click","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"word","posture"}, {"click","posture"}, {"word","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // //{"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
+                                  //}, 
+                                  //{
+                                  // {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"click","shortcut"}, {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"click","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"},
+                                  // {"word","shortcut"}, {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"},
+                                  // {"word","shortcut"}, {"click","shortcut"}, {"word","shortcut"}, {"click","shortcut"}
+                                  //}
+//----------
+                                  // {"word","posture"}, {"shortcut","posture"}, {"click","posture"}, {"word","posture"},
+                                  // {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
+                                  //}, 
+                                  //{
+                                  // {"word","posture"}, {"shortcut","posture"}, {"click","posture"}, {"word","posture"},
+                                  // {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
+                                  //}, 
+                                  //{
+                                  // {"word","posture"}, {"shortcut","posture"}, {"click","posture"}, {"word","posture"},
+                                  // {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"shortcut","posture"}, {"click","posture"},
+                                  // {"word","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"},
+                                  // {"shortcut","posture"}, {"click","posture"}, {"word","posture"}, {"click","posture"}
+                                  //}
                                 };
   
   taskOrders = (modeId.equals("practice"))?practiceOrder:experimentOrder;

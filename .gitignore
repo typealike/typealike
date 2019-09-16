@@ -4,8 +4,11 @@ hand_inference_graph
 model-checkpoint
 **/.DS_Store/
 **/**.pyc
+**/**.mp4
 training
 videos
 application.macosx64/
 **/.ipynb_checkpoints/
+models
+demo/NNmodels.zip
 

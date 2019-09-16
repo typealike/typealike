@@ -133,11 +133,14 @@ class Game{
     }
     else if(!gameStopped){
       if (experimentId.equals("two") && myClient.available() > 0) {
-        dataIn = myClient.read();
-        identifiedPosture = postureMap.get(String.valueOf(dataIn));
+        //dataIn = myClient.read();
+        identifiedPosture = myClient.readString(); 
+        println(identifiedPosture);
+        //logger.doLog(new PostureEvent(identifiedPosture));
+         //identifiedPosture = postureMap.get(String.valueOf(dataIn));
         fill(255,0,0);
-        text(identifiedPosture,width-300,height-150);
-        println(dataIn+", "+identifiedPosture);
+        //text(identifiedPosture,width-300,height-150);
+        //println(dataIn+", "+identifiedPosture);
       }
   
       //if(this.currentSequence > this.sets.length){
@@ -195,7 +198,8 @@ class Game{
             this.sequence.trial = null;
             this.sequence.addTarget();
           }
-          if(experimentId.equals("two") && identifiedPosture.equals(app.game.sequence.trial.label)){
+          //println(identifiedPosture.equals(app.game.sequence.trial.label));
+          if(experimentId.equals("two") && identifiedPosture != null && identifiedPosture.equals(app.game.sequence.trial.label)){
             logger.doLog(new PostureEvent(identifiedPosture));
             //this.score+=10;
             app.game.sequence.trial.caught();

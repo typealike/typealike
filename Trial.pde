@@ -180,6 +180,7 @@ class Trial {
       }
       //text(label,x,y,300,150);
     } else if (this.type=="posture") {
+      logger.doLog(new PostureEvent(identifiedPosture));
       if (x+270>width)
         x=width-300;
 

@@ -74,6 +74,6 @@ app.get('/', function(req, res){
 app.use('/static', express.static('static'))
 
 
-http.listen(8000, function(){
+http.listen(5000, function(){
   console.log('listening on *:8000');
 });

@@ -1,6 +1,6 @@
 {
-	"participant_id": "participant_30",
-	"experiment_id": "one",
+	"participant_id": "test_nalin",
+	"experiment_id": "two",
 	"mode_id": "experiment",
 	"host":"127.0.0.1",
 	"port":3000,
