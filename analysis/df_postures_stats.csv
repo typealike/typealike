@@ -1,0 +1,2161 @@
+,ParticipantID,posture,score,surface,dexterity,form,orientation,rating
+0,participant_1,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Comfort
+1,participant_2,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Comfort
+2,participant_3,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Comfort
+3,participant_4,Below_Left_Fist_0,4,Below,Dominant,Close,0,Comfort
+4,participant_5,Below_Left_Fist_0,2,Below,Non Dominant,Close,0,Comfort
+5,participant_6,Below_Left_Fist_0,5,Below,Dominant,Close,0,Comfort
+6,participant_7,Below_Left_Fist_0,5,Below,Non Dominant,Close,0,Comfort
+7,participant_8,Below_Left_Fist_0,3,Below,Dominant,Close,0,Comfort
+8,participant_9,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Comfort
+9,participant_10,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Comfort
+10,participant_11,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Comfort
+11,participant_12,Below_Left_Fist_0,2,Below,Non Dominant,Close,0,Comfort
+12,participant_13,Below_Left_Fist_0,5,Below,Non Dominant,Close,0,Comfort
+13,participant_14,Below_Left_Fist_0,5,Below,Non Dominant,Close,0,Comfort
+14,participant_15,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Comfort
+15,participant_16,Below_Left_Fist_0,5,Below,Non Dominant,Close,0,Comfort
+16,participant_17,Below_Left_Fist_0,5,Below,Non Dominant,Close,0,Comfort
+17,participant_18,Below_Left_Fist_0,5,Below,Dominant,Close,0,Comfort
+18,participant_19,Below_Left_Fist_0,3,Below,Dominant,Close,0,Comfort
+19,participant_20,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Comfort
+20,participant_21,Below_Left_Fist_0,5,Below,Non Dominant,Close,0,Comfort
+21,participant_22,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Comfort
+22,participant_23,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Comfort
+23,participant_24,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Comfort
+24,participant_25,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Comfort
+25,participant_26,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Comfort
+26,participant_27,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Comfort
+27,participant_28,Below_Left_Fist_0,1,Below,Non Dominant,Close,0,Comfort
+28,participant_29,Below_Left_Fist_0,2,Below,Non Dominant,Close,0,Comfort
+29,participant_30,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Comfort
+30,participant_1,Below_Left_Fist_0,2,Below,Non Dominant,Close,0,Preference
+31,participant_2,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Preference
+32,participant_3,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Preference
+33,participant_4,Below_Left_Fist_0,4,Below,Dominant,Close,0,Preference
+34,participant_5,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Preference
+35,participant_6,Below_Left_Fist_0,5,Below,Dominant,Close,0,Preference
+36,participant_7,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Preference
+37,participant_8,Below_Left_Fist_0,3,Below,Dominant,Close,0,Preference
+38,participant_9,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Preference
+39,participant_10,Below_Left_Fist_0,5,Below,Non Dominant,Close,0,Preference
+40,participant_11,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Preference
+41,participant_12,Below_Left_Fist_0,2,Below,Non Dominant,Close,0,Preference
+42,participant_13,Below_Left_Fist_0,5,Below,Non Dominant,Close,0,Preference
+43,participant_14,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Preference
+44,participant_15,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Preference
+45,participant_16,Below_Left_Fist_0,5,Below,Non Dominant,Close,0,Preference
+46,participant_17,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Preference
+47,participant_18,Below_Left_Fist_0,3,Below,Dominant,Close,0,Preference
+48,participant_19,Below_Left_Fist_0,3,Below,Dominant,Close,0,Preference
+49,participant_20,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Preference
+50,participant_21,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Preference
+51,participant_22,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Preference
+52,participant_23,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Preference
+53,participant_24,Below_Left_Fist_0,2,Below,Non Dominant,Close,0,Preference
+54,participant_25,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Preference
+55,participant_26,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Preference
+56,participant_27,Below_Left_Fist_0,4,Below,Non Dominant,Close,0,Preference
+57,participant_28,Below_Left_Fist_0,2,Below,Non Dominant,Close,0,Preference
+58,participant_29,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Preference
+59,participant_30,Below_Left_Fist_0,3,Below,Non Dominant,Close,0,Preference
+60,participant_1,Below_Right_Fist_0,4,Below,Dominant,Close,0,Comfort
+61,participant_2,Below_Right_Fist_0,4,Below,Dominant,Close,0,Comfort
+62,participant_3,Below_Right_Fist_0,3,Below,Dominant,Close,0,Comfort
+63,participant_4,Below_Right_Fist_0,4,Below,Non Dominant,Close,0,Comfort
+64,participant_5,Below_Right_Fist_0,1,Below,Dominant,Close,0,Comfort
+65,participant_6,Below_Right_Fist_0,5,Below,Non Dominant,Close,0,Comfort
+66,participant_7,Below_Right_Fist_0,5,Below,Dominant,Close,0,Comfort
+67,participant_8,Below_Right_Fist_0,4,Below,Non Dominant,Close,0,Comfort
+68,participant_9,Below_Right_Fist_0,5,Below,Dominant,Close,0,Comfort
+69,participant_10,Below_Right_Fist_0,5,Below,Dominant,Close,0,Comfort
+70,participant_11,Below_Right_Fist_0,4,Below,Dominant,Close,0,Comfort
+71,participant_12,Below_Right_Fist_0,3,Below,Dominant,Close,0,Comfort
+72,participant_13,Below_Right_Fist_0,5,Below,Dominant,Close,0,Comfort
+73,participant_14,Below_Right_Fist_0,5,Below,Dominant,Close,0,Comfort
+74,participant_15,Below_Right_Fist_0,2,Below,Dominant,Close,0,Comfort
+75,participant_16,Below_Right_Fist_0,5,Below,Dominant,Close,0,Comfort
+76,participant_17,Below_Right_Fist_0,4,Below,Dominant,Close,0,Comfort
+77,participant_18,Below_Right_Fist_0,5,Below,Non Dominant,Close,0,Comfort
+78,participant_19,Below_Right_Fist_0,3,Below,Non Dominant,Close,0,Comfort
+79,participant_20,Below_Right_Fist_0,5,Below,Dominant,Close,0,Comfort
+80,participant_21,Below_Right_Fist_0,5,Below,Dominant,Close,0,Comfort
+81,participant_22,Below_Right_Fist_0,4,Below,Dominant,Close,0,Comfort
+82,participant_23,Below_Right_Fist_0,3,Below,Dominant,Close,0,Comfort
+83,participant_24,Below_Right_Fist_0,4,Below,Dominant,Close,0,Comfort
+84,participant_25,Below_Right_Fist_0,3,Below,Dominant,Close,0,Comfort
+85,participant_26,Below_Right_Fist_0,4,Below,Dominant,Close,0,Comfort
+86,participant_27,Below_Right_Fist_0,4,Below,Dominant,Close,0,Comfort
+87,participant_28,Below_Right_Fist_0,4,Below,Dominant,Close,0,Comfort
+88,participant_29,Below_Right_Fist_0,2,Below,Dominant,Close,0,Comfort
+89,participant_30,Below_Right_Fist_0,4,Below,Dominant,Close,0,Comfort
+90,participant_1,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+91,participant_2,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+92,participant_3,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+93,participant_4,Below_Right_Fist_0,4,Below,Non Dominant,Close,0,Preference
+94,participant_5,Below_Right_Fist_0,1,Below,Dominant,Close,0,Preference
+95,participant_6,Below_Right_Fist_0,5,Below,Non Dominant,Close,0,Preference
+96,participant_7,Below_Right_Fist_0,5,Below,Dominant,Close,0,Preference
+97,participant_8,Below_Right_Fist_0,4,Below,Non Dominant,Close,0,Preference
+98,participant_9,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+99,participant_10,Below_Right_Fist_0,5,Below,Dominant,Close,0,Preference
+100,participant_11,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+101,participant_12,Below_Right_Fist_0,3,Below,Dominant,Close,0,Preference
+102,participant_13,Below_Right_Fist_0,5,Below,Dominant,Close,0,Preference
+103,participant_14,Below_Right_Fist_0,5,Below,Dominant,Close,0,Preference
+104,participant_15,Below_Right_Fist_0,2,Below,Dominant,Close,0,Preference
+105,participant_16,Below_Right_Fist_0,5,Below,Dominant,Close,0,Preference
+106,participant_17,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+107,participant_18,Below_Right_Fist_0,3,Below,Non Dominant,Close,0,Preference
+108,participant_19,Below_Right_Fist_0,3,Below,Non Dominant,Close,0,Preference
+109,participant_20,Below_Right_Fist_0,2,Below,Dominant,Close,0,Preference
+110,participant_21,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+111,participant_22,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+112,participant_23,Below_Right_Fist_0,3,Below,Dominant,Close,0,Preference
+113,participant_24,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+114,participant_25,Below_Right_Fist_0,3,Below,Dominant,Close,0,Preference
+115,participant_26,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+116,participant_27,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+117,participant_28,Below_Right_Fist_0,4,Below,Dominant,Close,0,Preference
+118,participant_29,Below_Right_Fist_0,3,Below,Dominant,Close,0,Preference
+119,participant_30,Below_Right_Fist_0,3,Below,Dominant,Close,0,Preference
+120,participant_1,Below_Left_Fist_90,2,Below,Non Dominant,Close,90,Comfort
+121,participant_2,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Comfort
+122,participant_3,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Comfort
+123,participant_4,Below_Left_Fist_90,4,Below,Dominant,Close,90,Comfort
+124,participant_5,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Comfort
+125,participant_6,Below_Left_Fist_90,5,Below,Dominant,Close,90,Comfort
+126,participant_7,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+127,participant_8,Below_Left_Fist_90,4,Below,Dominant,Close,90,Comfort
+128,participant_9,Below_Left_Fist_90,3,Below,Non Dominant,Close,90,Comfort
+129,participant_10,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Comfort
+130,participant_11,Below_Left_Fist_90,2,Below,Non Dominant,Close,90,Comfort
+131,participant_12,Below_Left_Fist_90,1,Below,Non Dominant,Close,90,Comfort
+132,participant_13,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+133,participant_14,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+134,participant_15,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Comfort
+135,participant_16,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+136,participant_17,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Comfort
+137,participant_18,Below_Left_Fist_90,5,Below,Dominant,Close,90,Comfort
+138,participant_19,Below_Left_Fist_90,4,Below,Dominant,Close,90,Comfort
+139,participant_20,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+140,participant_21,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Comfort
+141,participant_22,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Comfort
+142,participant_23,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Comfort
+143,participant_24,Below_Left_Fist_90,2,Below,Non Dominant,Close,90,Comfort
+144,participant_25,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+145,participant_26,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+146,participant_27,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+147,participant_28,Below_Left_Fist_90,2,Below,Non Dominant,Close,90,Comfort
+148,participant_29,Below_Left_Fist_90,1,Below,Non Dominant,Close,90,Comfort
+149,participant_30,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+150,participant_1,Below_Left_Fist_90,2,Below,Non Dominant,Close,90,Preference
+151,participant_2,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Preference
+152,participant_3,Below_Left_Fist_90,3,Below,Non Dominant,Close,90,Preference
+153,participant_4,Below_Left_Fist_90,4,Below,Dominant,Close,90,Preference
+154,participant_5,Below_Left_Fist_90,3,Below,Non Dominant,Close,90,Preference
+155,participant_6,Below_Left_Fist_90,5,Below,Dominant,Close,90,Preference
+156,participant_7,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Preference
+157,participant_8,Below_Left_Fist_90,4,Below,Dominant,Close,90,Preference
+158,participant_9,Below_Left_Fist_90,3,Below,Non Dominant,Close,90,Preference
+159,participant_10,Below_Left_Fist_90,3,Below,Non Dominant,Close,90,Preference
+160,participant_11,Below_Left_Fist_90,2,Below,Non Dominant,Close,90,Preference
+161,participant_12,Below_Left_Fist_90,1,Below,Non Dominant,Close,90,Preference
+162,participant_13,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Preference
+163,participant_14,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Preference
+164,participant_15,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Preference
+165,participant_16,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Preference
+166,participant_17,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Preference
+167,participant_18,Below_Left_Fist_90,3,Below,Dominant,Close,90,Preference
+168,participant_19,Below_Left_Fist_90,4,Below,Dominant,Close,90,Preference
+169,participant_20,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Preference
+170,participant_21,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Preference
+171,participant_22,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Preference
+172,participant_23,Below_Left_Fist_90,4,Below,Non Dominant,Close,90,Preference
+173,participant_24,Below_Left_Fist_90,1,Below,Non Dominant,Close,90,Preference
+174,participant_25,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Preference
+175,participant_26,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Preference
+176,participant_27,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Preference
+177,participant_28,Below_Left_Fist_90,2,Below,Non Dominant,Close,90,Preference
+178,participant_29,Below_Left_Fist_90,1,Below,Non Dominant,Close,90,Preference
+179,participant_30,Below_Left_Fist_90,5,Below,Non Dominant,Close,90,Preference
+180,participant_1,Below_Right_Fist_90,4,Below,Dominant,Close,90,Comfort
+181,participant_2,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+182,participant_3,Below_Right_Fist_90,4,Below,Dominant,Close,90,Comfort
+183,participant_4,Below_Right_Fist_90,4,Below,Non Dominant,Close,90,Comfort
+184,participant_5,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+185,participant_6,Below_Right_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+186,participant_7,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+187,participant_8,Below_Right_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+188,participant_9,Below_Right_Fist_90,4,Below,Dominant,Close,90,Comfort
+189,participant_10,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+190,participant_11,Below_Right_Fist_90,3,Below,Dominant,Close,90,Comfort
+191,participant_12,Below_Right_Fist_90,4,Below,Dominant,Close,90,Comfort
+192,participant_13,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+193,participant_14,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+194,participant_15,Below_Right_Fist_90,4,Below,Dominant,Close,90,Comfort
+195,participant_16,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+196,participant_17,Below_Right_Fist_90,4,Below,Dominant,Close,90,Comfort
+197,participant_18,Below_Right_Fist_90,5,Below,Non Dominant,Close,90,Comfort
+198,participant_19,Below_Right_Fist_90,4,Below,Non Dominant,Close,90,Comfort
+199,participant_20,Below_Right_Fist_90,4,Below,Dominant,Close,90,Comfort
+200,participant_21,Below_Right_Fist_90,4,Below,Dominant,Close,90,Comfort
+201,participant_22,Below_Right_Fist_90,4,Below,Dominant,Close,90,Comfort
+202,participant_23,Below_Right_Fist_90,4,Below,Dominant,Close,90,Comfort
+203,participant_24,Below_Right_Fist_90,2,Below,Dominant,Close,90,Comfort
+204,participant_25,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+205,participant_26,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+206,participant_27,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+207,participant_28,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+208,participant_29,Below_Right_Fist_90,1,Below,Dominant,Close,90,Comfort
+209,participant_30,Below_Right_Fist_90,5,Below,Dominant,Close,90,Comfort
+210,participant_1,Below_Right_Fist_90,4,Below,Dominant,Close,90,Preference
+211,participant_2,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+212,participant_3,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+213,participant_4,Below_Right_Fist_90,4,Below,Non Dominant,Close,90,Preference
+214,participant_5,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+215,participant_6,Below_Right_Fist_90,5,Below,Non Dominant,Close,90,Preference
+216,participant_7,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+217,participant_8,Below_Right_Fist_90,5,Below,Non Dominant,Close,90,Preference
+218,participant_9,Below_Right_Fist_90,4,Below,Dominant,Close,90,Preference
+219,participant_10,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+220,participant_11,Below_Right_Fist_90,3,Below,Dominant,Close,90,Preference
+221,participant_12,Below_Right_Fist_90,4,Below,Dominant,Close,90,Preference
+222,participant_13,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+223,participant_14,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+224,participant_15,Below_Right_Fist_90,3,Below,Dominant,Close,90,Preference
+225,participant_16,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+226,participant_17,Below_Right_Fist_90,4,Below,Dominant,Close,90,Preference
+227,participant_18,Below_Right_Fist_90,3,Below,Non Dominant,Close,90,Preference
+228,participant_19,Below_Right_Fist_90,4,Below,Non Dominant,Close,90,Preference
+229,participant_20,Below_Right_Fist_90,4,Below,Dominant,Close,90,Preference
+230,participant_21,Below_Right_Fist_90,4,Below,Dominant,Close,90,Preference
+231,participant_22,Below_Right_Fist_90,4,Below,Dominant,Close,90,Preference
+232,participant_23,Below_Right_Fist_90,4,Below,Dominant,Close,90,Preference
+233,participant_24,Below_Right_Fist_90,1,Below,Dominant,Close,90,Preference
+234,participant_25,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+235,participant_26,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+236,participant_27,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+237,participant_28,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+238,participant_29,Below_Right_Fist_90,1,Below,Dominant,Close,90,Preference
+239,participant_30,Below_Right_Fist_90,5,Below,Dominant,Close,90,Preference
+240,participant_1,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Comfort
+241,participant_2,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Comfort
+242,participant_3,Below_Left_Fist_180,3,Below,Non Dominant,Close,180,Comfort
+243,participant_4,Below_Left_Fist_180,1,Below,Dominant,Close,180,Comfort
+244,participant_5,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Comfort
+245,participant_6,Below_Left_Fist_180,4,Below,Dominant,Close,180,Comfort
+246,participant_7,Below_Left_Fist_180,3,Below,Non Dominant,Close,180,Comfort
+247,participant_8,Below_Left_Fist_180,2,Below,Dominant,Close,180,Comfort
+248,participant_9,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Comfort
+249,participant_10,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Comfort
+250,participant_11,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Comfort
+251,participant_12,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Comfort
+252,participant_13,Below_Left_Fist_180,3,Below,Non Dominant,Close,180,Comfort
+253,participant_14,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Comfort
+254,participant_15,Below_Left_Fist_180,3,Below,Non Dominant,Close,180,Comfort
+255,participant_16,Below_Left_Fist_180,4,Below,Non Dominant,Close,180,Comfort
+256,participant_17,Below_Left_Fist_180,3,Below,Non Dominant,Close,180,Comfort
+257,participant_18,Below_Left_Fist_180,2,Below,Dominant,Close,180,Comfort
+258,participant_19,Below_Left_Fist_180,2,Below,Dominant,Close,180,Comfort
+259,participant_20,Below_Left_Fist_180,3,Below,Non Dominant,Close,180,Comfort
+260,participant_21,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Comfort
+261,participant_22,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Comfort
+262,participant_23,Below_Left_Fist_180,3,Below,Non Dominant,Close,180,Comfort
+263,participant_24,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Comfort
+264,participant_25,Below_Left_Fist_180,4,Below,Non Dominant,Close,180,Comfort
+265,participant_26,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Comfort
+266,participant_27,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Comfort
+267,participant_28,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Comfort
+268,participant_29,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Comfort
+269,participant_30,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Comfort
+270,participant_1,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Preference
+271,participant_2,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Preference
+272,participant_3,Below_Left_Fist_180,4,Below,Non Dominant,Close,180,Preference
+273,participant_4,Below_Left_Fist_180,1,Below,Dominant,Close,180,Preference
+274,participant_5,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Preference
+275,participant_6,Below_Left_Fist_180,4,Below,Dominant,Close,180,Preference
+276,participant_7,Below_Left_Fist_180,3,Below,Non Dominant,Close,180,Preference
+277,participant_8,Below_Left_Fist_180,2,Below,Dominant,Close,180,Preference
+278,participant_9,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Preference
+279,participant_10,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Preference
+280,participant_11,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Preference
+281,participant_12,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Preference
+282,participant_13,Below_Left_Fist_180,3,Below,Non Dominant,Close,180,Preference
+283,participant_14,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Preference
+284,participant_15,Below_Left_Fist_180,3,Below,Non Dominant,Close,180,Preference
+285,participant_16,Below_Left_Fist_180,5,Below,Non Dominant,Close,180,Preference
+286,participant_17,Below_Left_Fist_180,4,Below,Non Dominant,Close,180,Preference
+287,participant_18,Below_Left_Fist_180,4,Below,Dominant,Close,180,Preference
+288,participant_19,Below_Left_Fist_180,2,Below,Dominant,Close,180,Preference
+289,participant_20,Below_Left_Fist_180,4,Below,Non Dominant,Close,180,Preference
+290,participant_21,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Preference
+291,participant_22,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Preference
+292,participant_23,Below_Left_Fist_180,3,Below,Non Dominant,Close,180,Preference
+293,participant_24,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Preference
+294,participant_25,Below_Left_Fist_180,4,Below,Non Dominant,Close,180,Preference
+295,participant_26,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Preference
+296,participant_27,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Preference
+297,participant_28,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Preference
+298,participant_29,Below_Left_Fist_180,1,Below,Non Dominant,Close,180,Preference
+299,participant_30,Below_Left_Fist_180,2,Below,Non Dominant,Close,180,Preference
+300,participant_1,Below_Right_Fist_180,2,Below,Dominant,Close,180,Comfort
+301,participant_2,Below_Right_Fist_180,1,Below,Dominant,Close,180,Comfort
+302,participant_3,Below_Right_Fist_180,4,Below,Dominant,Close,180,Comfort
+303,participant_4,Below_Right_Fist_180,5,Below,Non Dominant,Close,180,Comfort
+304,participant_5,Below_Right_Fist_180,1,Below,Dominant,Close,180,Comfort
+305,participant_6,Below_Right_Fist_180,4,Below,Non Dominant,Close,180,Comfort
+306,participant_7,Below_Right_Fist_180,4,Below,Dominant,Close,180,Comfort
+307,participant_8,Below_Right_Fist_180,1,Below,Non Dominant,Close,180,Comfort
+308,participant_9,Below_Right_Fist_180,2,Below,Dominant,Close,180,Comfort
+309,participant_10,Below_Right_Fist_180,2,Below,Dominant,Close,180,Comfort
+310,participant_11,Below_Right_Fist_180,3,Below,Dominant,Close,180,Comfort
+311,participant_12,Below_Right_Fist_180,3,Below,Dominant,Close,180,Comfort
+312,participant_13,Below_Right_Fist_180,3,Below,Dominant,Close,180,Comfort
+313,participant_14,Below_Right_Fist_180,2,Below,Dominant,Close,180,Comfort
+314,participant_15,Below_Right_Fist_180,2,Below,Dominant,Close,180,Comfort
+315,participant_16,Below_Right_Fist_180,4,Below,Dominant,Close,180,Comfort
+316,participant_17,Below_Right_Fist_180,3,Below,Dominant,Close,180,Comfort
+317,participant_18,Below_Right_Fist_180,2,Below,Non Dominant,Close,180,Comfort
+318,participant_19,Below_Right_Fist_180,2,Below,Non Dominant,Close,180,Comfort
+319,participant_20,Below_Right_Fist_180,2,Below,Dominant,Close,180,Comfort
+320,participant_21,Below_Right_Fist_180,2,Below,Dominant,Close,180,Comfort
+321,participant_22,Below_Right_Fist_180,1,Below,Dominant,Close,180,Comfort
+322,participant_23,Below_Right_Fist_180,3,Below,Dominant,Close,180,Comfort
+323,participant_24,Below_Right_Fist_180,3,Below,Dominant,Close,180,Comfort
+324,participant_25,Below_Right_Fist_180,4,Below,Dominant,Close,180,Comfort
+325,participant_26,Below_Right_Fist_180,2,Below,Dominant,Close,180,Comfort
+326,participant_27,Below_Right_Fist_180,2,Below,Dominant,Close,180,Comfort
+327,participant_28,Below_Right_Fist_180,2,Below,Dominant,Close,180,Comfort
+328,participant_29,Below_Right_Fist_180,1,Below,Dominant,Close,180,Comfort
+329,participant_30,Below_Right_Fist_180,3,Below,Dominant,Close,180,Comfort
+330,participant_1,Below_Right_Fist_180,2,Below,Dominant,Close,180,Preference
+331,participant_2,Below_Right_Fist_180,1,Below,Dominant,Close,180,Preference
+332,participant_3,Below_Right_Fist_180,3,Below,Dominant,Close,180,Preference
+333,participant_4,Below_Right_Fist_180,5,Below,Non Dominant,Close,180,Preference
+334,participant_5,Below_Right_Fist_180,1,Below,Dominant,Close,180,Preference
+335,participant_6,Below_Right_Fist_180,4,Below,Non Dominant,Close,180,Preference
+336,participant_7,Below_Right_Fist_180,4,Below,Dominant,Close,180,Preference
+337,participant_8,Below_Right_Fist_180,1,Below,Non Dominant,Close,180,Preference
+338,participant_9,Below_Right_Fist_180,2,Below,Dominant,Close,180,Preference
+339,participant_10,Below_Right_Fist_180,2,Below,Dominant,Close,180,Preference
+340,participant_11,Below_Right_Fist_180,3,Below,Dominant,Close,180,Preference
+341,participant_12,Below_Right_Fist_180,3,Below,Dominant,Close,180,Preference
+342,participant_13,Below_Right_Fist_180,2,Below,Dominant,Close,180,Preference
+343,participant_14,Below_Right_Fist_180,1,Below,Dominant,Close,180,Preference
+344,participant_15,Below_Right_Fist_180,2,Below,Dominant,Close,180,Preference
+345,participant_16,Below_Right_Fist_180,5,Below,Dominant,Close,180,Preference
+346,participant_17,Below_Right_Fist_180,4,Below,Dominant,Close,180,Preference
+347,participant_18,Below_Right_Fist_180,4,Below,Non Dominant,Close,180,Preference
+348,participant_19,Below_Right_Fist_180,2,Below,Non Dominant,Close,180,Preference
+349,participant_20,Below_Right_Fist_180,2,Below,Dominant,Close,180,Preference
+350,participant_21,Below_Right_Fist_180,2,Below,Dominant,Close,180,Preference
+351,participant_22,Below_Right_Fist_180,1,Below,Dominant,Close,180,Preference
+352,participant_23,Below_Right_Fist_180,3,Below,Dominant,Close,180,Preference
+353,participant_24,Below_Right_Fist_180,2,Below,Dominant,Close,180,Preference
+354,participant_25,Below_Right_Fist_180,4,Below,Dominant,Close,180,Preference
+355,participant_26,Below_Right_Fist_180,2,Below,Dominant,Close,180,Preference
+356,participant_27,Below_Right_Fist_180,2,Below,Dominant,Close,180,Preference
+357,participant_28,Below_Right_Fist_180,2,Below,Dominant,Close,180,Preference
+358,participant_29,Below_Right_Fist_180,1,Below,Dominant,Close,180,Preference
+359,participant_30,Below_Right_Fist_180,3,Below,Dominant,Close,180,Preference
+360,participant_1,Below_Left_Palm_0,3,Below,Non Dominant,Open,0,Comfort
+361,participant_2,Below_Left_Palm_0,3,Below,Non Dominant,Open,0,Comfort
+362,participant_3,Below_Left_Palm_0,3,Below,Non Dominant,Open,0,Comfort
+363,participant_4,Below_Left_Palm_0,5,Below,Dominant,Open,0,Comfort
+364,participant_5,Below_Left_Palm_0,3,Below,Non Dominant,Open,0,Comfort
+365,participant_6,Below_Left_Palm_0,4,Below,Dominant,Open,0,Comfort
+366,participant_7,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+367,participant_8,Below_Left_Palm_0,2,Below,Dominant,Open,0,Comfort
+368,participant_9,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+369,participant_10,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+370,participant_11,Below_Left_Palm_0,3,Below,Non Dominant,Open,0,Comfort
+371,participant_12,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Comfort
+372,participant_13,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+373,participant_14,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+374,participant_15,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Comfort
+375,participant_16,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+376,participant_17,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Comfort
+377,participant_18,Below_Left_Palm_0,4,Below,Dominant,Open,0,Comfort
+378,participant_19,Below_Left_Palm_0,4,Below,Dominant,Open,0,Comfort
+379,participant_20,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+380,participant_21,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+381,participant_22,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Comfort
+382,participant_23,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+383,participant_24,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+384,participant_25,Below_Left_Palm_0,3,Below,Non Dominant,Open,0,Comfort
+385,participant_26,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Comfort
+386,participant_27,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+387,participant_28,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Comfort
+388,participant_29,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Comfort
+389,participant_30,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Comfort
+390,participant_1,Below_Left_Palm_0,3,Below,Non Dominant,Open,0,Preference
+391,participant_2,Below_Left_Palm_0,3,Below,Non Dominant,Open,0,Preference
+392,participant_3,Below_Left_Palm_0,2,Below,Non Dominant,Open,0,Preference
+393,participant_4,Below_Left_Palm_0,5,Below,Dominant,Open,0,Preference
+394,participant_5,Below_Left_Palm_0,2,Below,Non Dominant,Open,0,Preference
+395,participant_6,Below_Left_Palm_0,4,Below,Dominant,Open,0,Preference
+396,participant_7,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Preference
+397,participant_8,Below_Left_Palm_0,2,Below,Dominant,Open,0,Preference
+398,participant_9,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Preference
+399,participant_10,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Preference
+400,participant_11,Below_Left_Palm_0,3,Below,Non Dominant,Open,0,Preference
+401,participant_12,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Preference
+402,participant_13,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Preference
+403,participant_14,Below_Left_Palm_0,3,Below,Non Dominant,Open,0,Preference
+404,participant_15,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Preference
+405,participant_16,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Preference
+406,participant_17,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Preference
+407,participant_18,Below_Left_Palm_0,4,Below,Dominant,Open,0,Preference
+408,participant_19,Below_Left_Palm_0,4,Below,Dominant,Open,0,Preference
+409,participant_20,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Preference
+410,participant_21,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Preference
+411,participant_22,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Preference
+412,participant_23,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Preference
+413,participant_24,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Preference
+414,participant_25,Below_Left_Palm_0,3,Below,Non Dominant,Open,0,Preference
+415,participant_26,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Preference
+416,participant_27,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Preference
+417,participant_28,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Preference
+418,participant_29,Below_Left_Palm_0,5,Below,Non Dominant,Open,0,Preference
+419,participant_30,Below_Left_Palm_0,4,Below,Non Dominant,Open,0,Preference
+420,participant_1,Below_Right_Palm_0,5,Below,Dominant,Open,0,Comfort
+421,participant_2,Below_Right_Palm_0,4,Below,Dominant,Open,0,Comfort
+422,participant_3,Below_Right_Palm_0,3,Below,Dominant,Open,0,Comfort
+423,participant_4,Below_Right_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+424,participant_5,Below_Right_Palm_0,4,Below,Dominant,Open,0,Comfort
+425,participant_6,Below_Right_Palm_0,4,Below,Non Dominant,Open,0,Comfort
+426,participant_7,Below_Right_Palm_0,5,Below,Dominant,Open,0,Comfort
+427,participant_8,Below_Right_Palm_0,5,Below,Non Dominant,Open,0,Comfort
+428,participant_9,Below_Right_Palm_0,5,Below,Dominant,Open,0,Comfort
+429,participant_10,Below_Right_Palm_0,5,Below,Dominant,Open,0,Comfort
+430,participant_11,Below_Right_Palm_0,4,Below,Dominant,Open,0,Comfort
+431,participant_12,Below_Right_Palm_0,4,Below,Dominant,Open,0,Comfort
+432,participant_13,Below_Right_Palm_0,5,Below,Dominant,Open,0,Comfort
+433,participant_14,Below_Right_Palm_0,4,Below,Dominant,Open,0,Comfort
+434,participant_15,Below_Right_Palm_0,3,Below,Dominant,Open,0,Comfort
+435,participant_16,Below_Right_Palm_0,5,Below,Dominant,Open,0,Comfort
+436,participant_17,Below_Right_Palm_0,4,Below,Dominant,Open,0,Comfort
+437,participant_18,Below_Right_Palm_0,4,Below,Non Dominant,Open,0,Comfort
+438,participant_19,Below_Right_Palm_0,4,Below,Non Dominant,Open,0,Comfort
+439,participant_20,Below_Right_Palm_0,5,Below,Dominant,Open,0,Comfort
+440,participant_21,Below_Right_Palm_0,5,Below,Dominant,Open,0,Comfort
+441,participant_22,Below_Right_Palm_0,5,Below,Dominant,Open,0,Comfort
+442,participant_23,Below_Right_Palm_0,4,Below,Dominant,Open,0,Comfort
+443,participant_24,Below_Right_Palm_0,5,Below,Dominant,Open,0,Comfort
+444,participant_25,Below_Right_Palm_0,3,Below,Dominant,Open,0,Comfort
+445,participant_26,Below_Right_Palm_0,4,Below,Dominant,Open,0,Comfort
+446,participant_27,Below_Right_Palm_0,4,Below,Dominant,Open,0,Comfort
+447,participant_28,Below_Right_Palm_0,5,Below,Dominant,Open,0,Comfort
+448,participant_29,Below_Right_Palm_0,4,Below,Dominant,Open,0,Comfort
+449,participant_30,Below_Right_Palm_0,4,Below,Dominant,Open,0,Comfort
+450,participant_1,Below_Right_Palm_0,5,Below,Dominant,Open,0,Preference
+451,participant_2,Below_Right_Palm_0,4,Below,Dominant,Open,0,Preference
+452,participant_3,Below_Right_Palm_0,3,Below,Dominant,Open,0,Preference
+453,participant_4,Below_Right_Palm_0,5,Below,Non Dominant,Open,0,Preference
+454,participant_5,Below_Right_Palm_0,4,Below,Dominant,Open,0,Preference
+455,participant_6,Below_Right_Palm_0,4,Below,Non Dominant,Open,0,Preference
+456,participant_7,Below_Right_Palm_0,5,Below,Dominant,Open,0,Preference
+457,participant_8,Below_Right_Palm_0,5,Below,Non Dominant,Open,0,Preference
+458,participant_9,Below_Right_Palm_0,5,Below,Dominant,Open,0,Preference
+459,participant_10,Below_Right_Palm_0,5,Below,Dominant,Open,0,Preference
+460,participant_11,Below_Right_Palm_0,4,Below,Dominant,Open,0,Preference
+461,participant_12,Below_Right_Palm_0,4,Below,Dominant,Open,0,Preference
+462,participant_13,Below_Right_Palm_0,5,Below,Dominant,Open,0,Preference
+463,participant_14,Below_Right_Palm_0,3,Below,Dominant,Open,0,Preference
+464,participant_15,Below_Right_Palm_0,3,Below,Dominant,Open,0,Preference
+465,participant_16,Below_Right_Palm_0,4,Below,Dominant,Open,0,Preference
+466,participant_17,Below_Right_Palm_0,4,Below,Dominant,Open,0,Preference
+467,participant_18,Below_Right_Palm_0,4,Below,Non Dominant,Open,0,Preference
+468,participant_19,Below_Right_Palm_0,4,Below,Non Dominant,Open,0,Preference
+469,participant_20,Below_Right_Palm_0,5,Below,Dominant,Open,0,Preference
+470,participant_21,Below_Right_Palm_0,5,Below,Dominant,Open,0,Preference
+471,participant_22,Below_Right_Palm_0,5,Below,Dominant,Open,0,Preference
+472,participant_23,Below_Right_Palm_0,4,Below,Dominant,Open,0,Preference
+473,participant_24,Below_Right_Palm_0,5,Below,Dominant,Open,0,Preference
+474,participant_25,Below_Right_Palm_0,3,Below,Dominant,Open,0,Preference
+475,participant_26,Below_Right_Palm_0,4,Below,Dominant,Open,0,Preference
+476,participant_27,Below_Right_Palm_0,4,Below,Dominant,Open,0,Preference
+477,participant_28,Below_Right_Palm_0,5,Below,Dominant,Open,0,Preference
+478,participant_29,Below_Right_Palm_0,5,Below,Dominant,Open,0,Preference
+479,participant_30,Below_Right_Palm_0,4,Below,Dominant,Open,0,Preference
+480,participant_1,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Comfort
+481,participant_2,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Comfort
+482,participant_3,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Comfort
+483,participant_4,Below_Left_Palm_90,4,Below,Dominant,Open,90,Comfort
+484,participant_5,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Comfort
+485,participant_6,Below_Left_Palm_90,4,Below,Dominant,Open,90,Comfort
+486,participant_7,Below_Left_Palm_90,5,Below,Non Dominant,Open,90,Comfort
+487,participant_8,Below_Left_Palm_90,3,Below,Dominant,Open,90,Comfort
+488,participant_9,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Comfort
+489,participant_10,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Comfort
+490,participant_11,Below_Left_Palm_90,1,Below,Non Dominant,Open,90,Comfort
+491,participant_12,Below_Left_Palm_90,1,Below,Non Dominant,Open,90,Comfort
+492,participant_13,Below_Left_Palm_90,5,Below,Non Dominant,Open,90,Comfort
+493,participant_14,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Comfort
+494,participant_15,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Comfort
+495,participant_16,Below_Left_Palm_90,5,Below,Non Dominant,Open,90,Comfort
+496,participant_17,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Comfort
+497,participant_18,Below_Left_Palm_90,5,Below,Dominant,Open,90,Comfort
+498,participant_19,Below_Left_Palm_90,4,Below,Dominant,Open,90,Comfort
+499,participant_20,Below_Left_Palm_90,5,Below,Non Dominant,Open,90,Comfort
+500,participant_21,Below_Left_Palm_90,5,Below,Non Dominant,Open,90,Comfort
+501,participant_22,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Comfort
+502,participant_23,Below_Left_Palm_90,5,Below,Non Dominant,Open,90,Comfort
+503,participant_24,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Comfort
+504,participant_25,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Comfort
+505,participant_26,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Comfort
+506,participant_27,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Comfort
+507,participant_28,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Comfort
+508,participant_29,Below_Left_Palm_90,2,Below,Non Dominant,Open,90,Comfort
+509,participant_30,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Comfort
+510,participant_1,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Preference
+511,participant_2,Below_Left_Palm_90,5,Below,Non Dominant,Open,90,Preference
+512,participant_3,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Preference
+513,participant_4,Below_Left_Palm_90,4,Below,Dominant,Open,90,Preference
+514,participant_5,Below_Left_Palm_90,2,Below,Non Dominant,Open,90,Preference
+515,participant_6,Below_Left_Palm_90,4,Below,Dominant,Open,90,Preference
+516,participant_7,Below_Left_Palm_90,5,Below,Non Dominant,Open,90,Preference
+517,participant_8,Below_Left_Palm_90,3,Below,Dominant,Open,90,Preference
+518,participant_9,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Preference
+519,participant_10,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Preference
+520,participant_11,Below_Left_Palm_90,1,Below,Non Dominant,Open,90,Preference
+521,participant_12,Below_Left_Palm_90,1,Below,Non Dominant,Open,90,Preference
+522,participant_13,Below_Left_Palm_90,5,Below,Non Dominant,Open,90,Preference
+523,participant_14,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Preference
+524,participant_15,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Preference
+525,participant_16,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Preference
+526,participant_17,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Preference
+527,participant_18,Below_Left_Palm_90,5,Below,Dominant,Open,90,Preference
+528,participant_19,Below_Left_Palm_90,4,Below,Dominant,Open,90,Preference
+529,participant_20,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Preference
+530,participant_21,Below_Left_Palm_90,5,Below,Non Dominant,Open,90,Preference
+531,participant_22,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Preference
+532,participant_23,Below_Left_Palm_90,5,Below,Non Dominant,Open,90,Preference
+533,participant_24,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Preference
+534,participant_25,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Preference
+535,participant_26,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Preference
+536,participant_27,Below_Left_Palm_90,4,Below,Non Dominant,Open,90,Preference
+537,participant_28,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Preference
+538,participant_29,Below_Left_Palm_90,2,Below,Non Dominant,Open,90,Preference
+539,participant_30,Below_Left_Palm_90,3,Below,Non Dominant,Open,90,Preference
+540,participant_1,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+541,participant_2,Below_Right_Palm_90,5,Below,Dominant,Open,90,Comfort
+542,participant_3,Below_Right_Palm_90,5,Below,Dominant,Open,90,Comfort
+543,participant_4,Below_Right_Palm_90,4,Below,Non Dominant,Open,90,Comfort
+544,participant_5,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+545,participant_6,Below_Right_Palm_90,4,Below,Non Dominant,Open,90,Comfort
+546,participant_7,Below_Right_Palm_90,5,Below,Dominant,Open,90,Comfort
+547,participant_8,Below_Right_Palm_90,3,Below,Non Dominant,Open,90,Comfort
+548,participant_9,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+549,participant_10,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+550,participant_11,Below_Right_Palm_90,2,Below,Dominant,Open,90,Comfort
+551,participant_12,Below_Right_Palm_90,1,Below,Dominant,Open,90,Comfort
+552,participant_13,Below_Right_Palm_90,5,Below,Dominant,Open,90,Comfort
+553,participant_14,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+554,participant_15,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+555,participant_16,Below_Right_Palm_90,5,Below,Dominant,Open,90,Comfort
+556,participant_17,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+557,participant_18,Below_Right_Palm_90,5,Below,Non Dominant,Open,90,Comfort
+558,participant_19,Below_Right_Palm_90,4,Below,Non Dominant,Open,90,Comfort
+559,participant_20,Below_Right_Palm_90,5,Below,Dominant,Open,90,Comfort
+560,participant_21,Below_Right_Palm_90,5,Below,Dominant,Open,90,Comfort
+561,participant_22,Below_Right_Palm_90,3,Below,Dominant,Open,90,Comfort
+562,participant_23,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+563,participant_24,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+564,participant_25,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+565,participant_26,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+566,participant_27,Below_Right_Palm_90,5,Below,Dominant,Open,90,Comfort
+567,participant_28,Below_Right_Palm_90,4,Below,Dominant,Open,90,Comfort
+568,participant_29,Below_Right_Palm_90,2,Below,Dominant,Open,90,Comfort
+569,participant_30,Below_Right_Palm_90,3,Below,Dominant,Open,90,Comfort
+570,participant_1,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+571,participant_2,Below_Right_Palm_90,5,Below,Dominant,Open,90,Preference
+572,participant_3,Below_Right_Palm_90,2,Below,Dominant,Open,90,Preference
+573,participant_4,Below_Right_Palm_90,4,Below,Non Dominant,Open,90,Preference
+574,participant_5,Below_Right_Palm_90,3,Below,Dominant,Open,90,Preference
+575,participant_6,Below_Right_Palm_90,4,Below,Non Dominant,Open,90,Preference
+576,participant_7,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+577,participant_8,Below_Right_Palm_90,3,Below,Non Dominant,Open,90,Preference
+578,participant_9,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+579,participant_10,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+580,participant_11,Below_Right_Palm_90,2,Below,Dominant,Open,90,Preference
+581,participant_12,Below_Right_Palm_90,1,Below,Dominant,Open,90,Preference
+582,participant_13,Below_Right_Palm_90,5,Below,Dominant,Open,90,Preference
+583,participant_14,Below_Right_Palm_90,3,Below,Dominant,Open,90,Preference
+584,participant_15,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+585,participant_16,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+586,participant_17,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+587,participant_18,Below_Right_Palm_90,5,Below,Non Dominant,Open,90,Preference
+588,participant_19,Below_Right_Palm_90,4,Below,Non Dominant,Open,90,Preference
+589,participant_20,Below_Right_Palm_90,3,Below,Dominant,Open,90,Preference
+590,participant_21,Below_Right_Palm_90,5,Below,Dominant,Open,90,Preference
+591,participant_22,Below_Right_Palm_90,3,Below,Dominant,Open,90,Preference
+592,participant_23,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+593,participant_24,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+594,participant_25,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+595,participant_26,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+596,participant_27,Below_Right_Palm_90,5,Below,Dominant,Open,90,Preference
+597,participant_28,Below_Right_Palm_90,4,Below,Dominant,Open,90,Preference
+598,participant_29,Below_Right_Palm_90,3,Below,Dominant,Open,90,Preference
+599,participant_30,Below_Right_Palm_90,3,Below,Dominant,Open,90,Preference
+600,participant_1,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Comfort
+601,participant_2,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Comfort
+602,participant_3,Below_Left_Palm_180,3,Below,Non Dominant,Open,180,Comfort
+603,participant_4,Below_Left_Palm_180,1,Below,Dominant,Open,180,Comfort
+604,participant_5,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Comfort
+605,participant_6,Below_Left_Palm_180,4,Below,Dominant,Open,180,Comfort
+606,participant_7,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Comfort
+607,participant_8,Below_Left_Palm_180,2,Below,Dominant,Open,180,Comfort
+608,participant_9,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Comfort
+609,participant_10,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Comfort
+610,participant_11,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Comfort
+611,participant_12,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Comfort
+612,participant_13,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Comfort
+613,participant_14,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Comfort
+614,participant_15,Below_Left_Palm_180,3,Below,Non Dominant,Open,180,Comfort
+615,participant_16,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Comfort
+616,participant_17,Below_Left_Palm_180,3,Below,Non Dominant,Open,180,Comfort
+617,participant_18,Below_Left_Palm_180,1,Below,Dominant,Open,180,Comfort
+618,participant_19,Below_Left_Palm_180,2,Below,Dominant,Open,180,Comfort
+619,participant_20,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Comfort
+620,participant_21,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Comfort
+621,participant_22,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Comfort
+622,participant_23,Below_Left_Palm_180,5,Below,Non Dominant,Open,180,Comfort
+623,participant_24,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Comfort
+624,participant_25,Below_Left_Palm_180,3,Below,Non Dominant,Open,180,Comfort
+625,participant_26,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Comfort
+626,participant_27,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Comfort
+627,participant_28,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Comfort
+628,participant_29,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Comfort
+629,participant_30,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Comfort
+630,participant_1,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Preference
+631,participant_2,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Preference
+632,participant_3,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Preference
+633,participant_4,Below_Left_Palm_180,1,Below,Dominant,Open,180,Preference
+634,participant_5,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Preference
+635,participant_6,Below_Left_Palm_180,4,Below,Dominant,Open,180,Preference
+636,participant_7,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Preference
+637,participant_8,Below_Left_Palm_180,2,Below,Dominant,Open,180,Preference
+638,participant_9,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Preference
+639,participant_10,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Preference
+640,participant_11,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Preference
+641,participant_12,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Preference
+642,participant_13,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Preference
+643,participant_14,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Preference
+644,participant_15,Below_Left_Palm_180,3,Below,Non Dominant,Open,180,Preference
+645,participant_16,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Preference
+646,participant_17,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Preference
+647,participant_18,Below_Left_Palm_180,4,Below,Dominant,Open,180,Preference
+648,participant_19,Below_Left_Palm_180,2,Below,Dominant,Open,180,Preference
+649,participant_20,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Preference
+650,participant_21,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Preference
+651,participant_22,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Preference
+652,participant_23,Below_Left_Palm_180,5,Below,Non Dominant,Open,180,Preference
+653,participant_24,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Preference
+654,participant_25,Below_Left_Palm_180,3,Below,Non Dominant,Open,180,Preference
+655,participant_26,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Preference
+656,participant_27,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Preference
+657,participant_28,Below_Left_Palm_180,2,Below,Non Dominant,Open,180,Preference
+658,participant_29,Below_Left_Palm_180,1,Below,Non Dominant,Open,180,Preference
+659,participant_30,Below_Left_Palm_180,4,Below,Non Dominant,Open,180,Preference
+660,participant_1,Below_Right_Palm_180,2,Below,Dominant,Open,180,Comfort
+661,participant_2,Below_Right_Palm_180,1,Below,Dominant,Open,180,Comfort
+662,participant_3,Below_Right_Palm_180,3,Below,Dominant,Open,180,Comfort
+663,participant_4,Below_Right_Palm_180,1,Below,Non Dominant,Open,180,Comfort
+664,participant_5,Below_Right_Palm_180,1,Below,Dominant,Open,180,Comfort
+665,participant_6,Below_Right_Palm_180,4,Below,Non Dominant,Open,180,Comfort
+666,participant_7,Below_Right_Palm_180,4,Below,Dominant,Open,180,Comfort
+667,participant_8,Below_Right_Palm_180,1,Below,Non Dominant,Open,180,Comfort
+668,participant_9,Below_Right_Palm_180,3,Below,Dominant,Open,180,Comfort
+669,participant_10,Below_Right_Palm_180,1,Below,Dominant,Open,180,Comfort
+670,participant_11,Below_Right_Palm_180,2,Below,Dominant,Open,180,Comfort
+671,participant_12,Below_Right_Palm_180,3,Below,Dominant,Open,180,Comfort
+672,participant_13,Below_Right_Palm_180,4,Below,Dominant,Open,180,Comfort
+673,participant_14,Below_Right_Palm_180,2,Below,Dominant,Open,180,Comfort
+674,participant_15,Below_Right_Palm_180,2,Below,Dominant,Open,180,Comfort
+675,participant_16,Below_Right_Palm_180,4,Below,Dominant,Open,180,Comfort
+676,participant_17,Below_Right_Palm_180,3,Below,Dominant,Open,180,Comfort
+677,participant_18,Below_Right_Palm_180,1,Below,Non Dominant,Open,180,Comfort
+678,participant_19,Below_Right_Palm_180,2,Below,Non Dominant,Open,180,Comfort
+679,participant_20,Below_Right_Palm_180,2,Below,Dominant,Open,180,Comfort
+680,participant_21,Below_Right_Palm_180,2,Below,Dominant,Open,180,Comfort
+681,participant_22,Below_Right_Palm_180,1,Below,Dominant,Open,180,Comfort
+682,participant_23,Below_Right_Palm_180,3,Below,Dominant,Open,180,Comfort
+683,participant_24,Below_Right_Palm_180,3,Below,Dominant,Open,180,Comfort
+684,participant_25,Below_Right_Palm_180,3,Below,Dominant,Open,180,Comfort
+685,participant_26,Below_Right_Palm_180,1,Below,Dominant,Open,180,Comfort
+686,participant_27,Below_Right_Palm_180,3,Below,Dominant,Open,180,Comfort
+687,participant_28,Below_Right_Palm_180,2,Below,Dominant,Open,180,Comfort
+688,participant_29,Below_Right_Palm_180,2,Below,Dominant,Open,180,Comfort
+689,participant_30,Below_Right_Palm_180,3,Below,Dominant,Open,180,Comfort
+690,participant_1,Below_Right_Palm_180,2,Below,Dominant,Open,180,Preference
+691,participant_2,Below_Right_Palm_180,1,Below,Dominant,Open,180,Preference
+692,participant_3,Below_Right_Palm_180,4,Below,Dominant,Open,180,Preference
+693,participant_4,Below_Right_Palm_180,1,Below,Non Dominant,Open,180,Preference
+694,participant_5,Below_Right_Palm_180,1,Below,Dominant,Open,180,Preference
+695,participant_6,Below_Right_Palm_180,4,Below,Non Dominant,Open,180,Preference
+696,participant_7,Below_Right_Palm_180,4,Below,Dominant,Open,180,Preference
+697,participant_8,Below_Right_Palm_180,1,Below,Non Dominant,Open,180,Preference
+698,participant_9,Below_Right_Palm_180,3,Below,Dominant,Open,180,Preference
+699,participant_10,Below_Right_Palm_180,1,Below,Dominant,Open,180,Preference
+700,participant_11,Below_Right_Palm_180,2,Below,Dominant,Open,180,Preference
+701,participant_12,Below_Right_Palm_180,3,Below,Dominant,Open,180,Preference
+702,participant_13,Below_Right_Palm_180,4,Below,Dominant,Open,180,Preference
+703,participant_14,Below_Right_Palm_180,2,Below,Dominant,Open,180,Preference
+704,participant_15,Below_Right_Palm_180,3,Below,Dominant,Open,180,Preference
+705,participant_16,Below_Right_Palm_180,4,Below,Dominant,Open,180,Preference
+706,participant_17,Below_Right_Palm_180,4,Below,Dominant,Open,180,Preference
+707,participant_18,Below_Right_Palm_180,4,Below,Non Dominant,Open,180,Preference
+708,participant_19,Below_Right_Palm_180,2,Below,Non Dominant,Open,180,Preference
+709,participant_20,Below_Right_Palm_180,3,Below,Dominant,Open,180,Preference
+710,participant_21,Below_Right_Palm_180,1,Below,Dominant,Open,180,Preference
+711,participant_22,Below_Right_Palm_180,1,Below,Dominant,Open,180,Preference
+712,participant_23,Below_Right_Palm_180,3,Below,Dominant,Open,180,Preference
+713,participant_24,Below_Right_Palm_180,2,Below,Dominant,Open,180,Preference
+714,participant_25,Below_Right_Palm_180,3,Below,Dominant,Open,180,Preference
+715,participant_26,Below_Right_Palm_180,1,Below,Dominant,Open,180,Preference
+716,participant_27,Below_Right_Palm_180,3,Below,Dominant,Open,180,Preference
+717,participant_28,Below_Right_Palm_180,2,Below,Dominant,Open,180,Preference
+718,participant_29,Below_Right_Palm_180,1,Below,Dominant,Open,180,Preference
+719,participant_30,Below_Right_Palm_180,3,Below,Dominant,Open,180,Preference
+720,participant_1,On_Left_Fist_0,2,On,Non Dominant,Close,0,Comfort
+721,participant_2,On_Left_Fist_0,3,On,Non Dominant,Close,0,Comfort
+722,participant_3,On_Left_Fist_0,3,On,Non Dominant,Close,0,Comfort
+723,participant_4,On_Left_Fist_0,3,On,Dominant,Close,0,Comfort
+724,participant_5,On_Left_Fist_0,2,On,Non Dominant,Close,0,Comfort
+725,participant_6,On_Left_Fist_0,2,On,Dominant,Close,0,Comfort
+726,participant_7,On_Left_Fist_0,4,On,Non Dominant,Close,0,Comfort
+727,participant_8,On_Left_Fist_0,3,On,Dominant,Close,0,Comfort
+728,participant_9,On_Left_Fist_0,2,On,Non Dominant,Close,0,Comfort
+729,participant_10,On_Left_Fist_0,5,On,Non Dominant,Close,0,Comfort
+730,participant_11,On_Left_Fist_0,3,On,Non Dominant,Close,0,Comfort
+731,participant_12,On_Left_Fist_0,2,On,Non Dominant,Close,0,Comfort
+732,participant_13,On_Left_Fist_0,5,On,Non Dominant,Close,0,Comfort
+733,participant_14,On_Left_Fist_0,5,On,Non Dominant,Close,0,Comfort
+734,participant_15,On_Left_Fist_0,3,On,Non Dominant,Close,0,Comfort
+735,participant_16,On_Left_Fist_0,5,On,Non Dominant,Close,0,Comfort
+736,participant_17,On_Left_Fist_0,4,On,Non Dominant,Close,0,Comfort
+737,participant_18,On_Left_Fist_0,5,On,Dominant,Close,0,Comfort
+738,participant_19,On_Left_Fist_0,3,On,Dominant,Close,0,Comfort
+739,participant_20,On_Left_Fist_0,3,On,Non Dominant,Close,0,Comfort
+740,participant_21,On_Left_Fist_0,4,On,Non Dominant,Close,0,Comfort
+741,participant_22,On_Left_Fist_0,5,On,Non Dominant,Close,0,Comfort
+742,participant_23,On_Left_Fist_0,4,On,Non Dominant,Close,0,Comfort
+743,participant_24,On_Left_Fist_0,3,On,Non Dominant,Close,0,Comfort
+744,participant_25,On_Left_Fist_0,4,On,Non Dominant,Close,0,Comfort
+745,participant_26,On_Left_Fist_0,4,On,Non Dominant,Close,0,Comfort
+746,participant_27,On_Left_Fist_0,4,On,Non Dominant,Close,0,Comfort
+747,participant_28,On_Left_Fist_0,2,On,Non Dominant,Close,0,Comfort
+748,participant_29,On_Left_Fist_0,2,On,Non Dominant,Close,0,Comfort
+749,participant_30,On_Left_Fist_0,4,On,Non Dominant,Close,0,Comfort
+750,participant_1,On_Left_Fist_0,2,On,Non Dominant,Close,0,Preference
+751,participant_2,On_Left_Fist_0,3,On,Non Dominant,Close,0,Preference
+752,participant_3,On_Left_Fist_0,4,On,Non Dominant,Close,0,Preference
+753,participant_4,On_Left_Fist_0,3,On,Dominant,Close,0,Preference
+754,participant_5,On_Left_Fist_0,2,On,Non Dominant,Close,0,Preference
+755,participant_6,On_Left_Fist_0,2,On,Dominant,Close,0,Preference
+756,participant_7,On_Left_Fist_0,4,On,Non Dominant,Close,0,Preference
+757,participant_8,On_Left_Fist_0,3,On,Dominant,Close,0,Preference
+758,participant_9,On_Left_Fist_0,2,On,Non Dominant,Close,0,Preference
+759,participant_10,On_Left_Fist_0,3,On,Non Dominant,Close,0,Preference
+760,participant_11,On_Left_Fist_0,3,On,Non Dominant,Close,0,Preference
+761,participant_12,On_Left_Fist_0,2,On,Non Dominant,Close,0,Preference
+762,participant_13,On_Left_Fist_0,5,On,Non Dominant,Close,0,Preference
+763,participant_14,On_Left_Fist_0,5,On,Non Dominant,Close,0,Preference
+764,participant_15,On_Left_Fist_0,3,On,Non Dominant,Close,0,Preference
+765,participant_16,On_Left_Fist_0,5,On,Non Dominant,Close,0,Preference
+766,participant_17,On_Left_Fist_0,5,On,Non Dominant,Close,0,Preference
+767,participant_18,On_Left_Fist_0,3,On,Dominant,Close,0,Preference
+768,participant_19,On_Left_Fist_0,3,On,Dominant,Close,0,Preference
+769,participant_20,On_Left_Fist_0,3,On,Non Dominant,Close,0,Preference
+770,participant_21,On_Left_Fist_0,4,On,Non Dominant,Close,0,Preference
+771,participant_22,On_Left_Fist_0,5,On,Non Dominant,Close,0,Preference
+772,participant_23,On_Left_Fist_0,4,On,Non Dominant,Close,0,Preference
+773,participant_24,On_Left_Fist_0,2,On,Non Dominant,Close,0,Preference
+774,participant_25,On_Left_Fist_0,4,On,Non Dominant,Close,0,Preference
+775,participant_26,On_Left_Fist_0,4,On,Non Dominant,Close,0,Preference
+776,participant_27,On_Left_Fist_0,4,On,Non Dominant,Close,0,Preference
+777,participant_28,On_Left_Fist_0,2,On,Non Dominant,Close,0,Preference
+778,participant_29,On_Left_Fist_0,3,On,Non Dominant,Close,0,Preference
+779,participant_30,On_Left_Fist_0,4,On,Non Dominant,Close,0,Preference
+780,participant_1,On_Right_Fist_0,4,On,Dominant,Close,0,Comfort
+781,participant_2,On_Right_Fist_0,4,On,Dominant,Close,0,Comfort
+782,participant_3,On_Right_Fist_0,3,On,Dominant,Close,0,Comfort
+783,participant_4,On_Right_Fist_0,3,On,Non Dominant,Close,0,Comfort
+784,participant_5,On_Right_Fist_0,4,On,Dominant,Close,0,Comfort
+785,participant_6,On_Right_Fist_0,2,On,Non Dominant,Close,0,Comfort
+786,participant_7,On_Right_Fist_0,4,On,Dominant,Close,0,Comfort
+787,participant_8,On_Right_Fist_0,4,On,Non Dominant,Close,0,Comfort
+788,participant_9,On_Right_Fist_0,3,On,Dominant,Close,0,Comfort
+789,participant_10,On_Right_Fist_0,5,On,Dominant,Close,0,Comfort
+790,participant_11,On_Right_Fist_0,2,On,Dominant,Close,0,Comfort
+791,participant_12,On_Right_Fist_0,3,On,Dominant,Close,0,Comfort
+792,participant_13,On_Right_Fist_0,5,On,Dominant,Close,0,Comfort
+793,participant_14,On_Right_Fist_0,5,On,Dominant,Close,0,Comfort
+794,participant_15,On_Right_Fist_0,3,On,Dominant,Close,0,Comfort
+795,participant_16,On_Right_Fist_0,5,On,Dominant,Close,0,Comfort
+796,participant_17,On_Right_Fist_0,4,On,Dominant,Close,0,Comfort
+797,participant_18,On_Right_Fist_0,5,On,Non Dominant,Close,0,Comfort
+798,participant_19,On_Right_Fist_0,3,On,Non Dominant,Close,0,Comfort
+799,participant_20,On_Right_Fist_0,3,On,Dominant,Close,0,Comfort
+800,participant_21,On_Right_Fist_0,4,On,Dominant,Close,0,Comfort
+801,participant_22,On_Right_Fist_0,5,On,Dominant,Close,0,Comfort
+802,participant_23,On_Right_Fist_0,3,On,Dominant,Close,0,Comfort
+803,participant_24,On_Right_Fist_0,3,On,Dominant,Close,0,Comfort
+804,participant_25,On_Right_Fist_0,4,On,Dominant,Close,0,Comfort
+805,participant_26,On_Right_Fist_0,4,On,Dominant,Close,0,Comfort
+806,participant_27,On_Right_Fist_0,4,On,Dominant,Close,0,Comfort
+807,participant_28,On_Right_Fist_0,3,On,Dominant,Close,0,Comfort
+808,participant_29,On_Right_Fist_0,2,On,Dominant,Close,0,Comfort
+809,participant_30,On_Right_Fist_0,4,On,Dominant,Close,0,Comfort
+810,participant_1,On_Right_Fist_0,4,On,Dominant,Close,0,Preference
+811,participant_2,On_Right_Fist_0,4,On,Dominant,Close,0,Preference
+812,participant_3,On_Right_Fist_0,4,On,Dominant,Close,0,Preference
+813,participant_4,On_Right_Fist_0,3,On,Non Dominant,Close,0,Preference
+814,participant_5,On_Right_Fist_0,3,On,Dominant,Close,0,Preference
+815,participant_6,On_Right_Fist_0,2,On,Non Dominant,Close,0,Preference
+816,participant_7,On_Right_Fist_0,4,On,Dominant,Close,0,Preference
+817,participant_8,On_Right_Fist_0,4,On,Non Dominant,Close,0,Preference
+818,participant_9,On_Right_Fist_0,3,On,Dominant,Close,0,Preference
+819,participant_10,On_Right_Fist_0,3,On,Dominant,Close,0,Preference
+820,participant_11,On_Right_Fist_0,2,On,Dominant,Close,0,Preference
+821,participant_12,On_Right_Fist_0,3,On,Dominant,Close,0,Preference
+822,participant_13,On_Right_Fist_0,5,On,Dominant,Close,0,Preference
+823,participant_14,On_Right_Fist_0,5,On,Dominant,Close,0,Preference
+824,participant_15,On_Right_Fist_0,3,On,Dominant,Close,0,Preference
+825,participant_16,On_Right_Fist_0,5,On,Dominant,Close,0,Preference
+826,participant_17,On_Right_Fist_0,5,On,Dominant,Close,0,Preference
+827,participant_18,On_Right_Fist_0,3,On,Non Dominant,Close,0,Preference
+828,participant_19,On_Right_Fist_0,3,On,Non Dominant,Close,0,Preference
+829,participant_20,On_Right_Fist_0,2,On,Dominant,Close,0,Preference
+830,participant_21,On_Right_Fist_0,4,On,Dominant,Close,0,Preference
+831,participant_22,On_Right_Fist_0,5,On,Dominant,Close,0,Preference
+832,participant_23,On_Right_Fist_0,3,On,Dominant,Close,0,Preference
+833,participant_24,On_Right_Fist_0,2,On,Dominant,Close,0,Preference
+834,participant_25,On_Right_Fist_0,4,On,Dominant,Close,0,Preference
+835,participant_26,On_Right_Fist_0,4,On,Dominant,Close,0,Preference
+836,participant_27,On_Right_Fist_0,4,On,Dominant,Close,0,Preference
+837,participant_28,On_Right_Fist_0,3,On,Dominant,Close,0,Preference
+838,participant_29,On_Right_Fist_0,3,On,Dominant,Close,0,Preference
+839,participant_30,On_Right_Fist_0,4,On,Dominant,Close,0,Preference
+840,participant_1,On_Left_Fist_90,1,On,Non Dominant,Close,90,Comfort
+841,participant_2,On_Left_Fist_90,4,On,Non Dominant,Close,90,Comfort
+842,participant_3,On_Left_Fist_90,3,On,Non Dominant,Close,90,Comfort
+843,participant_4,On_Left_Fist_90,3,On,Dominant,Close,90,Comfort
+844,participant_5,On_Left_Fist_90,3,On,Non Dominant,Close,90,Comfort
+845,participant_6,On_Left_Fist_90,2,On,Dominant,Close,90,Comfort
+846,participant_7,On_Left_Fist_90,4,On,Non Dominant,Close,90,Comfort
+847,participant_8,On_Left_Fist_90,3,On,Dominant,Close,90,Comfort
+848,participant_9,On_Left_Fist_90,2,On,Non Dominant,Close,90,Comfort
+849,participant_10,On_Left_Fist_90,4,On,Non Dominant,Close,90,Comfort
+850,participant_11,On_Left_Fist_90,2,On,Non Dominant,Close,90,Comfort
+851,participant_12,On_Left_Fist_90,1,On,Non Dominant,Close,90,Comfort
+852,participant_13,On_Left_Fist_90,5,On,Non Dominant,Close,90,Comfort
+853,participant_14,On_Left_Fist_90,5,On,Non Dominant,Close,90,Comfort
+854,participant_15,On_Left_Fist_90,3,On,Non Dominant,Close,90,Comfort
+855,participant_16,On_Left_Fist_90,5,On,Non Dominant,Close,90,Comfort
+856,participant_17,On_Left_Fist_90,4,On,Non Dominant,Close,90,Comfort
+857,participant_18,On_Left_Fist_90,4,On,Dominant,Close,90,Comfort
+858,participant_19,On_Left_Fist_90,3,On,Dominant,Close,90,Comfort
+859,participant_20,On_Left_Fist_90,4,On,Non Dominant,Close,90,Comfort
+860,participant_21,On_Left_Fist_90,4,On,Non Dominant,Close,90,Comfort
+861,participant_22,On_Left_Fist_90,4,On,Non Dominant,Close,90,Comfort
+862,participant_23,On_Left_Fist_90,4,On,Non Dominant,Close,90,Comfort
+863,participant_24,On_Left_Fist_90,4,On,Non Dominant,Close,90,Comfort
+864,participant_25,On_Left_Fist_90,4,On,Non Dominant,Close,90,Comfort
+865,participant_26,On_Left_Fist_90,5,On,Non Dominant,Close,90,Comfort
+866,participant_27,On_Left_Fist_90,3,On,Non Dominant,Close,90,Comfort
+867,participant_28,On_Left_Fist_90,2,On,Non Dominant,Close,90,Comfort
+868,participant_29,On_Left_Fist_90,2,On,Non Dominant,Close,90,Comfort
+869,participant_30,On_Left_Fist_90,4,On,Non Dominant,Close,90,Comfort
+870,participant_1,On_Left_Fist_90,1,On,Non Dominant,Close,90,Preference
+871,participant_2,On_Left_Fist_90,4,On,Non Dominant,Close,90,Preference
+872,participant_3,On_Left_Fist_90,4,On,Non Dominant,Close,90,Preference
+873,participant_4,On_Left_Fist_90,3,On,Dominant,Close,90,Preference
+874,participant_5,On_Left_Fist_90,3,On,Non Dominant,Close,90,Preference
+875,participant_6,On_Left_Fist_90,2,On,Dominant,Close,90,Preference
+876,participant_7,On_Left_Fist_90,5,On,Non Dominant,Close,90,Preference
+877,participant_8,On_Left_Fist_90,3,On,Dominant,Close,90,Preference
+878,participant_9,On_Left_Fist_90,2,On,Non Dominant,Close,90,Preference
+879,participant_10,On_Left_Fist_90,2,On,Non Dominant,Close,90,Preference
+880,participant_11,On_Left_Fist_90,2,On,Non Dominant,Close,90,Preference
+881,participant_12,On_Left_Fist_90,1,On,Non Dominant,Close,90,Preference
+882,participant_13,On_Left_Fist_90,5,On,Non Dominant,Close,90,Preference
+883,participant_14,On_Left_Fist_90,5,On,Non Dominant,Close,90,Preference
+884,participant_15,On_Left_Fist_90,3,On,Non Dominant,Close,90,Preference
+885,participant_16,On_Left_Fist_90,5,On,Non Dominant,Close,90,Preference
+886,participant_17,On_Left_Fist_90,5,On,Non Dominant,Close,90,Preference
+887,participant_18,On_Left_Fist_90,2,On,Dominant,Close,90,Preference
+888,participant_19,On_Left_Fist_90,3,On,Dominant,Close,90,Preference
+889,participant_20,On_Left_Fist_90,4,On,Non Dominant,Close,90,Preference
+890,participant_21,On_Left_Fist_90,4,On,Non Dominant,Close,90,Preference
+891,participant_22,On_Left_Fist_90,4,On,Non Dominant,Close,90,Preference
+892,participant_23,On_Left_Fist_90,4,On,Non Dominant,Close,90,Preference
+893,participant_24,On_Left_Fist_90,4,On,Non Dominant,Close,90,Preference
+894,participant_25,On_Left_Fist_90,4,On,Non Dominant,Close,90,Preference
+895,participant_26,On_Left_Fist_90,5,On,Non Dominant,Close,90,Preference
+896,participant_27,On_Left_Fist_90,3,On,Non Dominant,Close,90,Preference
+897,participant_28,On_Left_Fist_90,2,On,Non Dominant,Close,90,Preference
+898,participant_29,On_Left_Fist_90,2,On,Non Dominant,Close,90,Preference
+899,participant_30,On_Left_Fist_90,4,On,Non Dominant,Close,90,Preference
+900,participant_1,On_Right_Fist_90,4,On,Dominant,Close,90,Comfort
+901,participant_2,On_Right_Fist_90,5,On,Dominant,Close,90,Comfort
+902,participant_3,On_Right_Fist_90,5,On,Dominant,Close,90,Comfort
+903,participant_4,On_Right_Fist_90,3,On,Non Dominant,Close,90,Comfort
+904,participant_5,On_Right_Fist_90,4,On,Dominant,Close,90,Comfort
+905,participant_6,On_Right_Fist_90,2,On,Non Dominant,Close,90,Comfort
+906,participant_7,On_Right_Fist_90,4,On,Dominant,Close,90,Comfort
+907,participant_8,On_Right_Fist_90,5,On,Non Dominant,Close,90,Comfort
+908,participant_9,On_Right_Fist_90,3,On,Dominant,Close,90,Comfort
+909,participant_10,On_Right_Fist_90,3,On,Dominant,Close,90,Comfort
+910,participant_11,On_Right_Fist_90,3,On,Dominant,Close,90,Comfort
+911,participant_12,On_Right_Fist_90,2,On,Dominant,Close,90,Comfort
+912,participant_13,On_Right_Fist_90,5,On,Dominant,Close,90,Comfort
+913,participant_14,On_Right_Fist_90,5,On,Dominant,Close,90,Comfort
+914,participant_15,On_Right_Fist_90,3,On,Dominant,Close,90,Comfort
+915,participant_16,On_Right_Fist_90,5,On,Dominant,Close,90,Comfort
+916,participant_17,On_Right_Fist_90,4,On,Dominant,Close,90,Comfort
+917,participant_18,On_Right_Fist_90,4,On,Non Dominant,Close,90,Comfort
+918,participant_19,On_Right_Fist_90,3,On,Non Dominant,Close,90,Comfort
+919,participant_20,On_Right_Fist_90,4,On,Dominant,Close,90,Comfort
+920,participant_21,On_Right_Fist_90,4,On,Dominant,Close,90,Comfort
+921,participant_22,On_Right_Fist_90,4,On,Dominant,Close,90,Comfort
+922,participant_23,On_Right_Fist_90,3,On,Dominant,Close,90,Comfort
+923,participant_24,On_Right_Fist_90,4,On,Dominant,Close,90,Comfort
+924,participant_25,On_Right_Fist_90,4,On,Dominant,Close,90,Comfort
+925,participant_26,On_Right_Fist_90,5,On,Dominant,Close,90,Comfort
+926,participant_27,On_Right_Fist_90,4,On,Dominant,Close,90,Comfort
+927,participant_28,On_Right_Fist_90,3,On,Dominant,Close,90,Comfort
+928,participant_29,On_Right_Fist_90,2,On,Dominant,Close,90,Comfort
+929,participant_30,On_Right_Fist_90,4,On,Dominant,Close,90,Comfort
+930,participant_1,On_Right_Fist_90,4,On,Dominant,Close,90,Preference
+931,participant_2,On_Right_Fist_90,5,On,Dominant,Close,90,Preference
+932,participant_3,On_Right_Fist_90,2,On,Dominant,Close,90,Preference
+933,participant_4,On_Right_Fist_90,3,On,Non Dominant,Close,90,Preference
+934,participant_5,On_Right_Fist_90,4,On,Dominant,Close,90,Preference
+935,participant_6,On_Right_Fist_90,2,On,Non Dominant,Close,90,Preference
+936,participant_7,On_Right_Fist_90,4,On,Dominant,Close,90,Preference
+937,participant_8,On_Right_Fist_90,5,On,Non Dominant,Close,90,Preference
+938,participant_9,On_Right_Fist_90,3,On,Dominant,Close,90,Preference
+939,participant_10,On_Right_Fist_90,2,On,Dominant,Close,90,Preference
+940,participant_11,On_Right_Fist_90,3,On,Dominant,Close,90,Preference
+941,participant_12,On_Right_Fist_90,2,On,Dominant,Close,90,Preference
+942,participant_13,On_Right_Fist_90,5,On,Dominant,Close,90,Preference
+943,participant_14,On_Right_Fist_90,5,On,Dominant,Close,90,Preference
+944,participant_15,On_Right_Fist_90,3,On,Dominant,Close,90,Preference
+945,participant_16,On_Right_Fist_90,5,On,Dominant,Close,90,Preference
+946,participant_17,On_Right_Fist_90,5,On,Dominant,Close,90,Preference
+947,participant_18,On_Right_Fist_90,2,On,Non Dominant,Close,90,Preference
+948,participant_19,On_Right_Fist_90,3,On,Non Dominant,Close,90,Preference
+949,participant_20,On_Right_Fist_90,4,On,Dominant,Close,90,Preference
+950,participant_21,On_Right_Fist_90,4,On,Dominant,Close,90,Preference
+951,participant_22,On_Right_Fist_90,4,On,Dominant,Close,90,Preference
+952,participant_23,On_Right_Fist_90,3,On,Dominant,Close,90,Preference
+953,participant_24,On_Right_Fist_90,4,On,Dominant,Close,90,Preference
+954,participant_25,On_Right_Fist_90,4,On,Dominant,Close,90,Preference
+955,participant_26,On_Right_Fist_90,5,On,Dominant,Close,90,Preference
+956,participant_27,On_Right_Fist_90,4,On,Dominant,Close,90,Preference
+957,participant_28,On_Right_Fist_90,3,On,Dominant,Close,90,Preference
+958,participant_29,On_Right_Fist_90,2,On,Dominant,Close,90,Preference
+959,participant_30,On_Right_Fist_90,4,On,Dominant,Close,90,Preference
+960,participant_1,On_Left_Fist_180,1,On,Non Dominant,Close,180,Comfort
+961,participant_2,On_Left_Fist_180,1,On,Non Dominant,Close,180,Comfort
+962,participant_3,On_Left_Fist_180,2,On,Non Dominant,Close,180,Comfort
+963,participant_4,On_Left_Fist_180,1,On,Dominant,Close,180,Comfort
+964,participant_5,On_Left_Fist_180,1,On,Non Dominant,Close,180,Comfort
+965,participant_6,On_Left_Fist_180,2,On,Dominant,Close,180,Comfort
+966,participant_7,On_Left_Fist_180,3,On,Non Dominant,Close,180,Comfort
+967,participant_8,On_Left_Fist_180,1,On,Dominant,Close,180,Comfort
+968,participant_9,On_Left_Fist_180,1,On,Non Dominant,Close,180,Comfort
+969,participant_10,On_Left_Fist_180,1,On,Non Dominant,Close,180,Comfort
+970,participant_11,On_Left_Fist_180,3,On,Non Dominant,Close,180,Comfort
+971,participant_12,On_Left_Fist_180,2,On,Non Dominant,Close,180,Comfort
+972,participant_13,On_Left_Fist_180,3,On,Non Dominant,Close,180,Comfort
+973,participant_14,On_Left_Fist_180,1,On,Non Dominant,Close,180,Comfort
+974,participant_15,On_Left_Fist_180,3,On,Non Dominant,Close,180,Comfort
+975,participant_16,On_Left_Fist_180,4,On,Non Dominant,Close,180,Comfort
+976,participant_17,On_Left_Fist_180,3,On,Non Dominant,Close,180,Comfort
+977,participant_18,On_Left_Fist_180,1,On,Dominant,Close,180,Comfort
+978,participant_19,On_Left_Fist_180,2,On,Dominant,Close,180,Comfort
+979,participant_20,On_Left_Fist_180,2,On,Non Dominant,Close,180,Comfort
+980,participant_21,On_Left_Fist_180,2,On,Non Dominant,Close,180,Comfort
+981,participant_22,On_Left_Fist_180,1,On,Non Dominant,Close,180,Comfort
+982,participant_23,On_Left_Fist_180,3,On,Non Dominant,Close,180,Comfort
+983,participant_24,On_Left_Fist_180,1,On,Non Dominant,Close,180,Comfort
+984,participant_25,On_Left_Fist_180,3,On,Non Dominant,Close,180,Comfort
+985,participant_26,On_Left_Fist_180,2,On,Non Dominant,Close,180,Comfort
+986,participant_27,On_Left_Fist_180,2,On,Non Dominant,Close,180,Comfort
+987,participant_28,On_Left_Fist_180,1,On,Non Dominant,Close,180,Comfort
+988,participant_29,On_Left_Fist_180,1,On,Non Dominant,Close,180,Comfort
+989,participant_30,On_Left_Fist_180,3,On,Non Dominant,Close,180,Comfort
+990,participant_1,On_Left_Fist_180,1,On,Non Dominant,Close,180,Preference
+991,participant_2,On_Left_Fist_180,1,On,Non Dominant,Close,180,Preference
+992,participant_3,On_Left_Fist_180,3,On,Non Dominant,Close,180,Preference
+993,participant_4,On_Left_Fist_180,1,On,Dominant,Close,180,Preference
+994,participant_5,On_Left_Fist_180,1,On,Non Dominant,Close,180,Preference
+995,participant_6,On_Left_Fist_180,2,On,Dominant,Close,180,Preference
+996,participant_7,On_Left_Fist_180,3,On,Non Dominant,Close,180,Preference
+997,participant_8,On_Left_Fist_180,1,On,Dominant,Close,180,Preference
+998,participant_9,On_Left_Fist_180,1,On,Non Dominant,Close,180,Preference
+999,participant_10,On_Left_Fist_180,1,On,Non Dominant,Close,180,Preference
+1000,participant_11,On_Left_Fist_180,3,On,Non Dominant,Close,180,Preference
+1001,participant_12,On_Left_Fist_180,3,On,Non Dominant,Close,180,Preference
+1002,participant_13,On_Left_Fist_180,3,On,Non Dominant,Close,180,Preference
+1003,participant_14,On_Left_Fist_180,1,On,Non Dominant,Close,180,Preference
+1004,participant_15,On_Left_Fist_180,3,On,Non Dominant,Close,180,Preference
+1005,participant_16,On_Left_Fist_180,5,On,Non Dominant,Close,180,Preference
+1006,participant_17,On_Left_Fist_180,5,On,Non Dominant,Close,180,Preference
+1007,participant_18,On_Left_Fist_180,1,On,Dominant,Close,180,Preference
+1008,participant_19,On_Left_Fist_180,2,On,Dominant,Close,180,Preference
+1009,participant_20,On_Left_Fist_180,2,On,Non Dominant,Close,180,Preference
+1010,participant_21,On_Left_Fist_180,2,On,Non Dominant,Close,180,Preference
+1011,participant_22,On_Left_Fist_180,1,On,Non Dominant,Close,180,Preference
+1012,participant_23,On_Left_Fist_180,3,On,Non Dominant,Close,180,Preference
+1013,participant_24,On_Left_Fist_180,2,On,Non Dominant,Close,180,Preference
+1014,participant_25,On_Left_Fist_180,3,On,Non Dominant,Close,180,Preference
+1015,participant_26,On_Left_Fist_180,2,On,Non Dominant,Close,180,Preference
+1016,participant_27,On_Left_Fist_180,2,On,Non Dominant,Close,180,Preference
+1017,participant_28,On_Left_Fist_180,1,On,Non Dominant,Close,180,Preference
+1018,participant_29,On_Left_Fist_180,1,On,Non Dominant,Close,180,Preference
+1019,participant_30,On_Left_Fist_180,3,On,Non Dominant,Close,180,Preference
+1020,participant_1,On_Right_Fist_180,2,On,Dominant,Close,180,Comfort
+1021,participant_2,On_Right_Fist_180,1,On,Dominant,Close,180,Comfort
+1022,participant_3,On_Right_Fist_180,3,On,Dominant,Close,180,Comfort
+1023,participant_4,On_Right_Fist_180,1,On,Non Dominant,Close,180,Comfort
+1024,participant_5,On_Right_Fist_180,2,On,Dominant,Close,180,Comfort
+1025,participant_6,On_Right_Fist_180,2,On,Non Dominant,Close,180,Comfort
+1026,participant_7,On_Right_Fist_180,2,On,Dominant,Close,180,Comfort
+1027,participant_8,On_Right_Fist_180,3,On,Non Dominant,Close,180,Comfort
+1028,participant_9,On_Right_Fist_180,2,On,Dominant,Close,180,Comfort
+1029,participant_10,On_Right_Fist_180,1,On,Dominant,Close,180,Comfort
+1030,participant_11,On_Right_Fist_180,3,On,Dominant,Close,180,Comfort
+1031,participant_12,On_Right_Fist_180,2,On,Dominant,Close,180,Comfort
+1032,participant_13,On_Right_Fist_180,3,On,Dominant,Close,180,Comfort
+1033,participant_14,On_Right_Fist_180,1,On,Dominant,Close,180,Comfort
+1034,participant_15,On_Right_Fist_180,2,On,Dominant,Close,180,Comfort
+1035,participant_16,On_Right_Fist_180,4,On,Dominant,Close,180,Comfort
+1036,participant_17,On_Right_Fist_180,3,On,Dominant,Close,180,Comfort
+1037,participant_18,On_Right_Fist_180,1,On,Non Dominant,Close,180,Comfort
+1038,participant_19,On_Right_Fist_180,2,On,Non Dominant,Close,180,Comfort
+1039,participant_20,On_Right_Fist_180,2,On,Dominant,Close,180,Comfort
+1040,participant_21,On_Right_Fist_180,2,On,Dominant,Close,180,Comfort
+1041,participant_22,On_Right_Fist_180,1,On,Dominant,Close,180,Comfort
+1042,participant_23,On_Right_Fist_180,3,On,Dominant,Close,180,Comfort
+1043,participant_24,On_Right_Fist_180,2,On,Dominant,Close,180,Comfort
+1044,participant_25,On_Right_Fist_180,3,On,Dominant,Close,180,Comfort
+1045,participant_26,On_Right_Fist_180,2,On,Dominant,Close,180,Comfort
+1046,participant_27,On_Right_Fist_180,4,On,Dominant,Close,180,Comfort
+1047,participant_28,On_Right_Fist_180,2,On,Dominant,Close,180,Comfort
+1048,participant_29,On_Right_Fist_180,1,On,Dominant,Close,180,Comfort
+1049,participant_30,On_Right_Fist_180,3,On,Dominant,Close,180,Comfort
+1050,participant_1,On_Right_Fist_180,2,On,Dominant,Close,180,Preference
+1051,participant_2,On_Right_Fist_180,1,On,Dominant,Close,180,Preference
+1052,participant_3,On_Right_Fist_180,4,On,Dominant,Close,180,Preference
+1053,participant_4,On_Right_Fist_180,1,On,Non Dominant,Close,180,Preference
+1054,participant_5,On_Right_Fist_180,2,On,Dominant,Close,180,Preference
+1055,participant_6,On_Right_Fist_180,2,On,Non Dominant,Close,180,Preference
+1056,participant_7,On_Right_Fist_180,2,On,Dominant,Close,180,Preference
+1057,participant_8,On_Right_Fist_180,3,On,Non Dominant,Close,180,Preference
+1058,participant_9,On_Right_Fist_180,2,On,Dominant,Close,180,Preference
+1059,participant_10,On_Right_Fist_180,1,On,Dominant,Close,180,Preference
+1060,participant_11,On_Right_Fist_180,3,On,Dominant,Close,180,Preference
+1061,participant_12,On_Right_Fist_180,2,On,Dominant,Close,180,Preference
+1062,participant_13,On_Right_Fist_180,3,On,Dominant,Close,180,Preference
+1063,participant_14,On_Right_Fist_180,1,On,Dominant,Close,180,Preference
+1064,participant_15,On_Right_Fist_180,3,On,Dominant,Close,180,Preference
+1065,participant_16,On_Right_Fist_180,5,On,Dominant,Close,180,Preference
+1066,participant_17,On_Right_Fist_180,5,On,Dominant,Close,180,Preference
+1067,participant_18,On_Right_Fist_180,1,On,Non Dominant,Close,180,Preference
+1068,participant_19,On_Right_Fist_180,2,On,Non Dominant,Close,180,Preference
+1069,participant_20,On_Right_Fist_180,2,On,Dominant,Close,180,Preference
+1070,participant_21,On_Right_Fist_180,2,On,Dominant,Close,180,Preference
+1071,participant_22,On_Right_Fist_180,1,On,Dominant,Close,180,Preference
+1072,participant_23,On_Right_Fist_180,3,On,Dominant,Close,180,Preference
+1073,participant_24,On_Right_Fist_180,3,On,Dominant,Close,180,Preference
+1074,participant_25,On_Right_Fist_180,3,On,Dominant,Close,180,Preference
+1075,participant_26,On_Right_Fist_180,2,On,Dominant,Close,180,Preference
+1076,participant_27,On_Right_Fist_180,4,On,Dominant,Close,180,Preference
+1077,participant_28,On_Right_Fist_180,2,On,Dominant,Close,180,Preference
+1078,participant_29,On_Right_Fist_180,1,On,Dominant,Close,180,Preference
+1079,participant_30,On_Right_Fist_180,3,On,Dominant,Close,180,Preference
+1080,participant_1,On_Left_Palm_0,3,On,Non Dominant,Open,0,Comfort
+1081,participant_2,On_Left_Palm_0,4,On,Non Dominant,Open,0,Comfort
+1082,participant_3,On_Left_Palm_0,3,On,Non Dominant,Open,0,Comfort
+1083,participant_4,On_Left_Palm_0,4,On,Dominant,Open,0,Comfort
+1084,participant_5,On_Left_Palm_0,4,On,Non Dominant,Open,0,Comfort
+1085,participant_6,On_Left_Palm_0,1,On,Dominant,Open,0,Comfort
+1086,participant_7,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1087,participant_8,On_Left_Palm_0,4,On,Dominant,Open,0,Comfort
+1088,participant_9,On_Left_Palm_0,3,On,Non Dominant,Open,0,Comfort
+1089,participant_10,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1090,participant_11,On_Left_Palm_0,3,On,Non Dominant,Open,0,Comfort
+1091,participant_12,On_Left_Palm_0,4,On,Non Dominant,Open,0,Comfort
+1092,participant_13,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1093,participant_14,On_Left_Palm_0,4,On,Non Dominant,Open,0,Comfort
+1094,participant_15,On_Left_Palm_0,4,On,Non Dominant,Open,0,Comfort
+1095,participant_16,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1096,participant_17,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1097,participant_18,On_Left_Palm_0,3,On,Dominant,Open,0,Comfort
+1098,participant_19,On_Left_Palm_0,4,On,Dominant,Open,0,Comfort
+1099,participant_20,On_Left_Palm_0,4,On,Non Dominant,Open,0,Comfort
+1100,participant_21,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1101,participant_22,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1102,participant_23,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1103,participant_24,On_Left_Palm_0,3,On,Non Dominant,Open,0,Comfort
+1104,participant_25,On_Left_Palm_0,3,On,Non Dominant,Open,0,Comfort
+1105,participant_26,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1106,participant_27,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1107,participant_28,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1108,participant_29,On_Left_Palm_0,4,On,Non Dominant,Open,0,Comfort
+1109,participant_30,On_Left_Palm_0,5,On,Non Dominant,Open,0,Comfort
+1110,participant_1,On_Left_Palm_0,3,On,Non Dominant,Open,0,Preference
+1111,participant_2,On_Left_Palm_0,3,On,Non Dominant,Open,0,Preference
+1112,participant_3,On_Left_Palm_0,4,On,Non Dominant,Open,0,Preference
+1113,participant_4,On_Left_Palm_0,4,On,Dominant,Open,0,Preference
+1114,participant_5,On_Left_Palm_0,2,On,Non Dominant,Open,0,Preference
+1115,participant_6,On_Left_Palm_0,1,On,Dominant,Open,0,Preference
+1116,participant_7,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1117,participant_8,On_Left_Palm_0,3,On,Dominant,Open,0,Preference
+1118,participant_9,On_Left_Palm_0,3,On,Non Dominant,Open,0,Preference
+1119,participant_10,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1120,participant_11,On_Left_Palm_0,3,On,Non Dominant,Open,0,Preference
+1121,participant_12,On_Left_Palm_0,4,On,Non Dominant,Open,0,Preference
+1122,participant_13,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1123,participant_14,On_Left_Palm_0,4,On,Non Dominant,Open,0,Preference
+1124,participant_15,On_Left_Palm_0,4,On,Non Dominant,Open,0,Preference
+1125,participant_16,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1126,participant_17,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1127,participant_18,On_Left_Palm_0,3,On,Dominant,Open,0,Preference
+1128,participant_19,On_Left_Palm_0,4,On,Dominant,Open,0,Preference
+1129,participant_20,On_Left_Palm_0,4,On,Non Dominant,Open,0,Preference
+1130,participant_21,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1131,participant_22,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1132,participant_23,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1133,participant_24,On_Left_Palm_0,2,On,Non Dominant,Open,0,Preference
+1134,participant_25,On_Left_Palm_0,3,On,Non Dominant,Open,0,Preference
+1135,participant_26,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1136,participant_27,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1137,participant_28,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1138,participant_29,On_Left_Palm_0,4,On,Non Dominant,Open,0,Preference
+1139,participant_30,On_Left_Palm_0,5,On,Non Dominant,Open,0,Preference
+1140,participant_1,On_Right_Palm_0,4,On,Dominant,Open,0,Comfort
+1141,participant_2,On_Right_Palm_0,4,On,Dominant,Open,0,Comfort
+1142,participant_3,On_Right_Palm_0,3,On,Dominant,Open,0,Comfort
+1143,participant_4,On_Right_Palm_0,4,On,Non Dominant,Open,0,Comfort
+1144,participant_5,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1145,participant_6,On_Right_Palm_0,1,On,Non Dominant,Open,0,Comfort
+1146,participant_7,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1147,participant_8,On_Right_Palm_0,4,On,Non Dominant,Open,0,Comfort
+1148,participant_9,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1149,participant_10,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1150,participant_11,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1151,participant_12,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1152,participant_13,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1153,participant_14,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1154,participant_15,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1155,participant_16,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1156,participant_17,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1157,participant_18,On_Right_Palm_0,3,On,Non Dominant,Open,0,Comfort
+1158,participant_19,On_Right_Palm_0,4,On,Non Dominant,Open,0,Comfort
+1159,participant_20,On_Right_Palm_0,4,On,Dominant,Open,0,Comfort
+1160,participant_21,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1161,participant_22,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1162,participant_23,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1163,participant_24,On_Right_Palm_0,4,On,Dominant,Open,0,Comfort
+1164,participant_25,On_Right_Palm_0,2,On,Dominant,Open,0,Comfort
+1165,participant_26,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1166,participant_27,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1167,participant_28,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1168,participant_29,On_Right_Palm_0,4,On,Dominant,Open,0,Comfort
+1169,participant_30,On_Right_Palm_0,5,On,Dominant,Open,0,Comfort
+1170,participant_1,On_Right_Palm_0,4,On,Dominant,Open,0,Preference
+1171,participant_2,On_Right_Palm_0,4,On,Dominant,Open,0,Preference
+1172,participant_3,On_Right_Palm_0,4,On,Dominant,Open,0,Preference
+1173,participant_4,On_Right_Palm_0,4,On,Non Dominant,Open,0,Preference
+1174,participant_5,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1175,participant_6,On_Right_Palm_0,1,On,Non Dominant,Open,0,Preference
+1176,participant_7,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1177,participant_8,On_Right_Palm_0,4,On,Non Dominant,Open,0,Preference
+1178,participant_9,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1179,participant_10,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1180,participant_11,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1181,participant_12,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1182,participant_13,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1183,participant_14,On_Right_Palm_0,4,On,Dominant,Open,0,Preference
+1184,participant_15,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1185,participant_16,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1186,participant_17,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1187,participant_18,On_Right_Palm_0,3,On,Non Dominant,Open,0,Preference
+1188,participant_19,On_Right_Palm_0,4,On,Non Dominant,Open,0,Preference
+1189,participant_20,On_Right_Palm_0,4,On,Dominant,Open,0,Preference
+1190,participant_21,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1191,participant_22,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1192,participant_23,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1193,participant_24,On_Right_Palm_0,4,On,Dominant,Open,0,Preference
+1194,participant_25,On_Right_Palm_0,2,On,Dominant,Open,0,Preference
+1195,participant_26,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1196,participant_27,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1197,participant_28,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1198,participant_29,On_Right_Palm_0,4,On,Dominant,Open,0,Preference
+1199,participant_30,On_Right_Palm_0,5,On,Dominant,Open,0,Preference
+1200,participant_1,On_Left_Palm_90,2,On,Non Dominant,Open,90,Comfort
+1201,participant_2,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1202,participant_3,On_Left_Palm_90,5,On,Non Dominant,Open,90,Comfort
+1203,participant_4,On_Left_Palm_90,3,On,Dominant,Open,90,Comfort
+1204,participant_5,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1205,participant_6,On_Left_Palm_90,1,On,Dominant,Open,90,Comfort
+1206,participant_7,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1207,participant_8,On_Left_Palm_90,2,On,Dominant,Open,90,Comfort
+1208,participant_9,On_Left_Palm_90,2,On,Non Dominant,Open,90,Comfort
+1209,participant_10,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1210,participant_11,On_Left_Palm_90,2,On,Non Dominant,Open,90,Comfort
+1211,participant_12,On_Left_Palm_90,3,On,Non Dominant,Open,90,Comfort
+1212,participant_13,On_Left_Palm_90,5,On,Non Dominant,Open,90,Comfort
+1213,participant_14,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1214,participant_15,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1215,participant_16,On_Left_Palm_90,5,On,Non Dominant,Open,90,Comfort
+1216,participant_17,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1217,participant_18,On_Left_Palm_90,2,On,Dominant,Open,90,Comfort
+1218,participant_19,On_Left_Palm_90,3,On,Dominant,Open,90,Comfort
+1219,participant_20,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1220,participant_21,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1221,participant_22,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1222,participant_23,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1223,participant_24,On_Left_Palm_90,3,On,Non Dominant,Open,90,Comfort
+1224,participant_25,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1225,participant_26,On_Left_Palm_90,5,On,Non Dominant,Open,90,Comfort
+1226,participant_27,On_Left_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1227,participant_28,On_Left_Palm_90,3,On,Non Dominant,Open,90,Comfort
+1228,participant_29,On_Left_Palm_90,2,On,Non Dominant,Open,90,Comfort
+1229,participant_30,On_Left_Palm_90,5,On,Non Dominant,Open,90,Comfort
+1230,participant_1,On_Left_Palm_90,2,On,Non Dominant,Open,90,Preference
+1231,participant_2,On_Left_Palm_90,4,On,Non Dominant,Open,90,Preference
+1232,participant_3,On_Left_Palm_90,3,On,Non Dominant,Open,90,Preference
+1233,participant_4,On_Left_Palm_90,3,On,Dominant,Open,90,Preference
+1234,participant_5,On_Left_Palm_90,2,On,Non Dominant,Open,90,Preference
+1235,participant_6,On_Left_Palm_90,1,On,Dominant,Open,90,Preference
+1236,participant_7,On_Left_Palm_90,4,On,Non Dominant,Open,90,Preference
+1237,participant_8,On_Left_Palm_90,2,On,Dominant,Open,90,Preference
+1238,participant_9,On_Left_Palm_90,2,On,Non Dominant,Open,90,Preference
+1239,participant_10,On_Left_Palm_90,3,On,Non Dominant,Open,90,Preference
+1240,participant_11,On_Left_Palm_90,2,On,Non Dominant,Open,90,Preference
+1241,participant_12,On_Left_Palm_90,3,On,Non Dominant,Open,90,Preference
+1242,participant_13,On_Left_Palm_90,5,On,Non Dominant,Open,90,Preference
+1243,participant_14,On_Left_Palm_90,4,On,Non Dominant,Open,90,Preference
+1244,participant_15,On_Left_Palm_90,4,On,Non Dominant,Open,90,Preference
+1245,participant_16,On_Left_Palm_90,5,On,Non Dominant,Open,90,Preference
+1246,participant_17,On_Left_Palm_90,5,On,Non Dominant,Open,90,Preference
+1247,participant_18,On_Left_Palm_90,2,On,Dominant,Open,90,Preference
+1248,participant_19,On_Left_Palm_90,3,On,Dominant,Open,90,Preference
+1249,participant_20,On_Left_Palm_90,4,On,Non Dominant,Open,90,Preference
+1250,participant_21,On_Left_Palm_90,5,On,Non Dominant,Open,90,Preference
+1251,participant_22,On_Left_Palm_90,3,On,Non Dominant,Open,90,Preference
+1252,participant_23,On_Left_Palm_90,4,On,Non Dominant,Open,90,Preference
+1253,participant_24,On_Left_Palm_90,3,On,Non Dominant,Open,90,Preference
+1254,participant_25,On_Left_Palm_90,4,On,Non Dominant,Open,90,Preference
+1255,participant_26,On_Left_Palm_90,5,On,Non Dominant,Open,90,Preference
+1256,participant_27,On_Left_Palm_90,4,On,Non Dominant,Open,90,Preference
+1257,participant_28,On_Left_Palm_90,3,On,Non Dominant,Open,90,Preference
+1258,participant_29,On_Left_Palm_90,2,On,Non Dominant,Open,90,Preference
+1259,participant_30,On_Left_Palm_90,5,On,Non Dominant,Open,90,Preference
+1260,participant_1,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1261,participant_2,On_Right_Palm_90,5,On,Dominant,Open,90,Comfort
+1262,participant_3,On_Right_Palm_90,3,On,Dominant,Open,90,Comfort
+1263,participant_4,On_Right_Palm_90,3,On,Non Dominant,Open,90,Comfort
+1264,participant_5,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1265,participant_6,On_Right_Palm_90,1,On,Non Dominant,Open,90,Comfort
+1266,participant_7,On_Right_Palm_90,5,On,Dominant,Open,90,Comfort
+1267,participant_8,On_Right_Palm_90,4,On,Non Dominant,Open,90,Comfort
+1268,participant_9,On_Right_Palm_90,3,On,Dominant,Open,90,Comfort
+1269,participant_10,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1270,participant_11,On_Right_Palm_90,3,On,Dominant,Open,90,Comfort
+1271,participant_12,On_Right_Palm_90,2,On,Dominant,Open,90,Comfort
+1272,participant_13,On_Right_Palm_90,5,On,Dominant,Open,90,Comfort
+1273,participant_14,On_Right_Palm_90,5,On,Dominant,Open,90,Comfort
+1274,participant_15,On_Right_Palm_90,3,On,Dominant,Open,90,Comfort
+1275,participant_16,On_Right_Palm_90,5,On,Dominant,Open,90,Comfort
+1276,participant_17,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1277,participant_18,On_Right_Palm_90,2,On,Non Dominant,Open,90,Comfort
+1278,participant_19,On_Right_Palm_90,3,On,Non Dominant,Open,90,Comfort
+1279,participant_20,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1280,participant_21,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1281,participant_22,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1282,participant_23,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1283,participant_24,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1284,participant_25,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1285,participant_26,On_Right_Palm_90,5,On,Dominant,Open,90,Comfort
+1286,participant_27,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1287,participant_28,On_Right_Palm_90,4,On,Dominant,Open,90,Comfort
+1288,participant_29,On_Right_Palm_90,3,On,Dominant,Open,90,Comfort
+1289,participant_30,On_Right_Palm_90,5,On,Dominant,Open,90,Comfort
+1290,participant_1,On_Right_Palm_90,4,On,Dominant,Open,90,Preference
+1291,participant_2,On_Right_Palm_90,5,On,Dominant,Open,90,Preference
+1292,participant_3,On_Right_Palm_90,5,On,Dominant,Open,90,Preference
+1293,participant_4,On_Right_Palm_90,3,On,Non Dominant,Open,90,Preference
+1294,participant_5,On_Right_Palm_90,5,On,Dominant,Open,90,Preference
+1295,participant_6,On_Right_Palm_90,1,On,Non Dominant,Open,90,Preference
+1296,participant_7,On_Right_Palm_90,5,On,Dominant,Open,90,Preference
+1297,participant_8,On_Right_Palm_90,4,On,Non Dominant,Open,90,Preference
+1298,participant_9,On_Right_Palm_90,3,On,Dominant,Open,90,Preference
+1299,participant_10,On_Right_Palm_90,3,On,Dominant,Open,90,Preference
+1300,participant_11,On_Right_Palm_90,3,On,Dominant,Open,90,Preference
+1301,participant_12,On_Right_Palm_90,2,On,Dominant,Open,90,Preference
+1302,participant_13,On_Right_Palm_90,5,On,Dominant,Open,90,Preference
+1303,participant_14,On_Right_Palm_90,4,On,Dominant,Open,90,Preference
+1304,participant_15,On_Right_Palm_90,3,On,Dominant,Open,90,Preference
+1305,participant_16,On_Right_Palm_90,5,On,Dominant,Open,90,Preference
+1306,participant_17,On_Right_Palm_90,5,On,Dominant,Open,90,Preference
+1307,participant_18,On_Right_Palm_90,2,On,Non Dominant,Open,90,Preference
+1308,participant_19,On_Right_Palm_90,3,On,Non Dominant,Open,90,Preference
+1309,participant_20,On_Right_Palm_90,4,On,Dominant,Open,90,Preference
+1310,participant_21,On_Right_Palm_90,5,On,Dominant,Open,90,Preference
+1311,participant_22,On_Right_Palm_90,3,On,Dominant,Open,90,Preference
+1312,participant_23,On_Right_Palm_90,4,On,Dominant,Open,90,Preference
+1313,participant_24,On_Right_Palm_90,4,On,Dominant,Open,90,Preference
+1314,participant_25,On_Right_Palm_90,4,On,Dominant,Open,90,Preference
+1315,participant_26,On_Right_Palm_90,5,On,Dominant,Open,90,Preference
+1316,participant_27,On_Right_Palm_90,4,On,Dominant,Open,90,Preference
+1317,participant_28,On_Right_Palm_90,4,On,Dominant,Open,90,Preference
+1318,participant_29,On_Right_Palm_90,2,On,Dominant,Open,90,Preference
+1319,participant_30,On_Right_Palm_90,5,On,Dominant,Open,90,Preference
+1320,participant_1,On_Left_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1321,participant_2,On_Left_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1322,participant_3,On_Left_Palm_180,4,On,Non Dominant,Open,180,Comfort
+1323,participant_4,On_Left_Palm_180,1,On,Dominant,Open,180,Comfort
+1324,participant_5,On_Left_Palm_180,2,On,Non Dominant,Open,180,Comfort
+1325,participant_6,On_Left_Palm_180,1,On,Dominant,Open,180,Comfort
+1326,participant_7,On_Left_Palm_180,5,On,Non Dominant,Open,180,Comfort
+1327,participant_8,On_Left_Palm_180,1,On,Dominant,Open,180,Comfort
+1328,participant_9,On_Left_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1329,participant_10,On_Left_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1330,participant_11,On_Left_Palm_180,2,On,Non Dominant,Open,180,Comfort
+1331,participant_12,On_Left_Palm_180,2,On,Non Dominant,Open,180,Comfort
+1332,participant_13,On_Left_Palm_180,5,On,Non Dominant,Open,180,Comfort
+1333,participant_14,On_Left_Palm_180,2,On,Non Dominant,Open,180,Comfort
+1334,participant_15,On_Left_Palm_180,4,On,Non Dominant,Open,180,Comfort
+1335,participant_16,On_Left_Palm_180,4,On,Non Dominant,Open,180,Comfort
+1336,participant_17,On_Left_Palm_180,3,On,Non Dominant,Open,180,Comfort
+1337,participant_18,On_Left_Palm_180,1,On,Dominant,Open,180,Comfort
+1338,participant_19,On_Left_Palm_180,2,On,Dominant,Open,180,Comfort
+1339,participant_20,On_Left_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1340,participant_21,On_Left_Palm_180,2,On,Non Dominant,Open,180,Comfort
+1341,participant_22,On_Left_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1342,participant_23,On_Left_Palm_180,5,On,Non Dominant,Open,180,Comfort
+1343,participant_24,On_Left_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1344,participant_25,On_Left_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1345,participant_26,On_Left_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1346,participant_27,On_Left_Palm_180,3,On,Non Dominant,Open,180,Comfort
+1347,participant_28,On_Left_Palm_180,3,On,Non Dominant,Open,180,Comfort
+1348,participant_29,On_Left_Palm_180,2,On,Non Dominant,Open,180,Comfort
+1349,participant_30,On_Left_Palm_180,3,On,Non Dominant,Open,180,Comfort
+1350,participant_1,On_Left_Palm_180,1,On,Non Dominant,Open,180,Preference
+1351,participant_2,On_Left_Palm_180,1,On,Non Dominant,Open,180,Preference
+1352,participant_3,On_Left_Palm_180,3,On,Non Dominant,Open,180,Preference
+1353,participant_4,On_Left_Palm_180,1,On,Dominant,Open,180,Preference
+1354,participant_5,On_Left_Palm_180,1,On,Non Dominant,Open,180,Preference
+1355,participant_6,On_Left_Palm_180,1,On,Dominant,Open,180,Preference
+1356,participant_7,On_Left_Palm_180,5,On,Non Dominant,Open,180,Preference
+1357,participant_8,On_Left_Palm_180,1,On,Dominant,Open,180,Preference
+1358,participant_9,On_Left_Palm_180,1,On,Non Dominant,Open,180,Preference
+1359,participant_10,On_Left_Palm_180,1,On,Non Dominant,Open,180,Preference
+1360,participant_11,On_Left_Palm_180,2,On,Non Dominant,Open,180,Preference
+1361,participant_12,On_Left_Palm_180,2,On,Non Dominant,Open,180,Preference
+1362,participant_13,On_Left_Palm_180,5,On,Non Dominant,Open,180,Preference
+1363,participant_14,On_Left_Palm_180,2,On,Non Dominant,Open,180,Preference
+1364,participant_15,On_Left_Palm_180,4,On,Non Dominant,Open,180,Preference
+1365,participant_16,On_Left_Palm_180,5,On,Non Dominant,Open,180,Preference
+1366,participant_17,On_Left_Palm_180,5,On,Non Dominant,Open,180,Preference
+1367,participant_18,On_Left_Palm_180,1,On,Dominant,Open,180,Preference
+1368,participant_19,On_Left_Palm_180,2,On,Dominant,Open,180,Preference
+1369,participant_20,On_Left_Palm_180,2,On,Non Dominant,Open,180,Preference
+1370,participant_21,On_Left_Palm_180,2,On,Non Dominant,Open,180,Preference
+1371,participant_22,On_Left_Palm_180,1,On,Non Dominant,Open,180,Preference
+1372,participant_23,On_Left_Palm_180,5,On,Non Dominant,Open,180,Preference
+1373,participant_24,On_Left_Palm_180,2,On,Non Dominant,Open,180,Preference
+1374,participant_25,On_Left_Palm_180,1,On,Non Dominant,Open,180,Preference
+1375,participant_26,On_Left_Palm_180,1,On,Non Dominant,Open,180,Preference
+1376,participant_27,On_Left_Palm_180,3,On,Non Dominant,Open,180,Preference
+1377,participant_28,On_Left_Palm_180,3,On,Non Dominant,Open,180,Preference
+1378,participant_29,On_Left_Palm_180,2,On,Non Dominant,Open,180,Preference
+1379,participant_30,On_Left_Palm_180,3,On,Non Dominant,Open,180,Preference
+1380,participant_1,On_Right_Palm_180,1,On,Dominant,Open,180,Comfort
+1381,participant_2,On_Right_Palm_180,1,On,Dominant,Open,180,Comfort
+1382,participant_3,On_Right_Palm_180,4,On,Dominant,Open,180,Comfort
+1383,participant_4,On_Right_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1384,participant_5,On_Right_Palm_180,2,On,Dominant,Open,180,Comfort
+1385,participant_6,On_Right_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1386,participant_7,On_Right_Palm_180,5,On,Dominant,Open,180,Comfort
+1387,participant_8,On_Right_Palm_180,3,On,Non Dominant,Open,180,Comfort
+1388,participant_9,On_Right_Palm_180,2,On,Dominant,Open,180,Comfort
+1389,participant_10,On_Right_Palm_180,1,On,Dominant,Open,180,Comfort
+1390,participant_11,On_Right_Palm_180,3,On,Dominant,Open,180,Comfort
+1391,participant_12,On_Right_Palm_180,3,On,Dominant,Open,180,Comfort
+1392,participant_13,On_Right_Palm_180,2,On,Dominant,Open,180,Comfort
+1393,participant_14,On_Right_Palm_180,3,On,Dominant,Open,180,Comfort
+1394,participant_15,On_Right_Palm_180,2,On,Dominant,Open,180,Comfort
+1395,participant_16,On_Right_Palm_180,4,On,Dominant,Open,180,Comfort
+1396,participant_17,On_Right_Palm_180,3,On,Dominant,Open,180,Comfort
+1397,participant_18,On_Right_Palm_180,1,On,Non Dominant,Open,180,Comfort
+1398,participant_19,On_Right_Palm_180,2,On,Non Dominant,Open,180,Comfort
+1399,participant_20,On_Right_Palm_180,1,On,Dominant,Open,180,Comfort
+1400,participant_21,On_Right_Palm_180,2,On,Dominant,Open,180,Comfort
+1401,participant_22,On_Right_Palm_180,2,On,Dominant,Open,180,Comfort
+1402,participant_23,On_Right_Palm_180,4,On,Dominant,Open,180,Comfort
+1403,participant_24,On_Right_Palm_180,3,On,Dominant,Open,180,Comfort
+1404,participant_25,On_Right_Palm_180,1,On,Dominant,Open,180,Comfort
+1405,participant_26,On_Right_Palm_180,1,On,Dominant,Open,180,Comfort
+1406,participant_27,On_Right_Palm_180,4,On,Dominant,Open,180,Comfort
+1407,participant_28,On_Right_Palm_180,3,On,Dominant,Open,180,Comfort
+1408,participant_29,On_Right_Palm_180,2,On,Dominant,Open,180,Comfort
+1409,participant_30,On_Right_Palm_180,3,On,Dominant,Open,180,Comfort
+1410,participant_1,On_Right_Palm_180,1,On,Dominant,Open,180,Preference
+1411,participant_2,On_Right_Palm_180,2,On,Dominant,Open,180,Preference
+1412,participant_3,On_Right_Palm_180,3,On,Dominant,Open,180,Preference
+1413,participant_4,On_Right_Palm_180,1,On,Non Dominant,Open,180,Preference
+1414,participant_5,On_Right_Palm_180,2,On,Dominant,Open,180,Preference
+1415,participant_6,On_Right_Palm_180,1,On,Non Dominant,Open,180,Preference
+1416,participant_7,On_Right_Palm_180,5,On,Dominant,Open,180,Preference
+1417,participant_8,On_Right_Palm_180,3,On,Non Dominant,Open,180,Preference
+1418,participant_9,On_Right_Palm_180,2,On,Dominant,Open,180,Preference
+1419,participant_10,On_Right_Palm_180,1,On,Dominant,Open,180,Preference
+1420,participant_11,On_Right_Palm_180,3,On,Dominant,Open,180,Preference
+1421,participant_12,On_Right_Palm_180,3,On,Dominant,Open,180,Preference
+1422,participant_13,On_Right_Palm_180,2,On,Dominant,Open,180,Preference
+1423,participant_14,On_Right_Palm_180,2,On,Dominant,Open,180,Preference
+1424,participant_15,On_Right_Palm_180,3,On,Dominant,Open,180,Preference
+1425,participant_16,On_Right_Palm_180,5,On,Dominant,Open,180,Preference
+1426,participant_17,On_Right_Palm_180,5,On,Dominant,Open,180,Preference
+1427,participant_18,On_Right_Palm_180,1,On,Non Dominant,Open,180,Preference
+1428,participant_19,On_Right_Palm_180,2,On,Non Dominant,Open,180,Preference
+1429,participant_20,On_Right_Palm_180,2,On,Dominant,Open,180,Preference
+1430,participant_21,On_Right_Palm_180,2,On,Dominant,Open,180,Preference
+1431,participant_22,On_Right_Palm_180,1,On,Dominant,Open,180,Preference
+1432,participant_23,On_Right_Palm_180,4,On,Dominant,Open,180,Preference
+1433,participant_24,On_Right_Palm_180,2,On,Dominant,Open,180,Preference
+1434,participant_25,On_Right_Palm_180,1,On,Dominant,Open,180,Preference
+1435,participant_26,On_Right_Palm_180,1,On,Dominant,Open,180,Preference
+1436,participant_27,On_Right_Palm_180,4,On,Dominant,Open,180,Preference
+1437,participant_28,On_Right_Palm_180,3,On,Dominant,Open,180,Preference
+1438,participant_29,On_Right_Palm_180,1,On,Dominant,Open,180,Preference
+1439,participant_30,On_Right_Palm_180,3,On,Dominant,Open,180,Preference
+1440,participant_1,Beside_Left_Fist_0,2,Beside,Non Dominant,Close,0,Comfort
+1441,participant_2,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1442,participant_3,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Comfort
+1443,participant_4,Beside_Left_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1444,participant_5,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1445,participant_6,Beside_Left_Fist_0,1,Beside,Dominant,Close,0,Comfort
+1446,participant_7,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1447,participant_8,Beside_Left_Fist_0,2,Beside,Dominant,Close,0,Comfort
+1448,participant_9,Beside_Left_Fist_0,2,Beside,Non Dominant,Close,0,Comfort
+1449,participant_10,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Comfort
+1450,participant_11,Beside_Left_Fist_0,2,Beside,Non Dominant,Close,0,Comfort
+1451,participant_12,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Comfort
+1452,participant_13,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1453,participant_14,Beside_Left_Fist_0,5,Beside,Non Dominant,Close,0,Comfort
+1454,participant_15,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Comfort
+1455,participant_16,Beside_Left_Fist_0,5,Beside,Non Dominant,Close,0,Comfort
+1456,participant_17,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Comfort
+1457,participant_18,Beside_Left_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1458,participant_19,Beside_Left_Fist_0,3,Beside,Dominant,Close,0,Comfort
+1459,participant_20,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1460,participant_21,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1461,participant_22,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Comfort
+1462,participant_23,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1463,participant_24,Beside_Left_Fist_0,1,Beside,Non Dominant,Close,0,Comfort
+1464,participant_25,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1465,participant_26,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1466,participant_27,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1467,participant_28,Beside_Left_Fist_0,2,Beside,Non Dominant,Close,0,Comfort
+1468,participant_29,Beside_Left_Fist_0,1,Beside,Non Dominant,Close,0,Comfort
+1469,participant_30,Beside_Left_Fist_0,5,Beside,Non Dominant,Close,0,Comfort
+1470,participant_1,Beside_Left_Fist_0,2,Beside,Non Dominant,Close,0,Preference
+1471,participant_2,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Preference
+1472,participant_3,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Preference
+1473,participant_4,Beside_Left_Fist_0,4,Beside,Dominant,Close,0,Preference
+1474,participant_5,Beside_Left_Fist_0,2,Beside,Non Dominant,Close,0,Preference
+1475,participant_6,Beside_Left_Fist_0,1,Beside,Dominant,Close,0,Preference
+1476,participant_7,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Preference
+1477,participant_8,Beside_Left_Fist_0,2,Beside,Dominant,Close,0,Preference
+1478,participant_9,Beside_Left_Fist_0,2,Beside,Non Dominant,Close,0,Preference
+1479,participant_10,Beside_Left_Fist_0,2,Beside,Non Dominant,Close,0,Preference
+1480,participant_11,Beside_Left_Fist_0,2,Beside,Non Dominant,Close,0,Preference
+1481,participant_12,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Preference
+1482,participant_13,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Preference
+1483,participant_14,Beside_Left_Fist_0,2,Beside,Non Dominant,Close,0,Preference
+1484,participant_15,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Preference
+1485,participant_16,Beside_Left_Fist_0,5,Beside,Non Dominant,Close,0,Preference
+1486,participant_17,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Preference
+1487,participant_18,Beside_Left_Fist_0,3,Beside,Dominant,Close,0,Preference
+1488,participant_19,Beside_Left_Fist_0,2,Beside,Dominant,Close,0,Preference
+1489,participant_20,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Preference
+1490,participant_21,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Preference
+1491,participant_22,Beside_Left_Fist_0,3,Beside,Non Dominant,Close,0,Preference
+1492,participant_23,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Preference
+1493,participant_24,Beside_Left_Fist_0,1,Beside,Non Dominant,Close,0,Preference
+1494,participant_25,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Preference
+1495,participant_26,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Preference
+1496,participant_27,Beside_Left_Fist_0,4,Beside,Non Dominant,Close,0,Preference
+1497,participant_28,Beside_Left_Fist_0,2,Beside,Non Dominant,Close,0,Preference
+1498,participant_29,Beside_Left_Fist_0,1,Beside,Non Dominant,Close,0,Preference
+1499,participant_30,Beside_Left_Fist_0,5,Beside,Non Dominant,Close,0,Preference
+1500,participant_1,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Comfort
+1501,participant_2,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1502,participant_3,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1503,participant_4,Beside_Right_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1504,participant_5,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1505,participant_6,Beside_Right_Fist_0,1,Beside,Non Dominant,Close,0,Comfort
+1506,participant_7,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1507,participant_8,Beside_Right_Fist_0,3,Beside,Non Dominant,Close,0,Comfort
+1508,participant_9,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Comfort
+1509,participant_10,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1510,participant_11,Beside_Right_Fist_0,2,Beside,Dominant,Close,0,Comfort
+1511,participant_12,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Comfort
+1512,participant_13,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1513,participant_14,Beside_Right_Fist_0,5,Beside,Dominant,Close,0,Comfort
+1514,participant_15,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Comfort
+1515,participant_16,Beside_Right_Fist_0,5,Beside,Dominant,Close,0,Comfort
+1516,participant_17,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Comfort
+1517,participant_18,Beside_Right_Fist_0,4,Beside,Non Dominant,Close,0,Comfort
+1518,participant_19,Beside_Right_Fist_0,3,Beside,Non Dominant,Close,0,Comfort
+1519,participant_20,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1520,participant_21,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1521,participant_22,Beside_Right_Fist_0,2,Beside,Dominant,Close,0,Comfort
+1522,participant_23,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1523,participant_24,Beside_Right_Fist_0,2,Beside,Dominant,Close,0,Comfort
+1524,participant_25,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1525,participant_26,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Comfort
+1526,participant_27,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Comfort
+1527,participant_28,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Comfort
+1528,participant_29,Beside_Right_Fist_0,1,Beside,Dominant,Close,0,Comfort
+1529,participant_30,Beside_Right_Fist_0,5,Beside,Dominant,Close,0,Comfort
+1530,participant_1,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Preference
+1531,participant_2,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Preference
+1532,participant_3,Beside_Right_Fist_0,5,Beside,Dominant,Close,0,Preference
+1533,participant_4,Beside_Right_Fist_0,4,Beside,Non Dominant,Close,0,Preference
+1534,participant_5,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Preference
+1535,participant_6,Beside_Right_Fist_0,1,Beside,Non Dominant,Close,0,Preference
+1536,participant_7,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Preference
+1537,participant_8,Beside_Right_Fist_0,3,Beside,Non Dominant,Close,0,Preference
+1538,participant_9,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Preference
+1539,participant_10,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Preference
+1540,participant_11,Beside_Right_Fist_0,2,Beside,Dominant,Close,0,Preference
+1541,participant_12,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Preference
+1542,participant_13,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Preference
+1543,participant_14,Beside_Right_Fist_0,2,Beside,Dominant,Close,0,Preference
+1544,participant_15,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Preference
+1545,participant_16,Beside_Right_Fist_0,5,Beside,Dominant,Close,0,Preference
+1546,participant_17,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Preference
+1547,participant_18,Beside_Right_Fist_0,3,Beside,Non Dominant,Close,0,Preference
+1548,participant_19,Beside_Right_Fist_0,2,Beside,Non Dominant,Close,0,Preference
+1549,participant_20,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Preference
+1550,participant_21,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Preference
+1551,participant_22,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Preference
+1552,participant_23,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Preference
+1553,participant_24,Beside_Right_Fist_0,1,Beside,Dominant,Close,0,Preference
+1554,participant_25,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Preference
+1555,participant_26,Beside_Right_Fist_0,4,Beside,Dominant,Close,0,Preference
+1556,participant_27,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Preference
+1557,participant_28,Beside_Right_Fist_0,3,Beside,Dominant,Close,0,Preference
+1558,participant_29,Beside_Right_Fist_0,1,Beside,Dominant,Close,0,Preference
+1559,participant_30,Beside_Right_Fist_0,5,Beside,Dominant,Close,0,Preference
+1560,participant_1,Beside_Left_Fist_90,2,Beside,Non Dominant,Close,90,Comfort
+1561,participant_2,Beside_Left_Fist_90,4,Beside,Non Dominant,Close,90,Comfort
+1562,participant_3,Beside_Left_Fist_90,4,Beside,Non Dominant,Close,90,Comfort
+1563,participant_4,Beside_Left_Fist_90,3,Beside,Dominant,Close,90,Comfort
+1564,participant_5,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Comfort
+1565,participant_6,Beside_Left_Fist_90,1,Beside,Dominant,Close,90,Comfort
+1566,participant_7,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Comfort
+1567,participant_8,Beside_Left_Fist_90,1,Beside,Dominant,Close,90,Comfort
+1568,participant_9,Beside_Left_Fist_90,2,Beside,Non Dominant,Close,90,Comfort
+1569,participant_10,Beside_Left_Fist_90,4,Beside,Non Dominant,Close,90,Comfort
+1570,participant_11,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Comfort
+1571,participant_12,Beside_Left_Fist_90,2,Beside,Non Dominant,Close,90,Comfort
+1572,participant_13,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Comfort
+1573,participant_14,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Comfort
+1574,participant_15,Beside_Left_Fist_90,4,Beside,Non Dominant,Close,90,Comfort
+1575,participant_16,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Comfort
+1576,participant_17,Beside_Left_Fist_90,4,Beside,Non Dominant,Close,90,Comfort
+1577,participant_18,Beside_Left_Fist_90,4,Beside,Dominant,Close,90,Comfort
+1578,participant_19,Beside_Left_Fist_90,3,Beside,Dominant,Close,90,Comfort
+1579,participant_20,Beside_Left_Fist_90,4,Beside,Non Dominant,Close,90,Comfort
+1580,participant_21,Beside_Left_Fist_90,4,Beside,Non Dominant,Close,90,Comfort
+1581,participant_22,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Comfort
+1582,participant_23,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Comfort
+1583,participant_24,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Comfort
+1584,participant_25,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Comfort
+1585,participant_26,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Comfort
+1586,participant_27,Beside_Left_Fist_90,4,Beside,Non Dominant,Close,90,Comfort
+1587,participant_28,Beside_Left_Fist_90,2,Beside,Non Dominant,Close,90,Comfort
+1588,participant_29,Beside_Left_Fist_90,1,Beside,Non Dominant,Close,90,Comfort
+1589,participant_30,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Comfort
+1590,participant_1,Beside_Left_Fist_90,2,Beside,Non Dominant,Close,90,Preference
+1591,participant_2,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Preference
+1592,participant_3,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Preference
+1593,participant_4,Beside_Left_Fist_90,3,Beside,Dominant,Close,90,Preference
+1594,participant_5,Beside_Left_Fist_90,4,Beside,Non Dominant,Close,90,Preference
+1595,participant_6,Beside_Left_Fist_90,1,Beside,Dominant,Close,90,Preference
+1596,participant_7,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Preference
+1597,participant_8,Beside_Left_Fist_90,1,Beside,Dominant,Close,90,Preference
+1598,participant_9,Beside_Left_Fist_90,2,Beside,Non Dominant,Close,90,Preference
+1599,participant_10,Beside_Left_Fist_90,2,Beside,Non Dominant,Close,90,Preference
+1600,participant_11,Beside_Left_Fist_90,2,Beside,Non Dominant,Close,90,Preference
+1601,participant_12,Beside_Left_Fist_90,2,Beside,Non Dominant,Close,90,Preference
+1602,participant_13,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Preference
+1603,participant_14,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Preference
+1604,participant_15,Beside_Left_Fist_90,4,Beside,Non Dominant,Close,90,Preference
+1605,participant_16,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Preference
+1606,participant_17,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Preference
+1607,participant_18,Beside_Left_Fist_90,3,Beside,Dominant,Close,90,Preference
+1608,participant_19,Beside_Left_Fist_90,2,Beside,Dominant,Close,90,Preference
+1609,participant_20,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Preference
+1610,participant_21,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Preference
+1611,participant_22,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Preference
+1612,participant_23,Beside_Left_Fist_90,3,Beside,Non Dominant,Close,90,Preference
+1613,participant_24,Beside_Left_Fist_90,2,Beside,Non Dominant,Close,90,Preference
+1614,participant_25,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Preference
+1615,participant_26,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Preference
+1616,participant_27,Beside_Left_Fist_90,4,Beside,Non Dominant,Close,90,Preference
+1617,participant_28,Beside_Left_Fist_90,2,Beside,Non Dominant,Close,90,Preference
+1618,participant_29,Beside_Left_Fist_90,1,Beside,Non Dominant,Close,90,Preference
+1619,participant_30,Beside_Left_Fist_90,5,Beside,Non Dominant,Close,90,Preference
+1620,participant_1,Beside_Right_Fist_90,4,Beside,Dominant,Close,90,Comfort
+1621,participant_2,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Comfort
+1622,participant_3,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Comfort
+1623,participant_4,Beside_Right_Fist_90,3,Beside,Non Dominant,Close,90,Comfort
+1624,participant_5,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Comfort
+1625,participant_6,Beside_Right_Fist_90,1,Beside,Non Dominant,Close,90,Comfort
+1626,participant_7,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Comfort
+1627,participant_8,Beside_Right_Fist_90,3,Beside,Non Dominant,Close,90,Comfort
+1628,participant_9,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Comfort
+1629,participant_10,Beside_Right_Fist_90,4,Beside,Dominant,Close,90,Comfort
+1630,participant_11,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Comfort
+1631,participant_12,Beside_Right_Fist_90,2,Beside,Dominant,Close,90,Comfort
+1632,participant_13,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Comfort
+1633,participant_14,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Comfort
+1634,participant_15,Beside_Right_Fist_90,4,Beside,Dominant,Close,90,Comfort
+1635,participant_16,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Comfort
+1636,participant_17,Beside_Right_Fist_90,4,Beside,Dominant,Close,90,Comfort
+1637,participant_18,Beside_Right_Fist_90,4,Beside,Non Dominant,Close,90,Comfort
+1638,participant_19,Beside_Right_Fist_90,3,Beside,Non Dominant,Close,90,Comfort
+1639,participant_20,Beside_Right_Fist_90,4,Beside,Dominant,Close,90,Comfort
+1640,participant_21,Beside_Right_Fist_90,4,Beside,Dominant,Close,90,Comfort
+1641,participant_22,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Comfort
+1642,participant_23,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Comfort
+1643,participant_24,Beside_Right_Fist_90,4,Beside,Dominant,Close,90,Comfort
+1644,participant_25,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Comfort
+1645,participant_26,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Comfort
+1646,participant_27,Beside_Right_Fist_90,4,Beside,Dominant,Close,90,Comfort
+1647,participant_28,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Comfort
+1648,participant_29,Beside_Right_Fist_90,1,Beside,Dominant,Close,90,Comfort
+1649,participant_30,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Comfort
+1650,participant_1,Beside_Right_Fist_90,4,Beside,Dominant,Close,90,Preference
+1651,participant_2,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Preference
+1652,participant_3,Beside_Right_Fist_90,2,Beside,Dominant,Close,90,Preference
+1653,participant_4,Beside_Right_Fist_90,3,Beside,Non Dominant,Close,90,Preference
+1654,participant_5,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Preference
+1655,participant_6,Beside_Right_Fist_90,1,Beside,Non Dominant,Close,90,Preference
+1656,participant_7,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Preference
+1657,participant_8,Beside_Right_Fist_90,3,Beside,Non Dominant,Close,90,Preference
+1658,participant_9,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Preference
+1659,participant_10,Beside_Right_Fist_90,2,Beside,Dominant,Close,90,Preference
+1660,participant_11,Beside_Right_Fist_90,2,Beside,Dominant,Close,90,Preference
+1661,participant_12,Beside_Right_Fist_90,2,Beside,Dominant,Close,90,Preference
+1662,participant_13,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Preference
+1663,participant_14,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Preference
+1664,participant_15,Beside_Right_Fist_90,4,Beside,Dominant,Close,90,Preference
+1665,participant_16,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Preference
+1666,participant_17,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Preference
+1667,participant_18,Beside_Right_Fist_90,3,Beside,Non Dominant,Close,90,Preference
+1668,participant_19,Beside_Right_Fist_90,2,Beside,Non Dominant,Close,90,Preference
+1669,participant_20,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Preference
+1670,participant_21,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Preference
+1671,participant_22,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Preference
+1672,participant_23,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Preference
+1673,participant_24,Beside_Right_Fist_90,2,Beside,Dominant,Close,90,Preference
+1674,participant_25,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Preference
+1675,participant_26,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Preference
+1676,participant_27,Beside_Right_Fist_90,4,Beside,Dominant,Close,90,Preference
+1677,participant_28,Beside_Right_Fist_90,3,Beside,Dominant,Close,90,Preference
+1678,participant_29,Beside_Right_Fist_90,1,Beside,Dominant,Close,90,Preference
+1679,participant_30,Beside_Right_Fist_90,5,Beside,Dominant,Close,90,Preference
+1680,participant_1,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1681,participant_2,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1682,participant_3,Beside_Left_Fist_180,3,Beside,Non Dominant,Close,180,Comfort
+1683,participant_4,Beside_Left_Fist_180,1,Beside,Dominant,Close,180,Comfort
+1684,participant_5,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1685,participant_6,Beside_Left_Fist_180,1,Beside,Dominant,Close,180,Comfort
+1686,participant_7,Beside_Left_Fist_180,3,Beside,Non Dominant,Close,180,Comfort
+1687,participant_8,Beside_Left_Fist_180,1,Beside,Dominant,Close,180,Comfort
+1688,participant_9,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1689,participant_10,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1690,participant_11,Beside_Left_Fist_180,2,Beside,Non Dominant,Close,180,Comfort
+1691,participant_12,Beside_Left_Fist_180,2,Beside,Non Dominant,Close,180,Comfort
+1692,participant_13,Beside_Left_Fist_180,2,Beside,Non Dominant,Close,180,Comfort
+1693,participant_14,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1694,participant_15,Beside_Left_Fist_180,3,Beside,Non Dominant,Close,180,Comfort
+1695,participant_16,Beside_Left_Fist_180,4,Beside,Non Dominant,Close,180,Comfort
+1696,participant_17,Beside_Left_Fist_180,3,Beside,Non Dominant,Close,180,Comfort
+1697,participant_18,Beside_Left_Fist_180,2,Beside,Dominant,Close,180,Comfort
+1698,participant_19,Beside_Left_Fist_180,2,Beside,Dominant,Close,180,Comfort
+1699,participant_20,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1700,participant_21,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1701,participant_22,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1702,participant_23,Beside_Left_Fist_180,3,Beside,Non Dominant,Close,180,Comfort
+1703,participant_24,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1704,participant_25,Beside_Left_Fist_180,4,Beside,Non Dominant,Close,180,Comfort
+1705,participant_26,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1706,participant_27,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1707,participant_28,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1708,participant_29,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1709,participant_30,Beside_Left_Fist_180,4,Beside,Non Dominant,Close,180,Comfort
+1710,participant_1,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1711,participant_2,Beside_Left_Fist_180,2,Beside,Non Dominant,Close,180,Preference
+1712,participant_3,Beside_Left_Fist_180,3,Beside,Non Dominant,Close,180,Preference
+1713,participant_4,Beside_Left_Fist_180,1,Beside,Dominant,Close,180,Preference
+1714,participant_5,Beside_Left_Fist_180,2,Beside,Non Dominant,Close,180,Preference
+1715,participant_6,Beside_Left_Fist_180,1,Beside,Dominant,Close,180,Preference
+1716,participant_7,Beside_Left_Fist_180,3,Beside,Non Dominant,Close,180,Preference
+1717,participant_8,Beside_Left_Fist_180,1,Beside,Dominant,Close,180,Preference
+1718,participant_9,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1719,participant_10,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1720,participant_11,Beside_Left_Fist_180,2,Beside,Non Dominant,Close,180,Preference
+1721,participant_12,Beside_Left_Fist_180,2,Beside,Non Dominant,Close,180,Preference
+1722,participant_13,Beside_Left_Fist_180,2,Beside,Non Dominant,Close,180,Preference
+1723,participant_14,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1724,participant_15,Beside_Left_Fist_180,4,Beside,Non Dominant,Close,180,Preference
+1725,participant_16,Beside_Left_Fist_180,5,Beside,Non Dominant,Close,180,Preference
+1726,participant_17,Beside_Left_Fist_180,3,Beside,Non Dominant,Close,180,Preference
+1727,participant_18,Beside_Left_Fist_180,2,Beside,Dominant,Close,180,Preference
+1728,participant_19,Beside_Left_Fist_180,1,Beside,Dominant,Close,180,Preference
+1729,participant_20,Beside_Left_Fist_180,3,Beside,Non Dominant,Close,180,Preference
+1730,participant_21,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1731,participant_22,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1732,participant_23,Beside_Left_Fist_180,3,Beside,Non Dominant,Close,180,Preference
+1733,participant_24,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1734,participant_25,Beside_Left_Fist_180,4,Beside,Non Dominant,Close,180,Preference
+1735,participant_26,Beside_Left_Fist_180,2,Beside,Non Dominant,Close,180,Preference
+1736,participant_27,Beside_Left_Fist_180,2,Beside,Non Dominant,Close,180,Preference
+1737,participant_28,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1738,participant_29,Beside_Left_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1739,participant_30,Beside_Left_Fist_180,4,Beside,Non Dominant,Close,180,Preference
+1740,participant_1,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Comfort
+1741,participant_2,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Comfort
+1742,participant_3,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Comfort
+1743,participant_4,Beside_Right_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1744,participant_5,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Comfort
+1745,participant_6,Beside_Right_Fist_180,1,Beside,Non Dominant,Close,180,Comfort
+1746,participant_7,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Comfort
+1747,participant_8,Beside_Right_Fist_180,2,Beside,Non Dominant,Close,180,Comfort
+1748,participant_9,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Comfort
+1749,participant_10,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Comfort
+1750,participant_11,Beside_Right_Fist_180,3,Beside,Dominant,Close,180,Comfort
+1751,participant_12,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Comfort
+1752,participant_13,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Comfort
+1753,participant_14,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Comfort
+1754,participant_15,Beside_Right_Fist_180,3,Beside,Dominant,Close,180,Comfort
+1755,participant_16,Beside_Right_Fist_180,4,Beside,Dominant,Close,180,Comfort
+1756,participant_17,Beside_Right_Fist_180,3,Beside,Dominant,Close,180,Comfort
+1757,participant_18,Beside_Right_Fist_180,2,Beside,Non Dominant,Close,180,Comfort
+1758,participant_19,Beside_Right_Fist_180,2,Beside,Non Dominant,Close,180,Comfort
+1759,participant_20,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Comfort
+1760,participant_21,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Comfort
+1761,participant_22,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Comfort
+1762,participant_23,Beside_Right_Fist_180,3,Beside,Dominant,Close,180,Comfort
+1763,participant_24,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Comfort
+1764,participant_25,Beside_Right_Fist_180,4,Beside,Dominant,Close,180,Comfort
+1765,participant_26,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Comfort
+1766,participant_27,Beside_Right_Fist_180,4,Beside,Dominant,Close,180,Comfort
+1767,participant_28,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Comfort
+1768,participant_29,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Comfort
+1769,participant_30,Beside_Right_Fist_180,4,Beside,Dominant,Close,180,Comfort
+1770,participant_1,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Preference
+1771,participant_2,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Preference
+1772,participant_3,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Preference
+1773,participant_4,Beside_Right_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1774,participant_5,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Preference
+1775,participant_6,Beside_Right_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1776,participant_7,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Preference
+1777,participant_8,Beside_Right_Fist_180,2,Beside,Non Dominant,Close,180,Preference
+1778,participant_9,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Preference
+1779,participant_10,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Preference
+1780,participant_11,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Preference
+1781,participant_12,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Preference
+1782,participant_13,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Preference
+1783,participant_14,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Preference
+1784,participant_15,Beside_Right_Fist_180,3,Beside,Dominant,Close,180,Preference
+1785,participant_16,Beside_Right_Fist_180,5,Beside,Dominant,Close,180,Preference
+1786,participant_17,Beside_Right_Fist_180,3,Beside,Dominant,Close,180,Preference
+1787,participant_18,Beside_Right_Fist_180,2,Beside,Non Dominant,Close,180,Preference
+1788,participant_19,Beside_Right_Fist_180,1,Beside,Non Dominant,Close,180,Preference
+1789,participant_20,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Preference
+1790,participant_21,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Preference
+1791,participant_22,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Preference
+1792,participant_23,Beside_Right_Fist_180,3,Beside,Dominant,Close,180,Preference
+1793,participant_24,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Preference
+1794,participant_25,Beside_Right_Fist_180,4,Beside,Dominant,Close,180,Preference
+1795,participant_26,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Preference
+1796,participant_27,Beside_Right_Fist_180,4,Beside,Dominant,Close,180,Preference
+1797,participant_28,Beside_Right_Fist_180,2,Beside,Dominant,Close,180,Preference
+1798,participant_29,Beside_Right_Fist_180,1,Beside,Dominant,Close,180,Preference
+1799,participant_30,Beside_Right_Fist_180,4,Beside,Dominant,Close,180,Preference
+1800,participant_1,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Comfort
+1801,participant_2,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Comfort
+1802,participant_3,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Comfort
+1803,participant_4,Beside_Left_Palm_0,5,Beside,Dominant,Open,0,Comfort
+1804,participant_5,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Comfort
+1805,participant_6,Beside_Left_Palm_0,1,Beside,Dominant,Open,0,Comfort
+1806,participant_7,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Comfort
+1807,participant_8,Beside_Left_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1808,participant_9,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Comfort
+1809,participant_10,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Comfort
+1810,participant_11,Beside_Left_Palm_0,2,Beside,Non Dominant,Open,0,Comfort
+1811,participant_12,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Comfort
+1812,participant_13,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Comfort
+1813,participant_14,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Comfort
+1814,participant_15,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Comfort
+1815,participant_16,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Comfort
+1816,participant_17,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Comfort
+1817,participant_18,Beside_Left_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1818,participant_19,Beside_Left_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1819,participant_20,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Comfort
+1820,participant_21,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Comfort
+1821,participant_22,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Comfort
+1822,participant_23,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Comfort
+1823,participant_24,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Comfort
+1824,participant_25,Beside_Left_Palm_0,1,Beside,Non Dominant,Open,0,Comfort
+1825,participant_26,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Comfort
+1826,participant_27,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Comfort
+1827,participant_28,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Comfort
+1828,participant_29,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Comfort
+1829,participant_30,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Comfort
+1830,participant_1,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Preference
+1831,participant_2,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Preference
+1832,participant_3,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Preference
+1833,participant_4,Beside_Left_Palm_0,5,Beside,Dominant,Open,0,Preference
+1834,participant_5,Beside_Left_Palm_0,2,Beside,Non Dominant,Open,0,Preference
+1835,participant_6,Beside_Left_Palm_0,1,Beside,Dominant,Open,0,Preference
+1836,participant_7,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Preference
+1837,participant_8,Beside_Left_Palm_0,4,Beside,Dominant,Open,0,Preference
+1838,participant_9,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Preference
+1839,participant_10,Beside_Left_Palm_0,2,Beside,Non Dominant,Open,0,Preference
+1840,participant_11,Beside_Left_Palm_0,1,Beside,Non Dominant,Open,0,Preference
+1841,participant_12,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Preference
+1842,participant_13,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Preference
+1843,participant_14,Beside_Left_Palm_0,2,Beside,Non Dominant,Open,0,Preference
+1844,participant_15,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Preference
+1845,participant_16,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Preference
+1846,participant_17,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Preference
+1847,participant_18,Beside_Left_Palm_0,3,Beside,Dominant,Open,0,Preference
+1848,participant_19,Beside_Left_Palm_0,3,Beside,Dominant,Open,0,Preference
+1849,participant_20,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Preference
+1850,participant_21,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Preference
+1851,participant_22,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Preference
+1852,participant_23,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Preference
+1853,participant_24,Beside_Left_Palm_0,3,Beside,Non Dominant,Open,0,Preference
+1854,participant_25,Beside_Left_Palm_0,1,Beside,Non Dominant,Open,0,Preference
+1855,participant_26,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Preference
+1856,participant_27,Beside_Left_Palm_0,4,Beside,Non Dominant,Open,0,Preference
+1857,participant_28,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Preference
+1858,participant_29,Beside_Left_Palm_0,2,Beside,Non Dominant,Open,0,Preference
+1859,participant_30,Beside_Left_Palm_0,5,Beside,Non Dominant,Open,0,Preference
+1860,participant_1,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1861,participant_2,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1862,participant_3,Beside_Right_Palm_0,3,Beside,Dominant,Open,0,Comfort
+1863,participant_4,Beside_Right_Palm_0,5,Beside,Non Dominant,Open,0,Comfort
+1864,participant_5,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1865,participant_6,Beside_Right_Palm_0,1,Beside,Non Dominant,Open,0,Comfort
+1866,participant_7,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Comfort
+1867,participant_8,Beside_Right_Palm_0,4,Beside,Non Dominant,Open,0,Comfort
+1868,participant_9,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Comfort
+1869,participant_10,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Comfort
+1870,participant_11,Beside_Right_Palm_0,3,Beside,Dominant,Open,0,Comfort
+1871,participant_12,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1872,participant_13,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1873,participant_14,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1874,participant_15,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1875,participant_16,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Comfort
+1876,participant_17,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1877,participant_18,Beside_Right_Palm_0,4,Beside,Non Dominant,Open,0,Comfort
+1878,participant_19,Beside_Right_Palm_0,4,Beside,Non Dominant,Open,0,Comfort
+1879,participant_20,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Comfort
+1880,participant_21,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Comfort
+1881,participant_22,Beside_Right_Palm_0,3,Beside,Dominant,Open,0,Comfort
+1882,participant_23,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Comfort
+1883,participant_24,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1884,participant_25,Beside_Right_Palm_0,1,Beside,Dominant,Open,0,Comfort
+1885,participant_26,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Comfort
+1886,participant_27,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Comfort
+1887,participant_28,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Comfort
+1888,participant_29,Beside_Right_Palm_0,3,Beside,Dominant,Open,0,Comfort
+1889,participant_30,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Comfort
+1890,participant_1,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Preference
+1891,participant_2,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Preference
+1892,participant_3,Beside_Right_Palm_0,3,Beside,Dominant,Open,0,Preference
+1893,participant_4,Beside_Right_Palm_0,5,Beside,Non Dominant,Open,0,Preference
+1894,participant_5,Beside_Right_Palm_0,3,Beside,Dominant,Open,0,Preference
+1895,participant_6,Beside_Right_Palm_0,1,Beside,Non Dominant,Open,0,Preference
+1896,participant_7,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Preference
+1897,participant_8,Beside_Right_Palm_0,4,Beside,Non Dominant,Open,0,Preference
+1898,participant_9,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Preference
+1899,participant_10,Beside_Right_Palm_0,2,Beside,Dominant,Open,0,Preference
+1900,participant_11,Beside_Right_Palm_0,2,Beside,Dominant,Open,0,Preference
+1901,participant_12,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Preference
+1902,participant_13,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Preference
+1903,participant_14,Beside_Right_Palm_0,2,Beside,Dominant,Open,0,Preference
+1904,participant_15,Beside_Right_Palm_0,3,Beside,Dominant,Open,0,Preference
+1905,participant_16,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Preference
+1906,participant_17,Beside_Right_Palm_0,3,Beside,Dominant,Open,0,Preference
+1907,participant_18,Beside_Right_Palm_0,3,Beside,Non Dominant,Open,0,Preference
+1908,participant_19,Beside_Right_Palm_0,3,Beside,Non Dominant,Open,0,Preference
+1909,participant_20,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Preference
+1910,participant_21,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Preference
+1911,participant_22,Beside_Right_Palm_0,3,Beside,Dominant,Open,0,Preference
+1912,participant_23,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Preference
+1913,participant_24,Beside_Right_Palm_0,3,Beside,Dominant,Open,0,Preference
+1914,participant_25,Beside_Right_Palm_0,1,Beside,Dominant,Open,0,Preference
+1915,participant_26,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Preference
+1916,participant_27,Beside_Right_Palm_0,4,Beside,Dominant,Open,0,Preference
+1917,participant_28,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Preference
+1918,participant_29,Beside_Right_Palm_0,2,Beside,Dominant,Open,0,Preference
+1919,participant_30,Beside_Right_Palm_0,5,Beside,Dominant,Open,0,Preference
+1920,participant_1,Beside_Left_Palm_90,3,Beside,Non Dominant,Open,90,Comfort
+1921,participant_2,Beside_Left_Palm_90,5,Beside,Non Dominant,Open,90,Comfort
+1922,participant_3,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1923,participant_4,Beside_Left_Palm_90,4,Beside,Dominant,Open,90,Comfort
+1924,participant_5,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1925,participant_6,Beside_Left_Palm_90,1,Beside,Dominant,Open,90,Comfort
+1926,participant_7,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1927,participant_8,Beside_Left_Palm_90,2,Beside,Dominant,Open,90,Comfort
+1928,participant_9,Beside_Left_Palm_90,2,Beside,Non Dominant,Open,90,Comfort
+1929,participant_10,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1930,participant_11,Beside_Left_Palm_90,2,Beside,Non Dominant,Open,90,Comfort
+1931,participant_12,Beside_Left_Palm_90,3,Beside,Non Dominant,Open,90,Comfort
+1932,participant_13,Beside_Left_Palm_90,5,Beside,Non Dominant,Open,90,Comfort
+1933,participant_14,Beside_Left_Palm_90,5,Beside,Non Dominant,Open,90,Comfort
+1934,participant_15,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1935,participant_16,Beside_Left_Palm_90,5,Beside,Non Dominant,Open,90,Comfort
+1936,participant_17,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1937,participant_18,Beside_Left_Palm_90,4,Beside,Dominant,Open,90,Comfort
+1938,participant_19,Beside_Left_Palm_90,3,Beside,Dominant,Open,90,Comfort
+1939,participant_20,Beside_Left_Palm_90,5,Beside,Non Dominant,Open,90,Comfort
+1940,participant_21,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1941,participant_22,Beside_Left_Palm_90,3,Beside,Non Dominant,Open,90,Comfort
+1942,participant_23,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1943,participant_24,Beside_Left_Palm_90,3,Beside,Non Dominant,Open,90,Comfort
+1944,participant_25,Beside_Left_Palm_90,1,Beside,Non Dominant,Open,90,Comfort
+1945,participant_26,Beside_Left_Palm_90,5,Beside,Non Dominant,Open,90,Comfort
+1946,participant_27,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1947,participant_28,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1948,participant_29,Beside_Left_Palm_90,2,Beside,Non Dominant,Open,90,Comfort
+1949,participant_30,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1950,participant_1,Beside_Left_Palm_90,3,Beside,Non Dominant,Open,90,Preference
+1951,participant_2,Beside_Left_Palm_90,5,Beside,Non Dominant,Open,90,Preference
+1952,participant_3,Beside_Left_Palm_90,3,Beside,Non Dominant,Open,90,Preference
+1953,participant_4,Beside_Left_Palm_90,4,Beside,Dominant,Open,90,Preference
+1954,participant_5,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+1955,participant_6,Beside_Left_Palm_90,1,Beside,Dominant,Open,90,Preference
+1956,participant_7,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+1957,participant_8,Beside_Left_Palm_90,2,Beside,Dominant,Open,90,Preference
+1958,participant_9,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+1959,participant_10,Beside_Left_Palm_90,1,Beside,Non Dominant,Open,90,Preference
+1960,participant_11,Beside_Left_Palm_90,2,Beside,Non Dominant,Open,90,Preference
+1961,participant_12,Beside_Left_Palm_90,3,Beside,Non Dominant,Open,90,Preference
+1962,participant_13,Beside_Left_Palm_90,5,Beside,Non Dominant,Open,90,Preference
+1963,participant_14,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+1964,participant_15,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+1965,participant_16,Beside_Left_Palm_90,5,Beside,Non Dominant,Open,90,Preference
+1966,participant_17,Beside_Left_Palm_90,3,Beside,Non Dominant,Open,90,Preference
+1967,participant_18,Beside_Left_Palm_90,4,Beside,Dominant,Open,90,Preference
+1968,participant_19,Beside_Left_Palm_90,2,Beside,Dominant,Open,90,Preference
+1969,participant_20,Beside_Left_Palm_90,5,Beside,Non Dominant,Open,90,Preference
+1970,participant_21,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+1971,participant_22,Beside_Left_Palm_90,3,Beside,Non Dominant,Open,90,Preference
+1972,participant_23,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+1973,participant_24,Beside_Left_Palm_90,1,Beside,Non Dominant,Open,90,Preference
+1974,participant_25,Beside_Left_Palm_90,1,Beside,Non Dominant,Open,90,Preference
+1975,participant_26,Beside_Left_Palm_90,5,Beside,Non Dominant,Open,90,Preference
+1976,participant_27,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+1977,participant_28,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+1978,participant_29,Beside_Left_Palm_90,2,Beside,Non Dominant,Open,90,Preference
+1979,participant_30,Beside_Left_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+1980,participant_1,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Comfort
+1981,participant_2,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Comfort
+1982,participant_3,Beside_Right_Palm_90,3,Beside,Dominant,Open,90,Comfort
+1983,participant_4,Beside_Right_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1984,participant_5,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Comfort
+1985,participant_6,Beside_Right_Palm_90,1,Beside,Non Dominant,Open,90,Comfort
+1986,participant_7,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Comfort
+1987,participant_8,Beside_Right_Palm_90,3,Beside,Non Dominant,Open,90,Comfort
+1988,participant_9,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Comfort
+1989,participant_10,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Comfort
+1990,participant_11,Beside_Right_Palm_90,2,Beside,Dominant,Open,90,Comfort
+1991,participant_12,Beside_Right_Palm_90,3,Beside,Dominant,Open,90,Comfort
+1992,participant_13,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Comfort
+1993,participant_14,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Comfort
+1994,participant_15,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Comfort
+1995,participant_16,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Comfort
+1996,participant_17,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Comfort
+1997,participant_18,Beside_Right_Palm_90,4,Beside,Non Dominant,Open,90,Comfort
+1998,participant_19,Beside_Right_Palm_90,3,Beside,Non Dominant,Open,90,Comfort
+1999,participant_20,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Comfort
+2000,participant_21,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Comfort
+2001,participant_22,Beside_Right_Palm_90,3,Beside,Dominant,Open,90,Comfort
+2002,participant_23,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Comfort
+2003,participant_24,Beside_Right_Palm_90,3,Beside,Dominant,Open,90,Comfort
+2004,participant_25,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Comfort
+2005,participant_26,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Comfort
+2006,participant_27,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Comfort
+2007,participant_28,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Comfort
+2008,participant_29,Beside_Right_Palm_90,2,Beside,Dominant,Open,90,Comfort
+2009,participant_30,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Comfort
+2010,participant_1,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Preference
+2011,participant_2,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Preference
+2012,participant_3,Beside_Right_Palm_90,2,Beside,Dominant,Open,90,Preference
+2013,participant_4,Beside_Right_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+2014,participant_5,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Preference
+2015,participant_6,Beside_Right_Palm_90,1,Beside,Non Dominant,Open,90,Preference
+2016,participant_7,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Preference
+2017,participant_8,Beside_Right_Palm_90,3,Beside,Non Dominant,Open,90,Preference
+2018,participant_9,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Preference
+2019,participant_10,Beside_Right_Palm_90,1,Beside,Dominant,Open,90,Preference
+2020,participant_11,Beside_Right_Palm_90,2,Beside,Dominant,Open,90,Preference
+2021,participant_12,Beside_Right_Palm_90,3,Beside,Dominant,Open,90,Preference
+2022,participant_13,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Preference
+2023,participant_14,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Preference
+2024,participant_15,Beside_Right_Palm_90,3,Beside,Dominant,Open,90,Preference
+2025,participant_16,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Preference
+2026,participant_17,Beside_Right_Palm_90,3,Beside,Dominant,Open,90,Preference
+2027,participant_18,Beside_Right_Palm_90,4,Beside,Non Dominant,Open,90,Preference
+2028,participant_19,Beside_Right_Palm_90,2,Beside,Non Dominant,Open,90,Preference
+2029,participant_20,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Preference
+2030,participant_21,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Preference
+2031,participant_22,Beside_Right_Palm_90,3,Beside,Dominant,Open,90,Preference
+2032,participant_23,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Preference
+2033,participant_24,Beside_Right_Palm_90,2,Beside,Dominant,Open,90,Preference
+2034,participant_25,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Preference
+2035,participant_26,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Preference
+2036,participant_27,Beside_Right_Palm_90,5,Beside,Dominant,Open,90,Preference
+2037,participant_28,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Preference
+2038,participant_29,Beside_Right_Palm_90,2,Beside,Dominant,Open,90,Preference
+2039,participant_30,Beside_Right_Palm_90,4,Beside,Dominant,Open,90,Preference
+2040,participant_1,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Comfort
+2041,participant_2,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Comfort
+2042,participant_3,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Comfort
+2043,participant_4,Beside_Left_Palm_180,1,Beside,Dominant,Open,180,Comfort
+2044,participant_5,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Comfort
+2045,participant_6,Beside_Left_Palm_180,1,Beside,Dominant,Open,180,Comfort
+2046,participant_7,Beside_Left_Palm_180,5,Beside,Non Dominant,Open,180,Comfort
+2047,participant_8,Beside_Left_Palm_180,1,Beside,Dominant,Open,180,Comfort
+2048,participant_9,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Comfort
+2049,participant_10,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Comfort
+2050,participant_11,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Comfort
+2051,participant_12,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Comfort
+2052,participant_13,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Comfort
+2053,participant_14,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Comfort
+2054,participant_15,Beside_Left_Palm_180,4,Beside,Non Dominant,Open,180,Comfort
+2055,participant_16,Beside_Left_Palm_180,4,Beside,Non Dominant,Open,180,Comfort
+2056,participant_17,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Comfort
+2057,participant_18,Beside_Left_Palm_180,2,Beside,Dominant,Open,180,Comfort
+2058,participant_19,Beside_Left_Palm_180,2,Beside,Dominant,Open,180,Comfort
+2059,participant_20,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Comfort
+2060,participant_21,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Comfort
+2061,participant_22,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Comfort
+2062,participant_23,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Comfort
+2063,participant_24,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Comfort
+2064,participant_25,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Comfort
+2065,participant_26,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Comfort
+2066,participant_27,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Comfort
+2067,participant_28,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Comfort
+2068,participant_29,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Comfort
+2069,participant_30,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Comfort
+2070,participant_1,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2071,participant_2,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2072,participant_3,Beside_Left_Palm_180,4,Beside,Non Dominant,Open,180,Preference
+2073,participant_4,Beside_Left_Palm_180,1,Beside,Dominant,Open,180,Preference
+2074,participant_5,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Preference
+2075,participant_6,Beside_Left_Palm_180,1,Beside,Dominant,Open,180,Preference
+2076,participant_7,Beside_Left_Palm_180,5,Beside,Non Dominant,Open,180,Preference
+2077,participant_8,Beside_Left_Palm_180,1,Beside,Dominant,Open,180,Preference
+2078,participant_9,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Preference
+2079,participant_10,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2080,participant_11,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Preference
+2081,participant_12,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Preference
+2082,participant_13,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Preference
+2083,participant_14,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2084,participant_15,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Preference
+2085,participant_16,Beside_Left_Palm_180,5,Beside,Non Dominant,Open,180,Preference
+2086,participant_17,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Preference
+2087,participant_18,Beside_Left_Palm_180,4,Beside,Dominant,Open,180,Preference
+2088,participant_19,Beside_Left_Palm_180,1,Beside,Dominant,Open,180,Preference
+2089,participant_20,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2090,participant_21,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Preference
+2091,participant_22,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2092,participant_23,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Preference
+2093,participant_24,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2094,participant_25,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2095,participant_26,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2096,participant_27,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Preference
+2097,participant_28,Beside_Left_Palm_180,2,Beside,Non Dominant,Open,180,Preference
+2098,participant_29,Beside_Left_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2099,participant_30,Beside_Left_Palm_180,3,Beside,Non Dominant,Open,180,Preference
+2100,participant_1,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Comfort
+2101,participant_2,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Comfort
+2102,participant_3,Beside_Right_Palm_180,4,Beside,Dominant,Open,180,Comfort
+2103,participant_4,Beside_Right_Palm_180,1,Beside,Non Dominant,Open,180,Comfort
+2104,participant_5,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Comfort
+2105,participant_6,Beside_Right_Palm_180,1,Beside,Non Dominant,Open,180,Comfort
+2106,participant_7,Beside_Right_Palm_180,4,Beside,Dominant,Open,180,Comfort
+2107,participant_8,Beside_Right_Palm_180,2,Beside,Non Dominant,Open,180,Comfort
+2108,participant_9,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Comfort
+2109,participant_10,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Comfort
+2110,participant_11,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Comfort
+2111,participant_12,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Comfort
+2112,participant_13,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Comfort
+2113,participant_14,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Comfort
+2114,participant_15,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Comfort
+2115,participant_16,Beside_Right_Palm_180,4,Beside,Dominant,Open,180,Comfort
+2116,participant_17,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Comfort
+2117,participant_18,Beside_Right_Palm_180,2,Beside,Non Dominant,Open,180,Comfort
+2118,participant_19,Beside_Right_Palm_180,2,Beside,Non Dominant,Open,180,Comfort
+2119,participant_20,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Comfort
+2120,participant_21,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Comfort
+2121,participant_22,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Comfort
+2122,participant_23,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Comfort
+2123,participant_24,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Comfort
+2124,participant_25,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Comfort
+2125,participant_26,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Comfort
+2126,participant_27,Beside_Right_Palm_180,4,Beside,Dominant,Open,180,Comfort
+2127,participant_28,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Comfort
+2128,participant_29,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Comfort
+2129,participant_30,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Comfort
+2130,participant_1,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Preference
+2131,participant_2,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Preference
+2132,participant_3,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Preference
+2133,participant_4,Beside_Right_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2134,participant_5,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Preference
+2135,participant_6,Beside_Right_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2136,participant_7,Beside_Right_Palm_180,4,Beside,Dominant,Open,180,Preference
+2137,participant_8,Beside_Right_Palm_180,2,Beside,Non Dominant,Open,180,Preference
+2138,participant_9,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Preference
+2139,participant_10,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Preference
+2140,participant_11,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Preference
+2141,participant_12,Beside_Right_Palm_180,4,Beside,Dominant,Open,180,Preference
+2142,participant_13,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Preference
+2143,participant_14,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Preference
+2144,participant_15,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Preference
+2145,participant_16,Beside_Right_Palm_180,5,Beside,Dominant,Open,180,Preference
+2146,participant_17,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Preference
+2147,participant_18,Beside_Right_Palm_180,4,Beside,Non Dominant,Open,180,Preference
+2148,participant_19,Beside_Right_Palm_180,1,Beside,Non Dominant,Open,180,Preference
+2149,participant_20,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Preference
+2150,participant_21,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Preference
+2151,participant_22,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Preference
+2152,participant_23,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Preference
+2153,participant_24,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Preference
+2154,participant_25,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Preference
+2155,participant_26,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Preference
+2156,participant_27,Beside_Right_Palm_180,4,Beside,Dominant,Open,180,Preference
+2157,participant_28,Beside_Right_Palm_180,2,Beside,Dominant,Open,180,Preference
+2158,participant_29,Beside_Right_Palm_180,1,Beside,Dominant,Open,180,Preference
+2159,participant_30,Beside_Right_Palm_180,3,Beside,Dominant,Open,180,Preference
